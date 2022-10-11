@@ -247,6 +247,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = wangyuandong;
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = C3V5PUXTCL;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -494,6 +497,7 @@
 			baseConfigurationReference = 80C21876FDFA7ED2A607720C /* Pods-YDFoundation_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = C3V5PUXTCL;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "YDFoundation/YDFoundation-Prefix.pch";
 				INFOPLIST_FILE = "YDFoundation/YDFoundation-Info.plist";
@@ -510,6 +514,7 @@
 			baseConfigurationReference = 5B6BDCDD4DDBED204039CE78 /* Pods-YDFoundation_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = C3V5PUXTCL;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "YDFoundation/YDFoundation-Prefix.pch";
 				INFOPLIST_FILE = "YDFoundation/YDFoundation-Info.plist";

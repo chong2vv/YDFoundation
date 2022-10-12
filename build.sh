@@ -25,18 +25,19 @@ if [[ -f "${LOG_FILE}" ]]; then
 rm ${LOG_FILE}
 fi
 
-function check_yd_repo() {
-local art_repo_name="chong2vv-ydpods-ydpodrepo"
+#私有repo源,如果需要的话再执行脚本任务之前修改此方法配置并执行该方法
+function check_chong2vv_repo() {
+local yd_repo_name="chong2vv-ydpods-ydpodrepo"
 
-local art_repo_url="http://gitlab.meishubao.com/ArtPods/ArtPodRepo.git"
-local repo_list=$(pod repo list | grep SPRepo)
+local yd_repo_url="https://github.com/chong2vv/YDPodRepo.git"
+local repo_list=$(pod repo list | grep YDRepo)
 
   if [ "$repo_list" == "" ]; then
-    echo "begin setup ArtRepo pod repo ......."
-    pod repo add ${art_repo_name} ${art_repo_url}
+    echo "begin setup pod repo ......."
+    pod repo add ${yd_repo_name} ${yd_repo_url}
   else
-    echo "update ArtRepo pod repo ......."
-    pod repo update ${art_repo_name}
+    echo "update pod repo ......."
+    pod repo update ${yd_repo_name}
   fi
 }
 
@@ -72,7 +73,6 @@ function switch_build_to_install_status() {
 }
 
 #执行pod
-check_art_repo
 rm -rf Podfile.lock
 modify_profile
 pod install --verbose --no-repo-update

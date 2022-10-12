@@ -72,6 +72,17 @@
                ReferencedContainer = "container:YDFoundation.xcodeproj">
             </BuildableReference>
          </TestableReference>
+         <TestableReference
+            skipped = "NO"
+            parallelizable = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "15652E9328F6BA970050EEB3"
+               BuildableName = "YDFoundationTests.xctest"
+               BlueprintName = "YDFoundationTests"
+               ReferencedContainer = "container:YDFoundation.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
    </TestAction>
    <LaunchAction

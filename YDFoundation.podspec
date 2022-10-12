@@ -1,12 +1,4 @@
-#
-# Be sure to run `pod lib lint YDFoundation.podspec' to ensure this is a
-# valid spec before submitting.
-#
-# Any lines starting with a # are optional, but their use is encouraged
-# To learn more about a Podspec see https://guides.cocoapods.org/syntax/podspec.html
-#YDFoundation
-
-Pod::Spec.new do |s|YDFoundation
+Pod::Spec.new do |s|
   s.name             = 'YDFoundation'
   s.version          = '0.1.0'
   s.platform         = :ios, "9.0"
@@ -18,11 +10,9 @@ TODO: Add long description of the pod here.
                        DESC
 
   s.homepage         = 'https://github.com/chong2vv/YDFoundation'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'wangyuandong' => 'chong2vv@163.com' }
   s.source           = { :git => 'https://github.com/chong2vv/YDFoundation.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
   s.frameworks = 'UIKit', 'Foundation', 'CoreGraphics'
   s.xcconfig = {
     'CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES' => 'YES',
@@ -30,15 +20,25 @@ TODO: Add long description of the pod here.
     'OTHER_LDFLAGS'         => '-ObjC -lxml2'
   }
 
-  # _ 为单个自己 ，__ 为 组合 但是有自己的东西，___ 没有自己的代码文件夹下的纯组合
-  
-  # YDRouter
-  _YDRouter      = { :spec_name => "YDRouter", :source_files => ['YDRouter/**/*.{h,m}']}
+  #YDUtilKit
+  _YDFuncKit         = { :spec_name => "YDFuncKit", :source_files => ['YDFuncKit/**/*.{h,m}'] }
+  _YDBaseUI          = { :spec_name => "YDBaseUI", :source_files => ['YDBaseUI/**/*.{h,m}'] }
+  _YDUIKit           = { :spec_name => "YDUIKit", :source_files => ['YDUIKit/**/*.{h,m}'], :sub_dependency => [_YDFuncKit, _YDBaseUI] }
+  _YDTools           = { :spec_name => "YDTools", :source_files => ['YDTools/**/*.{h,m}'], :dependency => [{:name => "AFNetworking", :version => "4.0.1"}], :sub_dependency => [_YDFuncKit] }
 
-  #YDWebp
-  _YDWebp      = { :spec_name => "YDWebp", :source_files => ['YDWebp/**/*.{h,m}'], :dependency => [{:name => "libwebp", :version => "1.2.3"}]}
   
-  all_subspec = [_YDRouter, _YDWebp]
+  # Foundation Components
+  # YDRouter
+  _YDRouter          = { :spec_name => "YDRouter", :source_files => ['YDRouter/**/*.{h,m}'] }
+  #YDWebp
+  _YDWebp            = { :spec_name => "YDWebp", :source_files => ['YDWebp/**/*.{h,m}'], :dependency => [{:name => "libwebp", :version => "1.2.3"}] }
+  #YDUtilKit
+  _YDUtilKit         = { :spec_name => "YDUtilKit", :dependency => [{:name => "AFNetworking", :version => "4.0.1"}], :sub_dependency => [_YDFuncKit, _YDBaseUI, _YDUIKit, _YDTools] }
+  #YDSVProgressHUD
+  _YDSVProgressHUD   = { :spec_name => "YDSVProgressHUD", :source_files => ['YDSVProgressHUD/**/*.{h,m}'], :resource_bundles => {:bundle => "YDSVProgressHUD", :resources => "YDSVProgressHUD/Assets/*"}, :dependency => [{:name => "lottie-ios", :version => "2.5.3"}, {:name => "SVProgressHUD", :version => "2.2.5"}, {:name => "YYImage", :version => "1.0.4"}] }
+
+  
+  all_subspec = [ _YDRouter, _YDWebp, _YDUtilKit, _YDFuncKit, _YDBaseUI, _YDUIKit, _YDTools, _YDSVProgressHUD ]
  
 
   all_subspec.each do |spec|
@@ -55,9 +55,13 @@ TODO: Add long description of the pod here.
         ss.source_files = spec[:source_files]
       end
 
+      if spec[:libraries]
+        ss.libraries = spec[:libraries]
+      end
+
       if spec[:sub_dependency]
         spec[:sub_dependency].each do |dep|
-          ss.dependency "ArtFoundation/#{dep[:spec_name]}"
+          ss.dependency "YDFoundation/#{dep[:spec_name]}"
         end
       end
 

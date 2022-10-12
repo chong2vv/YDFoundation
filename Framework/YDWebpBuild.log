@@ -1,0 +1,152 @@
+Command line invocation:
+    /Applications/Xcode.app/Contents/Developer/usr/bin/xcodebuild -workspace YDFoundation.xcworkspace -scheme YDWebp -sdk iphonesimulator -configuration Release PBXBuildsContinueAfterErrors=NO ARCHS=x86_64 VALID_ARCHS=x86_64 BUILD_DIR=/Users/wangyuandong/Desktop/YDPods/YDFoundation/Framework clean build
+
+User defaults from command line:
+    IDEPackageSupportUseBuiltinSCM = YES
+
+Build settings from command line:
+    ARCHS = x86_64
+    BUILD_DIR = /Users/wangyuandong/Desktop/YDPods/YDFoundation/Framework
+    PBXBuildsContinueAfterErrors = NO
+    SDKROOT = iphonesimulator16.0
+    VALID_ARCHS = x86_64
+
+
+** CLEAN SUCCEEDED **
+
+Prepare packages
+
+Computing target dependency graph and provisioning inputs
+
+Create build description
+Build description signature: f3ce9bd0f9e690f6b791ccec073ddba8
+Build description path: /Users/wangyuandong/Library/Developer/Xcode/DerivedData/YDFoundation-dghthgmusgfaxifkicvfnjvhilyi/Build/Intermediates.noindex/XCBuildData/f3ce9bd0f9e690f6b791ccec073ddba8-desc.xcbuild
+
+note: Building targets in dependency order
+CreateBuildDirectory /Users/wangyuandong/Library/Developer/Xcode/DerivedData/YDFoundation-dghthgmusgfaxifkicvfnjvhilyi/Build/Products
+    cd /Users/wangyuandong/Desktop/YDPods/YDFoundation
+    builtin-create-build-directory /Users/wangyuandong/Library/Developer/Xcode/DerivedData/YDFoundation-dghthgmusgfaxifkicvfnjvhilyi/Build/Products
+
+CreateBuildDirectory /Users/wangyuandong/Desktop/YDPods/YDFoundation/Framework/Release-iphonesimulator
+    cd /Users/wangyuandong/Desktop/YDPods/YDFoundation
+    builtin-create-build-directory /Users/wangyuandong/Desktop/YDPods/YDFoundation/Framework/Release-iphonesimulator
+
+CreateBuildDirectory /Users/wangyuandong/Library/Developer/Xcode/DerivedData/YDFoundation-dghthgmusgfaxifkicvfnjvhilyi/Build/Intermediates.noindex
+    cd /Users/wangyuandong/Desktop/YDPods/YDFoundation
+    builtin-create-build-directory /Users/wangyuandong/Library/Developer/Xcode/DerivedData/YDFoundation-dghthgmusgfaxifkicvfnjvhilyi/Build/Intermediates.noindex
+
+CreateBuildDirectory /Users/wangyuandong/Library/Developer/Xcode/DerivedData/YDFoundation-dghthgmusgfaxifkicvfnjvhilyi/Build/Intermediates.noindex/EagerLinkingTBDs
+    cd /Users/wangyuandong/Desktop/YDPods/YDFoundation
+    builtin-create-build-directory /Users/wangyuandong/Library/Developer/Xcode/DerivedData/YDFoundation-dghthgmusgfaxifkicvfnjvhilyi/Build/Intermediates.noindex/EagerLinkingTBDs
+
+MkDir /Users/wangyuandong/Desktop/YDPods/YDFoundation/Framework/Release-iphonesimulator/YDWebp.framework (in target 'YDWebp' from project 'YDFoundation')
+    cd /Users/wangyuandong/Desktop/YDPods/YDFoundation
+    /bin/mkdir -p /Users/wangyuandong/Desktop/YDPods/YDFoundation/Framework/Release-iphonesimulator/YDWebp.framework
+
+WriteAuxiliaryFile /Users/wangyuandong/Library/Developer/Xcode/DerivedData/YDFoundation-dghthgmusgfaxifkicvfnjvhilyi/Build/Intermediates.noindex/YDFoundation.build/Release-iphonesimulator/YDWebp.build/all-product-headers.yaml (in target 'YDWebp' from project 'YDFoundation')
+    cd /Users/wangyuandong/Desktop/YDPods/YDFoundation
+    write-file /Users/wangyuandong/Library/Developer/Xcode/DerivedData/YDFoundation-dghthgmusgfaxifkicvfnjvhilyi/Build/Intermediates.noindex/YDFoundation.build/Release-iphonesimulator/YDWebp.build/all-product-headers.yaml
+
+WriteAuxiliaryFile /Users/wangyuandong/Library/Developer/Xcode/DerivedData/YDFoundation-dghthgmusgfaxifkicvfnjvhilyi/Build/Intermediates.noindex/YDFoundation.build/Release-iphonesimulator/YDWebp.build/YDWebp-project-headers.hmap (in target 'YDWebp' from project 'YDFoundation')
+    cd /Users/wangyuandong/Desktop/YDPods/YDFoundation
+    write-file /Users/wangyuandong/Library/Developer/Xcode/DerivedData/YDFoundation-dghthgmusgfaxifkicvfnjvhilyi/Build/Intermediates.noindex/YDFoundation.build/Release-iphonesimulator/YDWebp.build/YDWebp-project-headers.hmap
+
+WriteAuxiliaryFile /Users/wangyuandong/Library/Developer/Xcode/DerivedData/YDFoundation-dghthgmusgfaxifkicvfnjvhilyi/Build/Intermediates.noindex/YDFoundation.build/Release-iphonesimulator/YDWebp.build/YDWebp-own-target-headers.hmap (in target 'YDWebp' from project 'YDFoundation')
+    cd /Users/wangyuandong/Desktop/YDPods/YDFoundation
+    write-file /Users/wangyuandong/Library/Developer/Xcode/DerivedData/YDFoundation-dghthgmusgfaxifkicvfnjvhilyi/Build/Intermediates.noindex/YDFoundation.build/Release-iphonesimulator/YDWebp.build/YDWebp-own-target-headers.hmap
+
+WriteAuxiliaryFile /Users/wangyuandong/Library/Developer/Xcode/DerivedData/YDFoundation-dghthgmusgfaxifkicvfnjvhilyi/Build/Intermediates.noindex/YDFoundation.build/Release-iphonesimulator/YDWebp.build/YDWebp-all-target-headers.hmap (in target 'YDWebp' from project 'YDFoundation')
+    cd /Users/wangyuandong/Desktop/YDPods/YDFoundation
+    write-file /Users/wangyuandong/Library/Developer/Xcode/DerivedData/YDFoundation-dghthgmusgfaxifkicvfnjvhilyi/Build/Intermediates.noindex/YDFoundation.build/Release-iphonesimulator/YDWebp.build/YDWebp-all-target-headers.hmap
+
+WriteAuxiliaryFile /Users/wangyuandong/Library/Developer/Xcode/DerivedData/YDFoundation-dghthgmusgfaxifkicvfnjvhilyi/Build/Intermediates.noindex/YDFoundation.build/Release-iphonesimulator/YDWebp.build/YDWebp.hmap (in target 'YDWebp' from project 'YDFoundation')
+    cd /Users/wangyuandong/Desktop/YDPods/YDFoundation
+    write-file /Users/wangyuandong/Library/Developer/Xcode/DerivedData/YDFoundation-dghthgmusgfaxifkicvfnjvhilyi/Build/Intermediates.noindex/YDFoundation.build/Release-iphonesimulator/YDWebp.build/YDWebp.hmap
+
+WriteAuxiliaryFile /Users/wangyuandong/Library/Developer/Xcode/DerivedData/YDFoundation-dghthgmusgfaxifkicvfnjvhilyi/Build/Intermediates.noindex/YDFoundation.build/Release-iphonesimulator/YDWebp.build/YDWebp-generated-files.hmap (in target 'YDWebp' from project 'YDFoundation')
+    cd /Users/wangyuandong/Desktop/YDPods/YDFoundation
+    write-file /Users/wangyuandong/Library/Developer/Xcode/DerivedData/YDFoundation-dghthgmusgfaxifkicvfnjvhilyi/Build/Intermediates.noindex/YDFoundation.build/Release-iphonesimulator/YDWebp.build/YDWebp-generated-files.hmap
+
+WriteAuxiliaryFile /Users/wangyuandong/Library/Developer/Xcode/DerivedData/YDFoundation-dghthgmusgfaxifkicvfnjvhilyi/Build/Intermediates.noindex/YDFoundation.build/Release-iphonesimulator/YDWebp.build/YDWebp-all-non-framework-target-headers.hmap (in target 'YDWebp' from project 'YDFoundation')
+    cd /Users/wangyuandong/Desktop/YDPods/YDFoundation
+    write-file /Users/wangyuandong/Library/Developer/Xcode/DerivedData/YDFoundation-dghthgmusgfaxifkicvfnjvhilyi/Build/Intermediates.noindex/YDFoundation.build/Release-iphonesimulator/YDWebp.build/YDWebp-all-non-framework-target-headers.hmap
+
+WriteAuxiliaryFile /Users/wangyuandong/Library/Developer/Xcode/DerivedData/YDFoundation-dghthgmusgfaxifkicvfnjvhilyi/Build/Intermediates.noindex/YDFoundation.build/Release-iphonesimulator/YDWebp.build/Script-291307D8DB74CB6A704981EF.sh (in target 'YDWebp' from project 'YDFoundation')
+    cd /Users/wangyuandong/Desktop/YDPods/YDFoundation
+    write-file /Users/wangyuandong/Library/Developer/Xcode/DerivedData/YDFoundation-dghthgmusgfaxifkicvfnjvhilyi/Build/Intermediates.noindex/YDFoundation.build/Release-iphonesimulator/YDWebp.build/Script-291307D8DB74CB6A704981EF.sh
+
+WriteAuxiliaryFile /Users/wangyuandong/Library/Developer/Xcode/DerivedData/YDFoundation-dghthgmusgfaxifkicvfnjvhilyi/Build/Intermediates.noindex/YDFoundation.build/Release-iphonesimulator/YDWebp.build/empty-YDWebp.plist (in target 'YDWebp' from project 'YDFoundation')
+    cd /Users/wangyuandong/Desktop/YDPods/YDFoundation
+    write-file /Users/wangyuandong/Library/Developer/Xcode/DerivedData/YDFoundation-dghthgmusgfaxifkicvfnjvhilyi/Build/Intermediates.noindex/YDFoundation.build/Release-iphonesimulator/YDWebp.build/empty-YDWebp.plist
+
+ProcessInfoPlistFile /Users/wangyuandong/Desktop/YDPods/YDFoundation/Framework/Release-iphonesimulator/YDWebp.framework/Info.plist /Users/wangyuandong/Library/Developer/Xcode/DerivedData/YDFoundation-dghthgmusgfaxifkicvfnjvhilyi/Build/Intermediates.noindex/YDFoundation.build/Release-iphonesimulator/YDWebp.build/empty-YDWebp.plist (in target 'YDWebp' from project 'YDFoundation')
+    cd /Users/wangyuandong/Desktop/YDPods/YDFoundation
+    builtin-infoPlistUtility /Users/wangyuandong/Library/Developer/Xcode/DerivedData/YDFoundation-dghthgmusgfaxifkicvfnjvhilyi/Build/Intermediates.noindex/YDFoundation.build/Release-iphonesimulator/YDWebp.build/empty-YDWebp.plist -producttype com.apple.product-type.framework -expandbuildsettings -format binary -platform iphonesimulator -o /Users/wangyuandong/Desktop/YDPods/YDFoundation/Framework/Release-iphonesimulator/YDWebp.framework/Info.plist
+
+PhaseScriptExecution [CP]\ Check\ Pods\ Manifest.lock /Users/wangyuandong/Library/Developer/Xcode/DerivedData/YDFoundation-dghthgmusgfaxifkicvfnjvhilyi/Build/Intermediates.noindex/YDFoundation.build/Release-iphonesimulator/YDWebp.build/Script-291307D8DB74CB6A704981EF.sh (in target 'YDWebp' from project 'YDFoundation')
+    cd /Users/wangyuandong/Desktop/YDPods/YDFoundation
+    /bin/sh -c /Users/wangyuandong/Library/Developer/Xcode/DerivedData/YDFoundation-dghthgmusgfaxifkicvfnjvhilyi/Build/Intermediates.noindex/YDFoundation.build/Release-iphonesimulator/YDWebp.build/Script-291307D8DB74CB6A704981EF.sh
+
+WriteAuxiliaryFile /Users/wangyuandong/Library/Developer/Xcode/DerivedData/YDFoundation-dghthgmusgfaxifkicvfnjvhilyi/Build/Intermediates.noindex/YDFoundation.build/Release-iphonesimulator/YDWebp.build/DerivedSources/YDWebp_vers.c (in target 'YDWebp' from project 'YDFoundation')
+    cd /Users/wangyuandong/Desktop/YDPods/YDFoundation
+    write-file /Users/wangyuandong/Library/Developer/Xcode/DerivedData/YDFoundation-dghthgmusgfaxifkicvfnjvhilyi/Build/Intermediates.noindex/YDFoundation.build/Release-iphonesimulator/YDWebp.build/DerivedSources/YDWebp_vers.c
+
+WriteAuxiliaryFile /Users/wangyuandong/Library/Developer/Xcode/DerivedData/YDFoundation-dghthgmusgfaxifkicvfnjvhilyi/Build/Intermediates.noindex/YDFoundation.build/Release-iphonesimulator/YDWebp.build/Objects-normal/x86_64/YDWebp.LinkFileList (in target 'YDWebp' from project 'YDFoundation')
+    cd /Users/wangyuandong/Desktop/YDPods/YDFoundation
+    write-file /Users/wangyuandong/Library/Developer/Xcode/DerivedData/YDFoundation-dghthgmusgfaxifkicvfnjvhilyi/Build/Intermediates.noindex/YDFoundation.build/Release-iphonesimulator/YDWebp.build/Objects-normal/x86_64/YDWebp.LinkFileList
+
+CompileC /Users/wangyuandong/Library/Developer/Xcode/DerivedData/YDFoundation-dghthgmusgfaxifkicvfnjvhilyi/Build/Intermediates.noindex/YDFoundation.build/Release-iphonesimulator/YDWebp.build/Objects-normal/x86_64/YDWebp_vers.o /Users/wangyuandong/Library/Developer/Xcode/DerivedData/YDFoundation-dghthgmusgfaxifkicvfnjvhilyi/Build/Intermediates.noindex/YDFoundation.build/Release-iphonesimulator/YDWebp.build/DerivedSources/YDWebp_vers.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler (in target 'YDWebp' from project 'YDFoundation')
+    cd /Users/wangyuandong/Desktop/YDPods/YDFoundation
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -target x86_64-apple-ios16.0-simulator -fmessage-length\=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit\=0 -std\=gnu11 -fmodules -gmodules -fmodules-cache-path\=/Users/wangyuandong/Library/Developer/Xcode/DerivedData/ModuleCache.noindex -fmodules-prune-interval\=86400 -fmodules-prune-after\=345600 -fbuild-session-file\=/Users/wangyuandong/Library/Developer/Xcode/DerivedData/ModuleCache.noindex/Session.modulevalidation -fmodules-validate-once-per-build-session -Wnon-modular-include-in-framework-module -Werror\=non-modular-include-in-framework-module -fmodule-name\=YDWebp -Wno-trigraphs -fpascal-strings -Os -fno-common -Wno-missing-field-initializers -Wno-missing-prototypes -Werror\=return-type -Wdocumentation -Wunreachable-code -Werror\=deprecated-objc-isa-usage -Werror\=objc-root-class -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-float-conversion -Wnon-literal-null-conversion -Wobjc-literal-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-implicit-fallthrough -DCOCOAPODS\=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator16.0.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -g -Wno-sign-conversion -Winfinite-recursion -Wcomma -Wblock-capture-autoreleasing -Wstrict-prototypes -Wno-semicolon-before-method-body -Wunguarded-availability -iquote /Users/wangyuandong/Library/Developer/Xcode/DerivedData/YDFoundation-dghthgmusgfaxifkicvfnjvhilyi/Build/Intermediates.noindex/YDFoundation.build/Release-iphonesimulator/YDWebp.build/YDWebp-generated-files.hmap -I/Users/wangyuandong/Library/Developer/Xcode/DerivedData/YDFoundation-dghthgmusgfaxifkicvfnjvhilyi/Build/Intermediates.noindex/YDFoundation.build/Release-iphonesimulator/YDWebp.build/YDWebp-own-target-headers.hmap -I/Users/wangyuandong/Library/Developer/Xcode/DerivedData/YDFoundation-dghthgmusgfaxifkicvfnjvhilyi/Build/Intermediates.noindex/YDFoundation.build/Release-iphonesimulator/YDWebp.build/YDWebp-all-non-framework-target-headers.hmap -ivfsoverlay /Users/wangyuandong/Library/Developer/Xcode/DerivedData/YDFoundation-dghthgmusgfaxifkicvfnjvhilyi/Build/Intermediates.noindex/YDFoundation.build/Release-iphonesimulator/YDWebp.build/all-product-headers.yaml -iquote /Users/wangyuandong/Library/Developer/Xcode/DerivedData/YDFoundation-dghthgmusgfaxifkicvfnjvhilyi/Build/Intermediates.noindex/YDFoundation.build/Release-iphonesimulator/YDWebp.build/YDWebp-project-headers.hmap -I/Users/wangyuandong/Desktop/YDPods/YDFoundation/Framework/Release-iphonesimulator/include -I/Users/wangyuandong/Desktop/YDPods/YDFoundation/Pods/Headers/Public -I/Users/wangyuandong/Desktop/YDPods/YDFoundation/Pods/Headers/Public/YDFoundation -I/Users/wangyuandong/Desktop/YDPods/YDFoundation/Pods/Headers/Public/libwebp -I/Users/wangyuandong/Library/Developer/Xcode/DerivedData/YDFoundation-dghthgmusgfaxifkicvfnjvhilyi/Build/Intermediates.noindex/YDFoundation.build/Release-iphonesimulator/YDWebp.build/DerivedSources-normal/x86_64 -I/Users/wangyuandong/Library/Developer/Xcode/DerivedData/YDFoundation-dghthgmusgfaxifkicvfnjvhilyi/Build/Intermediates.noindex/YDFoundation.build/Release-iphonesimulator/YDWebp.build/DerivedSources/x86_64 -I/Users/wangyuandong/Library/Developer/Xcode/DerivedData/YDFoundation-dghthgmusgfaxifkicvfnjvhilyi/Build/Intermediates.noindex/YDFoundation.build/Release-iphonesimulator/YDWebp.build/DerivedSources -F/Users/wangyuandong/Desktop/YDPods/YDFoundation/Framework/Release-iphonesimulator -MMD -MT dependencies -MF /Users/wangyuandong/Library/Developer/Xcode/DerivedData/YDFoundation-dghthgmusgfaxifkicvfnjvhilyi/Build/Intermediates.noindex/YDFoundation.build/Release-iphonesimulator/YDWebp.build/Objects-normal/x86_64/YDWebp_vers.d --serialize-diagnostics /Users/wangyuandong/Library/Developer/Xcode/DerivedData/YDFoundation-dghthgmusgfaxifkicvfnjvhilyi/Build/Intermediates.noindex/YDFoundation.build/Release-iphonesimulator/YDWebp.build/Objects-normal/x86_64/YDWebp_vers.dia -c /Users/wangyuandong/Library/Developer/Xcode/DerivedData/YDFoundation-dghthgmusgfaxifkicvfnjvhilyi/Build/Intermediates.noindex/YDFoundation.build/Release-iphonesimulator/YDWebp.build/DerivedSources/YDWebp_vers.c -o /Users/wangyuandong/Library/Developer/Xcode/DerivedData/YDFoundation-dghthgmusgfaxifkicvfnjvhilyi/Build/Intermediates.noindex/YDFoundation.build/Release-iphonesimulator/YDWebp.build/Objects-normal/x86_64/YDWebp_vers.o
+
+Ld /Users/wangyuandong/Desktop/YDPods/YDFoundation/Framework/Release-iphonesimulator/YDWebp.framework/YDWebp normal (in target 'YDWebp' from project 'YDFoundation')
+    cd /Users/wangyuandong/Desktop/YDPods/YDFoundation
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -target x86_64-apple-ios16.0-simulator -dynamiclib -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator16.0.sdk -L/Users/wangyuandong/Library/Developer/Xcode/DerivedData/YDFoundation-dghthgmusgfaxifkicvfnjvhilyi/Build/Intermediates.noindex/EagerLinkingTBDs -L/Users/wangyuandong/Desktop/YDPods/YDFoundation/Framework/Release-iphonesimulator -F/Users/wangyuandong/Library/Developer/Xcode/DerivedData/YDFoundation-dghthgmusgfaxifkicvfnjvhilyi/Build/Intermediates.noindex/EagerLinkingTBDs -F/Users/wangyuandong/Desktop/YDPods/YDFoundation/Framework/Release-iphonesimulator -filelist /Users/wangyuandong/Library/Developer/Xcode/DerivedData/YDFoundation-dghthgmusgfaxifkicvfnjvhilyi/Build/Intermediates.noindex/YDFoundation.build/Release-iphonesimulator/YDWebp.build/Objects-normal/x86_64/YDWebp.LinkFileList -install_name @rpath/YDWebp.framework/YDWebp -Xlinker -rpath -Xlinker @executable_path/Frameworks -Xlinker -rpath -Xlinker @loader_path/Frameworks -dead_strip -Xlinker -object_path_lto -Xlinker /Users/wangyuandong/Library/Developer/Xcode/DerivedData/YDFoundation-dghthgmusgfaxifkicvfnjvhilyi/Build/Intermediates.noindex/YDFoundation.build/Release-iphonesimulator/YDWebp.build/Objects-normal/x86_64/YDWebp_lto.o -Xlinker -objc_abi_version -Xlinker 2 -Xlinker -no_adhoc_codesign -compatibility_version 1 -current_version 1 -Xlinker -dependency_info -Xlinker /Users/wangyuandong/Library/Developer/Xcode/DerivedData/YDFoundation-dghthgmusgfaxifkicvfnjvhilyi/Build/Intermediates.noindex/YDFoundation.build/Release-iphonesimulator/YDWebp.build/Objects-normal/x86_64/YDWebp_dependency_info.dat -o /Users/wangyuandong/Desktop/YDPods/YDFoundation/Framework/Release-iphonesimulator/YDWebp.framework/YDWebp
+
+GenerateDSYMFile /Users/wangyuandong/Desktop/YDPods/YDFoundation/Framework/Release-iphonesimulator/YDWebp.framework.dSYM /Users/wangyuandong/Desktop/YDPods/YDFoundation/Framework/Release-iphonesimulator/YDWebp.framework/YDWebp (in target 'YDWebp' from project 'YDFoundation')
+    cd /Users/wangyuandong/Desktop/YDPods/YDFoundation
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/wangyuandong/Desktop/YDPods/YDFoundation/Framework/Release-iphonesimulator/YDWebp.framework/YDWebp -o /Users/wangyuandong/Desktop/YDPods/YDFoundation/Framework/Release-iphonesimulator/YDWebp.framework.dSYM
+
+CodeSign /Users/wangyuandong/Desktop/YDPods/YDFoundation/Framework/Release-iphonesimulator/YDWebp.framework (in target 'YDWebp' from project 'YDFoundation')
+    cd /Users/wangyuandong/Desktop/YDPods/YDFoundation
+    
+    Signing Identity:     "-"
+    
+    /usr/bin/codesign --force --sign - --timestamp\=none --generate-entitlement-der /Users/wangyuandong/Desktop/YDPods/YDFoundation/Framework/Release-iphonesimulator/YDWebp.framework
+
+RegisterExecutionPolicyException /Users/wangyuandong/Desktop/YDPods/YDFoundation/Framework/Release-iphonesimulator/YDWebp.framework (in target 'YDWebp' from project 'YDFoundation')
+    cd /Users/wangyuandong/Desktop/YDPods/YDFoundation
+    builtin-RegisterExecutionPolicyException /Users/wangyuandong/Desktop/YDPods/YDFoundation/Framework/Release-iphonesimulator/YDWebp.framework
+
+Touch /Users/wangyuandong/Desktop/YDPods/YDFoundation/Framework/Release-iphonesimulator/YDWebp.framework (in target 'YDWebp' from project 'YDFoundation')
+    cd /Users/wangyuandong/Desktop/YDPods/YDFoundation
+    /usr/bin/touch -c /Users/wangyuandong/Desktop/YDPods/YDFoundation/Framework/Release-iphonesimulator/YDWebp.framework
+
+** BUILD SUCCEEDED **
+
+Command line invocation:
+    /Applications/Xcode.app/Contents/Developer/usr/bin/xcodebuild -workspace YDFoundation.xcworkspace -scheme YDWebp -sdk iphoneos -configuration Release PBXBuildsContinueAfterErrors=NO "ARCHS=armv7 arm64" "VALID_ARCHS=armv7 arm64" BUILD_DIR=/Users/wangyuandong/Desktop/YDPods/YDFoundation/Framework clean build
+
+User defaults from command line:
+    IDEPackageSupportUseBuiltinSCM = YES
+
+Build settings from command line:
+    ARCHS = armv7 arm64
+    BUILD_DIR = /Users/wangyuandong/Desktop/YDPods/YDFoundation/Framework
+    PBXBuildsContinueAfterErrors = NO
+    SDKROOT = iphoneos16.0
+    VALID_ARCHS = armv7 arm64
+
+
+** CLEAN SUCCEEDED **
+
+Prepare packages
+
+Computing target dependency graph and provisioning inputs
+
+Create build description
+Build description signature: a42e5d0645e0da2a69ac04c285a4c06b
+Build description path: /Users/wangyuandong/Library/Developer/Xcode/DerivedData/YDFoundation-dghthgmusgfaxifkicvfnjvhilyi/Build/Intermediates.noindex/XCBuildData/a42e5d0645e0da2a69ac04c285a4c06b-desc.xcbuild
+
+note: Building targets in dependency order
+error: The armv7 architecture is deprecated. You should update your ARCHS build setting to remove the armv7 architecture. (in target 'YDWebp' from project 'YDFoundation')

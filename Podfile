@@ -1,4 +1,5 @@
 
+source 'https://github.com/CocoaPods/Specs.git'
 platform :ios, '9.0'
 
 abstract_target 'Demo' do
@@ -7,12 +8,26 @@ abstract_target 'Demo' do
     pod 'YDFoundation', :path => '.'
   end
   
+  target 'YDFoundation' do
+    
+  end
+  
   target 'YDRouter' do
     
   end
   
   target 'YDWebp' do
-    
+    pod 'libwebp', '~> 1.2.3'
+  end
+  
+  target 'YDUtilKit' do
+    pod 'AFNetworking', '~> 4.0.1'
+  end
+  
+  target 'YDSVProgressHUD' do
+    pod 'lottie-ios', '~> 2.5.3'
+    pod 'SVProgressHUD', '~> 2.2.5'
+    pod 'YYImage', '~> 1.0.4'
   end
 
 end

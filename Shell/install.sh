@@ -35,6 +35,7 @@ function add_sub_proj_to_workspace() {
     fi
 }
 
+#检查版本
 function check_yd_repo() {
     local yd_repo_name="ydpodrepo"
 
@@ -323,8 +324,6 @@ done < ${g_config_file}
 display_normal_mas "开始进行主项目配置"
 
 echo ""
-
-check_yd_repo
 
 echo ""
 

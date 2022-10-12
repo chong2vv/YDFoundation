@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		150B9CF728F6CF6E00113B28 /* YDSVProgressHUD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 150B9CEF28F6CF6E00113B28 /* YDSVProgressHUD.framework */; };
+		150B9CF828F6CF6E00113B28 /* YDSVProgressHUD.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 150B9CEF28F6CF6E00113B28 /* YDSVProgressHUD.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		155FF8C128F6636B00057B87 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 155FF8C028F6636B00057B87 /* AppDelegate.m */; };
 		155FF8C428F6636B00057B87 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 155FF8C328F6636B00057B87 /* SceneDelegate.m */; };
 		155FF8C728F6636B00057B87 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 155FF8C628F6636B00057B87 /* ViewController.m */; };
@@ -22,9 +24,85 @@
 		155FF96928F6A2B300057B87 /* YDRouter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 155FF95428F6A2B200057B87 /* YDRouter.framework */; };
 		155FF96A28F6A2B300057B87 /* YDRouter.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 155FF95428F6A2B200057B87 /* YDRouter.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		155FF97D28F6A37900057B87 /* YDRouter.docc in Sources */ = {isa = PBXBuildFile; fileRef = 155FF97628F6A37900057B87 /* YDRouter.docc */; };
+		15652EB028F6BB680050EEB3 /* YDFoundation.h in Headers */ = {isa = PBXBuildFile; fileRef = 15652EAF28F6BB680050EEB3 /* YDFoundation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		15652EB328F6BB680050EEB3 /* YDFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15652EAD28F6BB680050EEB3 /* YDFoundation.framework */; };
+		15652EB428F6BB680050EEB3 /* YDFoundation.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 15652EAD28F6BB680050EEB3 /* YDFoundation.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		15652EE628F6C24F0050EEB3 /* YDUtilKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 15652EE328F6C24F0050EEB3 /* YDUtilKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		15652EE928F6C24F0050EEB3 /* YDUtilKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15652EE128F6C24E0050EEB3 /* YDUtilKit.framework */; };
+		15652EEA28F6C24F0050EEB3 /* YDUtilKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 15652EE128F6C24E0050EEB3 /* YDUtilKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		15652F2C28F6C2B90050EEB3 /* NSFileManager+YDCommon.h in Headers */ = {isa = PBXBuildFile; fileRef = 15652EEF28F6C2B70050EEB3 /* NSFileManager+YDCommon.h */; };
+		15652F2D28F6C2B90050EEB3 /* NSObject+YDCommon.m in Sources */ = {isa = PBXBuildFile; fileRef = 15652EF028F6C2B70050EEB3 /* NSObject+YDCommon.m */; };
+		15652F2E28F6C2B90050EEB3 /* NSDictionary+YDCommon.m in Sources */ = {isa = PBXBuildFile; fileRef = 15652EF128F6C2B70050EEB3 /* NSDictionary+YDCommon.m */; };
+		15652F2F28F6C2B90050EEB3 /* NSArray+YDCommon.h in Headers */ = {isa = PBXBuildFile; fileRef = 15652EF228F6C2B70050EEB3 /* NSArray+YDCommon.h */; };
+		15652F3028F6C2B90050EEB3 /* NSData+YDCommon.m in Sources */ = {isa = PBXBuildFile; fileRef = 15652EF328F6C2B70050EEB3 /* NSData+YDCommon.m */; };
+		15652F3128F6C2B90050EEB3 /* NSString+YDCommon.m in Sources */ = {isa = PBXBuildFile; fileRef = 15652EF428F6C2B70050EEB3 /* NSString+YDCommon.m */; };
+		15652F3228F6C2B90050EEB3 /* NSDate+YDCommon.h in Headers */ = {isa = PBXBuildFile; fileRef = 15652EF528F6C2B70050EEB3 /* NSDate+YDCommon.h */; };
+		15652F3328F6C2B90050EEB3 /* YDFoundationCategory.h in Headers */ = {isa = PBXBuildFile; fileRef = 15652EF628F6C2B70050EEB3 /* YDFoundationCategory.h */; };
+		15652F3428F6C2B90050EEB3 /* NSFileManager+YDCommon.m in Sources */ = {isa = PBXBuildFile; fileRef = 15652EF728F6C2B70050EEB3 /* NSFileManager+YDCommon.m */; };
+		15652F3528F6C2B90050EEB3 /* NSDictionary+YDCommon.h in Headers */ = {isa = PBXBuildFile; fileRef = 15652EF828F6C2B70050EEB3 /* NSDictionary+YDCommon.h */; };
+		15652F3628F6C2B90050EEB3 /* NSObject+YDCommon.h in Headers */ = {isa = PBXBuildFile; fileRef = 15652EF928F6C2B70050EEB3 /* NSObject+YDCommon.h */; };
+		15652F3728F6C2B90050EEB3 /* NSArray+YDCommon.m in Sources */ = {isa = PBXBuildFile; fileRef = 15652EFA28F6C2B70050EEB3 /* NSArray+YDCommon.m */; };
+		15652F3828F6C2B90050EEB3 /* NSDate+YDCommon.m in Sources */ = {isa = PBXBuildFile; fileRef = 15652EFB28F6C2B70050EEB3 /* NSDate+YDCommon.m */; };
+		15652F3928F6C2B90050EEB3 /* NSString+YDCommon.h in Headers */ = {isa = PBXBuildFile; fileRef = 15652EFC28F6C2B70050EEB3 /* NSString+YDCommon.h */; };
+		15652F3A28F6C2B90050EEB3 /* NSData+YDCommon.h in Headers */ = {isa = PBXBuildFile; fileRef = 15652EFD28F6C2B70050EEB3 /* NSData+YDCommon.h */; };
+		15652F3B28F6C2B90050EEB3 /* YDBaseUI.h in Headers */ = {isa = PBXBuildFile; fileRef = 15652EFF28F6C2B80050EEB3 /* YDBaseUI.h */; };
+		15652F3C28F6C2B90050EEB3 /* YDBaseUIDefine.m in Sources */ = {isa = PBXBuildFile; fileRef = 15652F0028F6C2B80050EEB3 /* YDBaseUIDefine.m */; };
+		15652F3D28F6C2B90050EEB3 /* YDBaseUIDefine.h in Headers */ = {isa = PBXBuildFile; fileRef = 15652F0128F6C2B80050EEB3 /* YDBaseUIDefine.h */; };
+		15652F3E28F6C2B90050EEB3 /* YDNumberSender.h in Headers */ = {isa = PBXBuildFile; fileRef = 15652F0328F6C2B80050EEB3 /* YDNumberSender.h */; };
+		15652F3F28F6C2B90050EEB3 /* YDStack.m in Sources */ = {isa = PBXBuildFile; fileRef = 15652F0428F6C2B80050EEB3 /* YDStack.m */; };
+		15652F4028F6C2B90050EEB3 /* YDNetworkTools.h in Headers */ = {isa = PBXBuildFile; fileRef = 15652F0528F6C2B80050EEB3 /* YDNetworkTools.h */; };
+		15652F4128F6C2B90050EEB3 /* YDVideoTools.h in Headers */ = {isa = PBXBuildFile; fileRef = 15652F0628F6C2B80050EEB3 /* YDVideoTools.h */; };
+		15652F4228F6C2B90050EEB3 /* YDStack.h in Headers */ = {isa = PBXBuildFile; fileRef = 15652F0728F6C2B80050EEB3 /* YDStack.h */; };
+		15652F4328F6C2B90050EEB3 /* YDTools.h in Headers */ = {isa = PBXBuildFile; fileRef = 15652F0828F6C2B80050EEB3 /* YDTools.h */; };
+		15652F4528F6C2B90050EEB3 /* YDVideoTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 15652F0A28F6C2B80050EEB3 /* YDVideoTools.m */; };
+		15652F4628F6C2B90050EEB3 /* YDNetworkTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 15652F0B28F6C2B80050EEB3 /* YDNetworkTools.m */; };
+		15652F4728F6C2B90050EEB3 /* UIDevice+YDCommon.h in Headers */ = {isa = PBXBuildFile; fileRef = 15652F0D28F6C2B80050EEB3 /* UIDevice+YDCommon.h */; };
+		15652F4828F6C2B90050EEB3 /* YDUIKitCategory.h in Headers */ = {isa = PBXBuildFile; fileRef = 15652F0E28F6C2B80050EEB3 /* YDUIKitCategory.h */; };
+		15652F4928F6C2B90050EEB3 /* UIControl+YDCommon.h in Headers */ = {isa = PBXBuildFile; fileRef = 15652F0F28F6C2B80050EEB3 /* UIControl+YDCommon.h */; };
+		15652F4A28F6C2B90050EEB3 /* UIView+YDQRCode.h in Headers */ = {isa = PBXBuildFile; fileRef = 15652F1028F6C2B80050EEB3 /* UIView+YDQRCode.h */; };
+		15652F4B28F6C2B90050EEB3 /* UIColor+YDCommon.m in Sources */ = {isa = PBXBuildFile; fileRef = 15652F1128F6C2B80050EEB3 /* UIColor+YDCommon.m */; };
+		15652F4C28F6C2B90050EEB3 /* UIView+YDCommon.h in Headers */ = {isa = PBXBuildFile; fileRef = 15652F1228F6C2B80050EEB3 /* UIView+YDCommon.h */; };
+		15652F4D28F6C2B90050EEB3 /* UIWindow+YDScreenShot.m in Sources */ = {isa = PBXBuildFile; fileRef = 15652F1328F6C2B80050EEB3 /* UIWindow+YDScreenShot.m */; };
+		15652F4E28F6C2B90050EEB3 /* UILabel+YDAddtion.m in Sources */ = {isa = PBXBuildFile; fileRef = 15652F1428F6C2B80050EEB3 /* UILabel+YDAddtion.m */; };
+		15652F4F28F6C2B90050EEB3 /* NSString+YDLabelHeigh.h in Headers */ = {isa = PBXBuildFile; fileRef = 15652F1528F6C2B80050EEB3 /* NSString+YDLabelHeigh.h */; };
+		15652F5028F6C2B90050EEB3 /* UITextField+YDCommon.m in Sources */ = {isa = PBXBuildFile; fileRef = 15652F1628F6C2B80050EEB3 /* UITextField+YDCommon.m */; };
+		15652F5128F6C2B90050EEB3 /* UIImage+YDCommon.h in Headers */ = {isa = PBXBuildFile; fileRef = 15652F1728F6C2B80050EEB3 /* UIImage+YDCommon.h */; };
+		15652F5228F6C2B90050EEB3 /* UIScrollView+YDCommon.m in Sources */ = {isa = PBXBuildFile; fileRef = 15652F1828F6C2B80050EEB3 /* UIScrollView+YDCommon.m */; };
+		15652F5328F6C2B90050EEB3 /* UITableView+YDCommon.h in Headers */ = {isa = PBXBuildFile; fileRef = 15652F1928F6C2B80050EEB3 /* UITableView+YDCommon.h */; };
+		15652F5428F6C2B90050EEB3 /* UITextView+YDPlaceholder.m in Sources */ = {isa = PBXBuildFile; fileRef = 15652F1A28F6C2B80050EEB3 /* UITextView+YDPlaceholder.m */; };
+		15652F5528F6C2B90050EEB3 /* UIView+YDWhenTappedBlocks.h in Headers */ = {isa = PBXBuildFile; fileRef = 15652F1B28F6C2B80050EEB3 /* UIView+YDWhenTappedBlocks.h */; };
+		15652F5628F6C2B90050EEB3 /* UITapGestureRecognizer+YDAddtion.h in Headers */ = {isa = PBXBuildFile; fileRef = 15652F1C28F6C2B80050EEB3 /* UITapGestureRecognizer+YDAddtion.h */; };
+		15652F5728F6C2B90050EEB3 /* UIDevice+YDCommon.m in Sources */ = {isa = PBXBuildFile; fileRef = 15652F1D28F6C2B80050EEB3 /* UIDevice+YDCommon.m */; };
+		15652F5828F6C2B90050EEB3 /* UITextField+YDCommon.h in Headers */ = {isa = PBXBuildFile; fileRef = 15652F1E28F6C2B80050EEB3 /* UITextField+YDCommon.h */; };
+		15652F5928F6C2B90050EEB3 /* NSString+YDLabelHeigh.m in Sources */ = {isa = PBXBuildFile; fileRef = 15652F1F28F6C2B80050EEB3 /* NSString+YDLabelHeigh.m */; };
+		15652F5A28F6C2B90050EEB3 /* UILabel+YDAddtion.h in Headers */ = {isa = PBXBuildFile; fileRef = 15652F2028F6C2B80050EEB3 /* UILabel+YDAddtion.h */; };
+		15652F5B28F6C2B90050EEB3 /* UIWindow+YDScreenShot.h in Headers */ = {isa = PBXBuildFile; fileRef = 15652F2128F6C2B80050EEB3 /* UIWindow+YDScreenShot.h */; };
+		15652F5C28F6C2B90050EEB3 /* UIColor+YDCommon.h in Headers */ = {isa = PBXBuildFile; fileRef = 15652F2228F6C2B80050EEB3 /* UIColor+YDCommon.h */; };
+		15652F5D28F6C2B90050EEB3 /* UIView+YDCommon.m in Sources */ = {isa = PBXBuildFile; fileRef = 15652F2328F6C2B80050EEB3 /* UIView+YDCommon.m */; };
+		15652F5E28F6C2B90050EEB3 /* UIControl+YDCommon.m in Sources */ = {isa = PBXBuildFile; fileRef = 15652F2428F6C2B80050EEB3 /* UIControl+YDCommon.m */; };
+		15652F5F28F6C2B90050EEB3 /* UIView+YDQRCode.m in Sources */ = {isa = PBXBuildFile; fileRef = 15652F2528F6C2B80050EEB3 /* UIView+YDQRCode.m */; };
+		15652F6028F6C2B90050EEB3 /* UITableView+YDCommon.m in Sources */ = {isa = PBXBuildFile; fileRef = 15652F2628F6C2B80050EEB3 /* UITableView+YDCommon.m */; };
+		15652F6128F6C2B90050EEB3 /* UIScrollView+YDCommon.h in Headers */ = {isa = PBXBuildFile; fileRef = 15652F2728F6C2B80050EEB3 /* UIScrollView+YDCommon.h */; };
+		15652F6228F6C2B90050EEB3 /* UIImage+YDCommon.m in Sources */ = {isa = PBXBuildFile; fileRef = 15652F2828F6C2B80050EEB3 /* UIImage+YDCommon.m */; };
+		15652F6328F6C2B90050EEB3 /* UITapGestureRecognizer+YDAddtion.m in Sources */ = {isa = PBXBuildFile; fileRef = 15652F2928F6C2B80050EEB3 /* UITapGestureRecognizer+YDAddtion.m */; };
+		15652F6428F6C2B90050EEB3 /* UIView+YDWhenTappedBlocks.m in Sources */ = {isa = PBXBuildFile; fileRef = 15652F2A28F6C2B80050EEB3 /* UIView+YDWhenTappedBlocks.m */; };
+		15652F6528F6C2B90050EEB3 /* UITextView+YDPlaceholder.h in Headers */ = {isa = PBXBuildFile; fileRef = 15652F2B28F6C2B80050EEB3 /* UITextView+YDPlaceholder.h */; };
+		2B9FC333C49B365554FFC807 /* libPods-Demo-YDRouter.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 70F7A59B27218BCEC43795C5 /* libPods-Demo-YDRouter.a */; };
+		DA98C9FB1009FBC6FF683ECE /* libPods-Demo-YDWebp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A8844756FF2296FEB377D462 /* libPods-Demo-YDWebp.a */; };
+		EA5375E5912CAE7E29279229 /* libPods-Demo-YDFoundation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F11DCF586C38A097B709FE02 /* libPods-Demo-YDFoundation.a */; };
+		ECC44B5749A39213BD25476F /* libPods-Demo-YDSVProgressHUD.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F4B083465D8AA9FDEA93E157 /* libPods-Demo-YDSVProgressHUD.a */; };
+		F4C6992200EC0F309FB7BAFF /* libPods-Demo-YDUtilKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9513DEE60F752745915B1CE2 /* libPods-Demo-YDUtilKit.a */; };
+		F87DFE70EE6E1B32A4544D85 /* libPods-Demo-YDFoundationDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BB1AC91FD504924B289B50BE /* libPods-Demo-YDFoundationDemo.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		150B9CF528F6CF6E00113B28 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 155FF8B428F6636B00057B87 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 150B9CEE28F6CF6E00113B28;
+			remoteInfo = YDSVProgressHUD;
+		};
 		155FF8D828F6636D00057B87 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 155FF8B428F6636B00057B87 /* Project object */;
@@ -53,6 +131,20 @@
 			remoteGlobalIDString = 155FF95328F6A2B200057B87;
 			remoteInfo = YDRouter;
 		};
+		15652EB128F6BB680050EEB3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 155FF8B428F6636B00057B87 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 15652EAC28F6BB680050EEB3;
+			remoteInfo = YDFoundation;
+		};
+		15652EE728F6C24F0050EEB3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 155FF8B428F6636B00057B87 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 15652EE028F6C24E0050EEB3;
+			remoteInfo = YDUtilKit;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -62,7 +154,10 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				150B9CF828F6CF6E00113B28 /* YDSVProgressHUD.framework in Embed Frameworks */,
+				15652EB428F6BB680050EEB3 /* YDFoundation.framework in Embed Frameworks */,
 				155FF96A28F6A2B300057B87 /* YDRouter.framework in Embed Frameworks */,
+				15652EEA28F6C24F0050EEB3 /* YDUtilKit.framework in Embed Frameworks */,
 				155FF94828F6A21C00057B87 /* YDWebp.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
@@ -71,6 +166,40 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		150B9CEF28F6CF6E00113B28 /* YDSVProgressHUD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = YDSVProgressHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		150B9CFD28F6CFD500113B28 /* YDOverWriteSVProgressHUD.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YDOverWriteSVProgressHUD.h; sourceTree = "<group>"; };
+		150B9CFE28F6CFD500113B28 /* SVProgressHUD+YDLottie.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SVProgressHUD+YDLottie.h"; sourceTree = "<group>"; };
+		150B9CFF28F6CFD500113B28 /* UIViewController+Toast.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Toast.m"; sourceTree = "<group>"; };
+		150B9D0028F6CFD500113B28 /* YDProgressHUDConfig.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YDProgressHUDConfig.m; sourceTree = "<group>"; };
+		150B9D0128F6CFD500113B28 /* YDProgressHUD.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YDProgressHUD.h; sourceTree = "<group>"; };
+		150B9D0228F6CFD500113B28 /* YDOverWriteSVProgressHUD.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YDOverWriteSVProgressHUD.m; sourceTree = "<group>"; };
+		150B9D0328F6CFD500113B28 /* YDSVProgressHUD.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YDSVProgressHUD.h; sourceTree = "<group>"; };
+		150B9D0428F6CFD500113B28 /* SVProgressHUD+YDLottie.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "SVProgressHUD+YDLottie.m"; sourceTree = "<group>"; };
+		150B9D0528F6CFD500113B28 /* YDProgressHUD.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YDProgressHUD.m; sourceTree = "<group>"; };
+		150B9D0628F6CFD500113B28 /* YDProgressHUDConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YDProgressHUDConfig.h; sourceTree = "<group>"; };
+		150B9D0728F6CFD500113B28 /* UIViewController+Toast.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Toast.h"; sourceTree = "<group>"; };
+		150B9D0828F6CFD500113B28 /* YDSVProgressHUD.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = YDSVProgressHUD.docc; sourceTree = "<group>"; };
+		150B9D0A28F6CFD500113B28 /* info.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = info.png; sourceTree = "<group>"; };
+		150B9D0B28F6CFD500113B28 /* HUD_success@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "HUD_success@2x.png"; sourceTree = "<group>"; };
+		150B9D0C28F6CFD500113B28 /* error@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "error@3x.png"; sourceTree = "<group>"; };
+		150B9D0D28F6CFD500113B28 /* angle-mask@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "angle-mask@3x.png"; sourceTree = "<group>"; };
+		150B9D0E28F6CFD500113B28 /* HUD_error.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = HUD_error.png; sourceTree = "<group>"; };
+		150B9D0F28F6CFD500113B28 /* angle-mask@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "angle-mask@2x.png"; sourceTree = "<group>"; };
+		150B9D1028F6CFD500113B28 /* error@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "error@2x.png"; sourceTree = "<group>"; };
+		150B9D1128F6CFD500113B28 /* HUD_success@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "HUD_success@3x.png"; sourceTree = "<group>"; };
+		150B9D1228F6CFD500113B28 /* info@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "info@3x.png"; sourceTree = "<group>"; };
+		150B9D1328F6CFD500113B28 /* success@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "success@2x.png"; sourceTree = "<group>"; };
+		150B9D1428F6CFD500113B28 /* HUD_success.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = HUD_success.png; sourceTree = "<group>"; };
+		150B9D1528F6CFD500113B28 /* success@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "success@3x.png"; sourceTree = "<group>"; };
+		150B9D1628F6CFD500113B28 /* HUD_info.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = HUD_info.png; sourceTree = "<group>"; };
+		150B9D1728F6CFD500113B28 /* info@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "info@2x.png"; sourceTree = "<group>"; };
+		150B9D1828F6CFD500113B28 /* HUD_error@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "HUD_error@3x.png"; sourceTree = "<group>"; };
+		150B9D1928F6CFD500113B28 /* error.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = error.png; sourceTree = "<group>"; };
+		150B9D1A28F6CFD500113B28 /* HUD_info@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "HUD_info@3x.png"; sourceTree = "<group>"; };
+		150B9D1B28F6CFD500113B28 /* HUD_info@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "HUD_info@2x.png"; sourceTree = "<group>"; };
+		150B9D1C28F6CFD500113B28 /* success.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = success.png; sourceTree = "<group>"; };
+		150B9D1D28F6CFD500113B28 /* HUD_error@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "HUD_error@2x.png"; sourceTree = "<group>"; };
+		150B9D1E28F6CFD500113B28 /* angle-mask.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "angle-mask.png"; sourceTree = "<group>"; };
 		155FF8BC28F6636B00057B87 /* YDFoundationDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YDFoundationDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		155FF8BF28F6636B00057B87 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		155FF8C028F6636B00057B87 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -106,21 +235,123 @@
 		155FF98628F6A3D000057B87 /* CGImage+YDWebp.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "CGImage+YDWebp.m"; sourceTree = "<group>"; };
 		155FF98728F6A3D000057B87 /* YDWebp.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = YDWebp.docc; sourceTree = "<group>"; };
 		155FF98828F6A3D000057B87 /* UIImage+YDWebp.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+YDWebp.h"; sourceTree = "<group>"; };
+		15652EAD28F6BB680050EEB3 /* YDFoundation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = YDFoundation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		15652EAF28F6BB680050EEB3 /* YDFoundation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YDFoundation.h; sourceTree = "<group>"; };
+		15652EB928F6BCAE0050EEB3 /* YDWebp.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YDWebp.h; sourceTree = "<group>"; };
+		15652EBA28F6BCAE0050EEB3 /* CGImage+YDWebp.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CGImage+YDWebp.h"; sourceTree = "<group>"; };
+		15652EBB28F6BCAE0050EEB3 /* UIImage+YDWebp.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+YDWebp.m"; sourceTree = "<group>"; };
+		15652EBC28F6BCAE0050EEB3 /* CGImage+YDWebp.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "CGImage+YDWebp.m"; sourceTree = "<group>"; };
+		15652EBD28F6BCAE0050EEB3 /* YDWebp.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = YDWebp.docc; sourceTree = "<group>"; };
+		15652EBE28F6BCAE0050EEB3 /* UIImage+YDWebp.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+YDWebp.h"; sourceTree = "<group>"; };
+		15652EC028F6BCAE0050EEB3 /* MGJRouter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MGJRouter.h; sourceTree = "<group>"; };
+		15652EC128F6BCAE0050EEB3 /* YDURLHandle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YDURLHandle.h; sourceTree = "<group>"; };
+		15652EC228F6BCAE0050EEB3 /* YDRouter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YDRouter.h; sourceTree = "<group>"; };
+		15652EC328F6BCAE0050EEB3 /* YDURLHelper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YDURLHelper.m; sourceTree = "<group>"; };
+		15652EC428F6BCAE0050EEB3 /* YDRouter.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = YDRouter.docc; sourceTree = "<group>"; };
+		15652EC528F6BCAE0050EEB3 /* YDRouter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YDRouter.m; sourceTree = "<group>"; };
+		15652EC628F6BCAE0050EEB3 /* YDURLHandle.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YDURLHandle.m; sourceTree = "<group>"; };
+		15652EC728F6BCAE0050EEB3 /* MGJRouter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MGJRouter.m; sourceTree = "<group>"; };
+		15652EC828F6BCAE0050EEB3 /* YDURLHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YDURLHelper.h; sourceTree = "<group>"; };
+		15652EC928F6BCAE0050EEB3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		15652EE128F6C24E0050EEB3 /* YDUtilKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = YDUtilKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		15652EE328F6C24F0050EEB3 /* YDUtilKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YDUtilKit.h; sourceTree = "<group>"; };
+		15652EEF28F6C2B70050EEB3 /* NSFileManager+YDCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSFileManager+YDCommon.h"; sourceTree = "<group>"; };
+		15652EF028F6C2B70050EEB3 /* NSObject+YDCommon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+YDCommon.m"; sourceTree = "<group>"; };
+		15652EF128F6C2B70050EEB3 /* NSDictionary+YDCommon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+YDCommon.m"; sourceTree = "<group>"; };
+		15652EF228F6C2B70050EEB3 /* NSArray+YDCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+YDCommon.h"; sourceTree = "<group>"; };
+		15652EF328F6C2B70050EEB3 /* NSData+YDCommon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+YDCommon.m"; sourceTree = "<group>"; };
+		15652EF428F6C2B70050EEB3 /* NSString+YDCommon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+YDCommon.m"; sourceTree = "<group>"; };
+		15652EF528F6C2B70050EEB3 /* NSDate+YDCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+YDCommon.h"; sourceTree = "<group>"; };
+		15652EF628F6C2B70050EEB3 /* YDFoundationCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YDFoundationCategory.h; sourceTree = "<group>"; };
+		15652EF728F6C2B70050EEB3 /* NSFileManager+YDCommon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSFileManager+YDCommon.m"; sourceTree = "<group>"; };
+		15652EF828F6C2B70050EEB3 /* NSDictionary+YDCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+YDCommon.h"; sourceTree = "<group>"; };
+		15652EF928F6C2B70050EEB3 /* NSObject+YDCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+YDCommon.h"; sourceTree = "<group>"; };
+		15652EFA28F6C2B70050EEB3 /* NSArray+YDCommon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+YDCommon.m"; sourceTree = "<group>"; };
+		15652EFB28F6C2B70050EEB3 /* NSDate+YDCommon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+YDCommon.m"; sourceTree = "<group>"; };
+		15652EFC28F6C2B70050EEB3 /* NSString+YDCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+YDCommon.h"; sourceTree = "<group>"; };
+		15652EFD28F6C2B70050EEB3 /* NSData+YDCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+YDCommon.h"; sourceTree = "<group>"; };
+		15652EFF28F6C2B80050EEB3 /* YDBaseUI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YDBaseUI.h; sourceTree = "<group>"; };
+		15652F0028F6C2B80050EEB3 /* YDBaseUIDefine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YDBaseUIDefine.m; sourceTree = "<group>"; };
+		15652F0128F6C2B80050EEB3 /* YDBaseUIDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YDBaseUIDefine.h; sourceTree = "<group>"; };
+		15652F0328F6C2B80050EEB3 /* YDNumberSender.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YDNumberSender.h; sourceTree = "<group>"; };
+		15652F0428F6C2B80050EEB3 /* YDStack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YDStack.m; sourceTree = "<group>"; };
+		15652F0528F6C2B80050EEB3 /* YDNetworkTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YDNetworkTools.h; sourceTree = "<group>"; };
+		15652F0628F6C2B80050EEB3 /* YDVideoTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YDVideoTools.h; sourceTree = "<group>"; };
+		15652F0728F6C2B80050EEB3 /* YDStack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YDStack.h; sourceTree = "<group>"; };
+		15652F0828F6C2B80050EEB3 /* YDTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YDTools.h; sourceTree = "<group>"; };
+		15652F0928F6C2B80050EEB3 /* YDNumberSender.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YDNumberSender.m; sourceTree = "<group>"; };
+		15652F0A28F6C2B80050EEB3 /* YDVideoTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YDVideoTools.m; sourceTree = "<group>"; };
+		15652F0B28F6C2B80050EEB3 /* YDNetworkTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YDNetworkTools.m; sourceTree = "<group>"; };
+		15652F0D28F6C2B80050EEB3 /* UIDevice+YDCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIDevice+YDCommon.h"; sourceTree = "<group>"; };
+		15652F0E28F6C2B80050EEB3 /* YDUIKitCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YDUIKitCategory.h; sourceTree = "<group>"; };
+		15652F0F28F6C2B80050EEB3 /* UIControl+YDCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIControl+YDCommon.h"; sourceTree = "<group>"; };
+		15652F1028F6C2B80050EEB3 /* UIView+YDQRCode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+YDQRCode.h"; sourceTree = "<group>"; };
+		15652F1128F6C2B80050EEB3 /* UIColor+YDCommon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+YDCommon.m"; sourceTree = "<group>"; };
+		15652F1228F6C2B80050EEB3 /* UIView+YDCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+YDCommon.h"; sourceTree = "<group>"; };
+		15652F1328F6C2B80050EEB3 /* UIWindow+YDScreenShot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIWindow+YDScreenShot.m"; sourceTree = "<group>"; };
+		15652F1428F6C2B80050EEB3 /* UILabel+YDAddtion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+YDAddtion.m"; sourceTree = "<group>"; };
+		15652F1528F6C2B80050EEB3 /* NSString+YDLabelHeigh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+YDLabelHeigh.h"; sourceTree = "<group>"; };
+		15652F1628F6C2B80050EEB3 /* UITextField+YDCommon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+YDCommon.m"; sourceTree = "<group>"; };
+		15652F1728F6C2B80050EEB3 /* UIImage+YDCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+YDCommon.h"; sourceTree = "<group>"; };
+		15652F1828F6C2B80050EEB3 /* UIScrollView+YDCommon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+YDCommon.m"; sourceTree = "<group>"; };
+		15652F1928F6C2B80050EEB3 /* UITableView+YDCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+YDCommon.h"; sourceTree = "<group>"; };
+		15652F1A28F6C2B80050EEB3 /* UITextView+YDPlaceholder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextView+YDPlaceholder.m"; sourceTree = "<group>"; };
+		15652F1B28F6C2B80050EEB3 /* UIView+YDWhenTappedBlocks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+YDWhenTappedBlocks.h"; sourceTree = "<group>"; };
+		15652F1C28F6C2B80050EEB3 /* UITapGestureRecognizer+YDAddtion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITapGestureRecognizer+YDAddtion.h"; sourceTree = "<group>"; };
+		15652F1D28F6C2B80050EEB3 /* UIDevice+YDCommon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+YDCommon.m"; sourceTree = "<group>"; };
+		15652F1E28F6C2B80050EEB3 /* UITextField+YDCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+YDCommon.h"; sourceTree = "<group>"; };
+		15652F1F28F6C2B80050EEB3 /* NSString+YDLabelHeigh.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+YDLabelHeigh.m"; sourceTree = "<group>"; };
+		15652F2028F6C2B80050EEB3 /* UILabel+YDAddtion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+YDAddtion.h"; sourceTree = "<group>"; };
+		15652F2128F6C2B80050EEB3 /* UIWindow+YDScreenShot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIWindow+YDScreenShot.h"; sourceTree = "<group>"; };
+		15652F2228F6C2B80050EEB3 /* UIColor+YDCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+YDCommon.h"; sourceTree = "<group>"; };
+		15652F2328F6C2B80050EEB3 /* UIView+YDCommon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+YDCommon.m"; sourceTree = "<group>"; };
+		15652F2428F6C2B80050EEB3 /* UIControl+YDCommon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIControl+YDCommon.m"; sourceTree = "<group>"; };
+		15652F2528F6C2B80050EEB3 /* UIView+YDQRCode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+YDQRCode.m"; sourceTree = "<group>"; };
+		15652F2628F6C2B80050EEB3 /* UITableView+YDCommon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+YDCommon.m"; sourceTree = "<group>"; };
+		15652F2728F6C2B80050EEB3 /* UIScrollView+YDCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+YDCommon.h"; sourceTree = "<group>"; };
+		15652F2828F6C2B80050EEB3 /* UIImage+YDCommon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+YDCommon.m"; sourceTree = "<group>"; };
+		15652F2928F6C2B80050EEB3 /* UITapGestureRecognizer+YDAddtion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITapGestureRecognizer+YDAddtion.m"; sourceTree = "<group>"; };
+		15652F2A28F6C2B80050EEB3 /* UIView+YDWhenTappedBlocks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+YDWhenTappedBlocks.m"; sourceTree = "<group>"; };
+		15652F2B28F6C2B80050EEB3 /* UITextView+YDPlaceholder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextView+YDPlaceholder.h"; sourceTree = "<group>"; };
+		15775CFF3EF0E890F14110C8 /* Pods-Demo-YDFoundation.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Demo-YDFoundation.debug.xcconfig"; path = "Target Support Files/Pods-Demo-YDFoundation/Pods-Demo-YDFoundation.debug.xcconfig"; sourceTree = "<group>"; };
+		16D085D6B4C507F245BC7ABE /* Pods-Demo-YDSVProgressHUD.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Demo-YDSVProgressHUD.debug.xcconfig"; path = "Target Support Files/Pods-Demo-YDSVProgressHUD/Pods-Demo-YDSVProgressHUD.debug.xcconfig"; sourceTree = "<group>"; };
 		2A8B173399F58939D5094029 /* Pods-Demo-YDWebp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Demo-YDWebp.debug.xcconfig"; path = "Target Support Files/Pods-Demo-YDWebp/Pods-Demo-YDWebp.debug.xcconfig"; sourceTree = "<group>"; };
+		2B6D4C3EC07A80BE5E2095E0 /* Pods-Demo-YDUtilKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Demo-YDUtilKit.release.xcconfig"; path = "Target Support Files/Pods-Demo-YDUtilKit/Pods-Demo-YDUtilKit.release.xcconfig"; sourceTree = "<group>"; };
+		33AA69E105D5010A3CD352D3 /* Pods-Demo-YDFoundation.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Demo-YDFoundation.release.xcconfig"; path = "Target Support Files/Pods-Demo-YDFoundation/Pods-Demo-YDFoundation.release.xcconfig"; sourceTree = "<group>"; };
 		657CC907A183A1D6BAD60E56 /* Pods-Demo-YDFoundationDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Demo-YDFoundationDemo.debug.xcconfig"; path = "Target Support Files/Pods-Demo-YDFoundationDemo/Pods-Demo-YDFoundationDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		70F7A59B27218BCEC43795C5 /* libPods-Demo-YDRouter.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Demo-YDRouter.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		89CA84E3FA1E7C4E1F261A36 /* Pods-Demo-YDRouter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Demo-YDRouter.debug.xcconfig"; path = "Target Support Files/Pods-Demo-YDRouter/Pods-Demo-YDRouter.debug.xcconfig"; sourceTree = "<group>"; };
+		9513DEE60F752745915B1CE2 /* libPods-Demo-YDUtilKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Demo-YDUtilKit.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		985067D1ED3234F3F335C399 /* Pods-Demo-YDUtilKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Demo-YDUtilKit.debug.xcconfig"; path = "Target Support Files/Pods-Demo-YDUtilKit/Pods-Demo-YDUtilKit.debug.xcconfig"; sourceTree = "<group>"; };
+		A8844756FF2296FEB377D462 /* libPods-Demo-YDWebp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Demo-YDWebp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB1AC91FD504924B289B50BE /* libPods-Demo-YDFoundationDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Demo-YDFoundationDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1555FC5ACC4F0DA083EDD8C /* Pods-Demo-YDFoundationDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Demo-YDFoundationDemo.release.xcconfig"; path = "Target Support Files/Pods-Demo-YDFoundationDemo/Pods-Demo-YDFoundationDemo.release.xcconfig"; sourceTree = "<group>"; };
+		D0FBB82BF33A16110550D3F2 /* Pods-Demo-YDSVProgressHUD.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Demo-YDSVProgressHUD.release.xcconfig"; path = "Target Support Files/Pods-Demo-YDSVProgressHUD/Pods-Demo-YDSVProgressHUD.release.xcconfig"; sourceTree = "<group>"; };
 		DE2C472930C4DC39287966E3 /* Pods-Demo-YDWebp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Demo-YDWebp.release.xcconfig"; path = "Target Support Files/Pods-Demo-YDWebp/Pods-Demo-YDWebp.release.xcconfig"; sourceTree = "<group>"; };
+		F11DCF586C38A097B709FE02 /* libPods-Demo-YDFoundation.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Demo-YDFoundation.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4B083465D8AA9FDEA93E157 /* libPods-Demo-YDSVProgressHUD.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Demo-YDSVProgressHUD.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FED48760828D5A1D3BE407F8 /* Pods-Demo-YDRouter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Demo-YDRouter.release.xcconfig"; path = "Target Support Files/Pods-Demo-YDRouter/Pods-Demo-YDRouter.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		150B9CEC28F6CF6E00113B28 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECC44B5749A39213BD25476F /* libPods-Demo-YDSVProgressHUD.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		155FF8B928F6636B00057B87 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				155FF96928F6A2B300057B87 /* YDRouter.framework in Frameworks */,
+				150B9CF728F6CF6E00113B28 /* YDSVProgressHUD.framework in Frameworks */,
 				155FF94728F6A21C00057B87 /* YDWebp.framework in Frameworks */,
+				15652EE928F6C24F0050EEB3 /* YDUtilKit.framework in Frameworks */,
+				15652EB328F6BB680050EEB3 /* YDFoundation.framework in Frameworks */,
+				F87DFE70EE6E1B32A4544D85 /* libPods-Demo-YDFoundationDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -142,6 +373,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DA98C9FB1009FBC6FF683ECE /* libPods-Demo-YDWebp.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -149,15 +381,83 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2B9FC333C49B365554FFC807 /* libPods-Demo-YDRouter.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15652EAA28F6BB680050EEB3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA5375E5912CAE7E29279229 /* libPods-Demo-YDFoundation.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15652EDE28F6C24E0050EEB3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4C6992200EC0F309FB7BAFF /* libPods-Demo-YDUtilKit.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		150B9CFC28F6CFD500113B28 /* YDSVProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				150B9CFD28F6CFD500113B28 /* YDOverWriteSVProgressHUD.h */,
+				150B9CFE28F6CFD500113B28 /* SVProgressHUD+YDLottie.h */,
+				150B9CFF28F6CFD500113B28 /* UIViewController+Toast.m */,
+				150B9D0028F6CFD500113B28 /* YDProgressHUDConfig.m */,
+				150B9D0128F6CFD500113B28 /* YDProgressHUD.h */,
+				150B9D0228F6CFD500113B28 /* YDOverWriteSVProgressHUD.m */,
+				150B9D0328F6CFD500113B28 /* YDSVProgressHUD.h */,
+				150B9D0428F6CFD500113B28 /* SVProgressHUD+YDLottie.m */,
+				150B9D0528F6CFD500113B28 /* YDProgressHUD.m */,
+				150B9D0628F6CFD500113B28 /* YDProgressHUDConfig.h */,
+				150B9D0728F6CFD500113B28 /* UIViewController+Toast.h */,
+				150B9D0828F6CFD500113B28 /* YDSVProgressHUD.docc */,
+				150B9D0928F6CFD500113B28 /* Assets */,
+			);
+			path = YDSVProgressHUD;
+			sourceTree = "<group>";
+		};
+		150B9D0928F6CFD500113B28 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				150B9D0A28F6CFD500113B28 /* info.png */,
+				150B9D0B28F6CFD500113B28 /* HUD_success@2x.png */,
+				150B9D0C28F6CFD500113B28 /* error@3x.png */,
+				150B9D0D28F6CFD500113B28 /* angle-mask@3x.png */,
+				150B9D0E28F6CFD500113B28 /* HUD_error.png */,
+				150B9D0F28F6CFD500113B28 /* angle-mask@2x.png */,
+				150B9D1028F6CFD500113B28 /* error@2x.png */,
+				150B9D1128F6CFD500113B28 /* HUD_success@3x.png */,
+				150B9D1228F6CFD500113B28 /* info@3x.png */,
+				150B9D1328F6CFD500113B28 /* success@2x.png */,
+				150B9D1428F6CFD500113B28 /* HUD_success.png */,
+				150B9D1528F6CFD500113B28 /* success@3x.png */,
+				150B9D1628F6CFD500113B28 /* HUD_info.png */,
+				150B9D1728F6CFD500113B28 /* info@2x.png */,
+				150B9D1828F6CFD500113B28 /* HUD_error@3x.png */,
+				150B9D1928F6CFD500113B28 /* error.png */,
+				150B9D1A28F6CFD500113B28 /* HUD_info@3x.png */,
+				150B9D1B28F6CFD500113B28 /* HUD_info@2x.png */,
+				150B9D1C28F6CFD500113B28 /* success.png */,
+				150B9D1D28F6CFD500113B28 /* HUD_error@2x.png */,
+				150B9D1E28F6CFD500113B28 /* angle-mask.png */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
 		155FF8B328F6636B00057B87 = {
 			isa = PBXGroup;
 			children = (
+				15652EAE28F6BB680050EEB3 /* YDFoundation */,
+				150B9CFC28F6CFD500113B28 /* YDSVProgressHUD */,
+				15652EE228F6C24F0050EEB3 /* YDUtilKit */,
 				155FF98228F6A3D000057B87 /* YDWebp */,
 				155FF97128F6A37900057B87 /* YDRouter */,
 				155FF8BE28F6636B00057B87 /* YDFoundationDemo */,
@@ -177,6 +477,9 @@
 				155FF8E128F6636D00057B87 /* YDFoundationUITests.xctest */,
 				155FF93228F6A21C00057B87 /* YDWebp.framework */,
 				155FF95428F6A2B200057B87 /* YDRouter.framework */,
+				15652EAD28F6BB680050EEB3 /* YDFoundation.framework */,
+				15652EE128F6C24E0050EEB3 /* YDUtilKit.framework */,
+				150B9CEF28F6CF6E00113B28 /* YDSVProgressHUD.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -246,9 +549,153 @@
 			path = YDWebp;
 			sourceTree = "<group>";
 		};
+		15652EAE28F6BB680050EEB3 /* YDFoundation */ = {
+			isa = PBXGroup;
+			children = (
+				15652EBF28F6BCAE0050EEB3 /* YDRouter */,
+				15652EB828F6BCAE0050EEB3 /* YDWebp */,
+				15652EAF28F6BB680050EEB3 /* YDFoundation.h */,
+			);
+			path = YDFoundation;
+			sourceTree = "<group>";
+		};
+		15652EB828F6BCAE0050EEB3 /* YDWebp */ = {
+			isa = PBXGroup;
+			children = (
+				15652EB928F6BCAE0050EEB3 /* YDWebp.h */,
+				15652EBA28F6BCAE0050EEB3 /* CGImage+YDWebp.h */,
+				15652EBB28F6BCAE0050EEB3 /* UIImage+YDWebp.m */,
+				15652EBC28F6BCAE0050EEB3 /* CGImage+YDWebp.m */,
+				15652EBD28F6BCAE0050EEB3 /* YDWebp.docc */,
+				15652EBE28F6BCAE0050EEB3 /* UIImage+YDWebp.h */,
+			);
+			path = YDWebp;
+			sourceTree = SOURCE_ROOT;
+		};
+		15652EBF28F6BCAE0050EEB3 /* YDRouter */ = {
+			isa = PBXGroup;
+			children = (
+				15652EC028F6BCAE0050EEB3 /* MGJRouter.h */,
+				15652EC128F6BCAE0050EEB3 /* YDURLHandle.h */,
+				15652EC228F6BCAE0050EEB3 /* YDRouter.h */,
+				15652EC328F6BCAE0050EEB3 /* YDURLHelper.m */,
+				15652EC428F6BCAE0050EEB3 /* YDRouter.docc */,
+				15652EC528F6BCAE0050EEB3 /* YDRouter.m */,
+				15652EC628F6BCAE0050EEB3 /* YDURLHandle.m */,
+				15652EC728F6BCAE0050EEB3 /* MGJRouter.m */,
+				15652EC828F6BCAE0050EEB3 /* YDURLHelper.h */,
+				15652EC928F6BCAE0050EEB3 /* Info.plist */,
+			);
+			path = YDRouter;
+			sourceTree = SOURCE_ROOT;
+		};
+		15652EE228F6C24F0050EEB3 /* YDUtilKit */ = {
+			isa = PBXGroup;
+			children = (
+				15652EFE28F6C2B80050EEB3 /* YDBaseUI */,
+				15652EEE28F6C2B70050EEB3 /* YDFuncKit */,
+				15652F0228F6C2B80050EEB3 /* YDTools */,
+				15652F0C28F6C2B80050EEB3 /* YDUIKit */,
+				15652EE328F6C24F0050EEB3 /* YDUtilKit.h */,
+			);
+			path = YDUtilKit;
+			sourceTree = "<group>";
+		};
+		15652EEE28F6C2B70050EEB3 /* YDFuncKit */ = {
+			isa = PBXGroup;
+			children = (
+				15652EEF28F6C2B70050EEB3 /* NSFileManager+YDCommon.h */,
+				15652EF028F6C2B70050EEB3 /* NSObject+YDCommon.m */,
+				15652EF128F6C2B70050EEB3 /* NSDictionary+YDCommon.m */,
+				15652EF228F6C2B70050EEB3 /* NSArray+YDCommon.h */,
+				15652EF328F6C2B70050EEB3 /* NSData+YDCommon.m */,
+				15652EF428F6C2B70050EEB3 /* NSString+YDCommon.m */,
+				15652EF528F6C2B70050EEB3 /* NSDate+YDCommon.h */,
+				15652EF628F6C2B70050EEB3 /* YDFoundationCategory.h */,
+				15652EF728F6C2B70050EEB3 /* NSFileManager+YDCommon.m */,
+				15652EF828F6C2B70050EEB3 /* NSDictionary+YDCommon.h */,
+				15652EF928F6C2B70050EEB3 /* NSObject+YDCommon.h */,
+				15652EFA28F6C2B70050EEB3 /* NSArray+YDCommon.m */,
+				15652EFB28F6C2B70050EEB3 /* NSDate+YDCommon.m */,
+				15652EFC28F6C2B70050EEB3 /* NSString+YDCommon.h */,
+				15652EFD28F6C2B70050EEB3 /* NSData+YDCommon.h */,
+			);
+			path = YDFuncKit;
+			sourceTree = SOURCE_ROOT;
+		};
+		15652EFE28F6C2B80050EEB3 /* YDBaseUI */ = {
+			isa = PBXGroup;
+			children = (
+				15652EFF28F6C2B80050EEB3 /* YDBaseUI.h */,
+				15652F0028F6C2B80050EEB3 /* YDBaseUIDefine.m */,
+				15652F0128F6C2B80050EEB3 /* YDBaseUIDefine.h */,
+			);
+			path = YDBaseUI;
+			sourceTree = SOURCE_ROOT;
+		};
+		15652F0228F6C2B80050EEB3 /* YDTools */ = {
+			isa = PBXGroup;
+			children = (
+				15652F0328F6C2B80050EEB3 /* YDNumberSender.h */,
+				15652F0428F6C2B80050EEB3 /* YDStack.m */,
+				15652F0528F6C2B80050EEB3 /* YDNetworkTools.h */,
+				15652F0628F6C2B80050EEB3 /* YDVideoTools.h */,
+				15652F0728F6C2B80050EEB3 /* YDStack.h */,
+				15652F0828F6C2B80050EEB3 /* YDTools.h */,
+				15652F0928F6C2B80050EEB3 /* YDNumberSender.m */,
+				15652F0A28F6C2B80050EEB3 /* YDVideoTools.m */,
+				15652F0B28F6C2B80050EEB3 /* YDNetworkTools.m */,
+			);
+			path = YDTools;
+			sourceTree = SOURCE_ROOT;
+		};
+		15652F0C28F6C2B80050EEB3 /* YDUIKit */ = {
+			isa = PBXGroup;
+			children = (
+				15652F0D28F6C2B80050EEB3 /* UIDevice+YDCommon.h */,
+				15652F0E28F6C2B80050EEB3 /* YDUIKitCategory.h */,
+				15652F0F28F6C2B80050EEB3 /* UIControl+YDCommon.h */,
+				15652F1028F6C2B80050EEB3 /* UIView+YDQRCode.h */,
+				15652F1128F6C2B80050EEB3 /* UIColor+YDCommon.m */,
+				15652F1228F6C2B80050EEB3 /* UIView+YDCommon.h */,
+				15652F1328F6C2B80050EEB3 /* UIWindow+YDScreenShot.m */,
+				15652F1428F6C2B80050EEB3 /* UILabel+YDAddtion.m */,
+				15652F1528F6C2B80050EEB3 /* NSString+YDLabelHeigh.h */,
+				15652F1628F6C2B80050EEB3 /* UITextField+YDCommon.m */,
+				15652F1728F6C2B80050EEB3 /* UIImage+YDCommon.h */,
+				15652F1828F6C2B80050EEB3 /* UIScrollView+YDCommon.m */,
+				15652F1928F6C2B80050EEB3 /* UITableView+YDCommon.h */,
+				15652F1A28F6C2B80050EEB3 /* UITextView+YDPlaceholder.m */,
+				15652F1B28F6C2B80050EEB3 /* UIView+YDWhenTappedBlocks.h */,
+				15652F1C28F6C2B80050EEB3 /* UITapGestureRecognizer+YDAddtion.h */,
+				15652F1D28F6C2B80050EEB3 /* UIDevice+YDCommon.m */,
+				15652F1E28F6C2B80050EEB3 /* UITextField+YDCommon.h */,
+				15652F1F28F6C2B80050EEB3 /* NSString+YDLabelHeigh.m */,
+				15652F2028F6C2B80050EEB3 /* UILabel+YDAddtion.h */,
+				15652F2128F6C2B80050EEB3 /* UIWindow+YDScreenShot.h */,
+				15652F2228F6C2B80050EEB3 /* UIColor+YDCommon.h */,
+				15652F2328F6C2B80050EEB3 /* UIView+YDCommon.m */,
+				15652F2428F6C2B80050EEB3 /* UIControl+YDCommon.m */,
+				15652F2528F6C2B80050EEB3 /* UIView+YDQRCode.m */,
+				15652F2628F6C2B80050EEB3 /* UITableView+YDCommon.m */,
+				15652F2728F6C2B80050EEB3 /* UIScrollView+YDCommon.h */,
+				15652F2828F6C2B80050EEB3 /* UIImage+YDCommon.m */,
+				15652F2928F6C2B80050EEB3 /* UITapGestureRecognizer+YDAddtion.m */,
+				15652F2A28F6C2B80050EEB3 /* UIView+YDWhenTappedBlocks.m */,
+				15652F2B28F6C2B80050EEB3 /* UITextView+YDPlaceholder.h */,
+			);
+			path = YDUIKit;
+			sourceTree = SOURCE_ROOT;
+		};
 		2D2731C3336908C7B084B141 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				F11DCF586C38A097B709FE02 /* libPods-Demo-YDFoundation.a */,
+				BB1AC91FD504924B289B50BE /* libPods-Demo-YDFoundationDemo.a */,
+				70F7A59B27218BCEC43795C5 /* libPods-Demo-YDRouter.a */,
+				F4B083465D8AA9FDEA93E157 /* libPods-Demo-YDSVProgressHUD.a */,
+				9513DEE60F752745915B1CE2 /* libPods-Demo-YDUtilKit.a */,
+				A8844756FF2296FEB377D462 /* libPods-Demo-YDWebp.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -262,6 +709,12 @@
 				FED48760828D5A1D3BE407F8 /* Pods-Demo-YDRouter.release.xcconfig */,
 				2A8B173399F58939D5094029 /* Pods-Demo-YDWebp.debug.xcconfig */,
 				DE2C472930C4DC39287966E3 /* Pods-Demo-YDWebp.release.xcconfig */,
+				15775CFF3EF0E890F14110C8 /* Pods-Demo-YDFoundation.debug.xcconfig */,
+				33AA69E105D5010A3CD352D3 /* Pods-Demo-YDFoundation.release.xcconfig */,
+				985067D1ED3234F3F335C399 /* Pods-Demo-YDUtilKit.debug.xcconfig */,
+				2B6D4C3EC07A80BE5E2095E0 /* Pods-Demo-YDUtilKit.release.xcconfig */,
+				16D085D6B4C507F245BC7ABE /* Pods-Demo-YDSVProgressHUD.debug.xcconfig */,
+				D0FBB82BF33A16110550D3F2 /* Pods-Demo-YDSVProgressHUD.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -269,6 +722,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		150B9CEA28F6CF6E00113B28 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		155FF92D28F6A21C00057B87 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -283,9 +743,76 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		15652EA828F6BB680050EEB3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15652EB028F6BB680050EEB3 /* YDFoundation.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15652EDC28F6C24E0050EEB3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15652F6128F6C2B90050EEB3 /* UIScrollView+YDCommon.h in Headers */,
+				15652F4F28F6C2B90050EEB3 /* NSString+YDLabelHeigh.h in Headers */,
+				15652F3D28F6C2B90050EEB3 /* YDBaseUIDefine.h in Headers */,
+				15652F3628F6C2B90050EEB3 /* NSObject+YDCommon.h in Headers */,
+				15652F4A28F6C2B90050EEB3 /* UIView+YDQRCode.h in Headers */,
+				15652F4728F6C2B90050EEB3 /* UIDevice+YDCommon.h in Headers */,
+				15652F5B28F6C2B90050EEB3 /* UIWindow+YDScreenShot.h in Headers */,
+				15652F2F28F6C2B90050EEB3 /* NSArray+YDCommon.h in Headers */,
+				15652F3928F6C2B90050EEB3 /* NSString+YDCommon.h in Headers */,
+				15652F3A28F6C2B90050EEB3 /* NSData+YDCommon.h in Headers */,
+				15652F4228F6C2B90050EEB3 /* YDStack.h in Headers */,
+				15652F3328F6C2B90050EEB3 /* YDFoundationCategory.h in Headers */,
+				15652EE628F6C24F0050EEB3 /* YDUtilKit.h in Headers */,
+				15652F5C28F6C2B90050EEB3 /* UIColor+YDCommon.h in Headers */,
+				15652F4028F6C2B90050EEB3 /* YDNetworkTools.h in Headers */,
+				15652F5128F6C2B90050EEB3 /* UIImage+YDCommon.h in Headers */,
+				15652F4C28F6C2B90050EEB3 /* UIView+YDCommon.h in Headers */,
+				15652F2C28F6C2B90050EEB3 /* NSFileManager+YDCommon.h in Headers */,
+				15652F3228F6C2B90050EEB3 /* NSDate+YDCommon.h in Headers */,
+				15652F4828F6C2B90050EEB3 /* YDUIKitCategory.h in Headers */,
+				15652F5528F6C2B90050EEB3 /* UIView+YDWhenTappedBlocks.h in Headers */,
+				15652F5A28F6C2B90050EEB3 /* UILabel+YDAddtion.h in Headers */,
+				15652F3E28F6C2B90050EEB3 /* YDNumberSender.h in Headers */,
+				15652F5628F6C2B90050EEB3 /* UITapGestureRecognizer+YDAddtion.h in Headers */,
+				15652F5828F6C2B90050EEB3 /* UITextField+YDCommon.h in Headers */,
+				15652F6528F6C2B90050EEB3 /* UITextView+YDPlaceholder.h in Headers */,
+				15652F4128F6C2B90050EEB3 /* YDVideoTools.h in Headers */,
+				15652F4928F6C2B90050EEB3 /* UIControl+YDCommon.h in Headers */,
+				15652F4328F6C2B90050EEB3 /* YDTools.h in Headers */,
+				15652F3B28F6C2B90050EEB3 /* YDBaseUI.h in Headers */,
+				15652F5328F6C2B90050EEB3 /* UITableView+YDCommon.h in Headers */,
+				15652F3528F6C2B90050EEB3 /* NSDictionary+YDCommon.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		150B9CEE28F6CF6E00113B28 /* YDSVProgressHUD */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 150B9CFB28F6CF6E00113B28 /* Build configuration list for PBXNativeTarget "YDSVProgressHUD" */;
+			buildPhases = (
+				EDB75724717C38DB47A594C4 /* [CP] Check Pods Manifest.lock */,
+				150B9CEA28F6CF6E00113B28 /* Headers */,
+				150B9CEB28F6CF6E00113B28 /* Sources */,
+				150B9CEC28F6CF6E00113B28 /* Frameworks */,
+				150B9CED28F6CF6E00113B28 /* Resources */,
+				EBA7EFCBB59B96703F199705 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YDSVProgressHUD;
+			productName = YDSVProgressHUD;
+			productReference = 150B9CEF28F6CF6E00113B28 /* YDSVProgressHUD.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		155FF8BB28F6636B00057B87 /* YDFoundationDemo */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 155FF8EB28F6636D00057B87 /* Build configuration list for PBXNativeTarget "YDFoundationDemo" */;
@@ -295,12 +822,16 @@
 				155FF8B928F6636B00057B87 /* Frameworks */,
 				155FF8BA28F6636B00057B87 /* Resources */,
 				155FF91C28F690A300057B87 /* Embed Frameworks */,
+				3CF4D2623D1DC0B30DD15057 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 				155FF94628F6A21C00057B87 /* PBXTargetDependency */,
 				155FF96828F6A2B300057B87 /* PBXTargetDependency */,
+				15652EB228F6BB680050EEB3 /* PBXTargetDependency */,
+				15652EE828F6C24F0050EEB3 /* PBXTargetDependency */,
+				150B9CF628F6CF6E00113B28 /* PBXTargetDependency */,
 			);
 			name = YDFoundationDemo;
 			productName = YDFoundation;
@@ -381,6 +912,44 @@
 			productReference = 155FF95428F6A2B200057B87 /* YDRouter.framework */;
 			productType = "com.apple.product-type.framework";
 		};
+		15652EAC28F6BB680050EEB3 /* YDFoundation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 15652EB528F6BB680050EEB3 /* Build configuration list for PBXNativeTarget "YDFoundation" */;
+			buildPhases = (
+				8BB9E339713E77658956D3F7 /* [CP] Check Pods Manifest.lock */,
+				15652EA828F6BB680050EEB3 /* Headers */,
+				15652EA928F6BB680050EEB3 /* Sources */,
+				15652EAA28F6BB680050EEB3 /* Frameworks */,
+				15652EAB28F6BB680050EEB3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YDFoundation;
+			productName = YDFoundation;
+			productReference = 15652EAD28F6BB680050EEB3 /* YDFoundation.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		15652EE028F6C24E0050EEB3 /* YDUtilKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 15652EEB28F6C24F0050EEB3 /* Build configuration list for PBXNativeTarget "YDUtilKit" */;
+			buildPhases = (
+				FB97CE18B87397B37B35DD8C /* [CP] Check Pods Manifest.lock */,
+				15652EDC28F6C24E0050EEB3 /* Headers */,
+				15652EDD28F6C24E0050EEB3 /* Sources */,
+				15652EDE28F6C24E0050EEB3 /* Frameworks */,
+				15652EDF28F6C24E0050EEB3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YDUtilKit;
+			productName = YDUtilKit;
+			productReference = 15652EE128F6C24E0050EEB3 /* YDUtilKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -390,6 +959,9 @@
 				BuildIndependentTargetsInParallel = 1;
 				LastUpgradeCheck = 1400;
 				TargetAttributes = {
+					150B9CEE28F6CF6E00113B28 = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
 					155FF8BB28F6636B00057B87 = {
 						CreatedOnToolsVersion = 14.0.1;
 					};
@@ -405,6 +977,12 @@
 						CreatedOnToolsVersion = 14.0.1;
 					};
 					155FF95328F6A2B200057B87 = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+					15652EAC28F6BB680050EEB3 = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+					15652EE028F6C24E0050EEB3 = {
 						CreatedOnToolsVersion = 14.0.1;
 					};
 				};
@@ -425,13 +1003,23 @@
 				155FF8BB28F6636B00057B87 /* YDFoundationDemo */,
 				155FF8D628F6636D00057B87 /* YDFoundationTests */,
 				155FF8E028F6636D00057B87 /* YDFoundationUITests */,
+				15652EAC28F6BB680050EEB3 /* YDFoundation */,
 				155FF93128F6A21C00057B87 /* YDWebp */,
 				155FF95328F6A2B200057B87 /* YDRouter */,
+				15652EE028F6C24E0050EEB3 /* YDUtilKit */,
+				150B9CEE28F6CF6E00113B28 /* YDSVProgressHUD */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		150B9CED28F6CF6E00113B28 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		155FF8BA28F6636B00057B87 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -464,6 +1052,20 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		155FF95228F6A2B200057B87 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15652EAB28F6BB680050EEB3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15652EDF28F6C24E0050EEB3 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -539,9 +1141,116 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		3CF4D2623D1DC0B30DD15057 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Demo-YDFoundationDemo/Pods-Demo-YDFoundationDemo-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Demo-YDFoundationDemo/Pods-Demo-YDFoundationDemo-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Demo-YDFoundationDemo/Pods-Demo-YDFoundationDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8BB9E339713E77658956D3F7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Demo-YDFoundation-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EBA7EFCBB59B96703F199705 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Demo-YDSVProgressHUD/Pods-Demo-YDSVProgressHUD-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Demo-YDSVProgressHUD/Pods-Demo-YDSVProgressHUD-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Demo-YDSVProgressHUD/Pods-Demo-YDSVProgressHUD-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EDB75724717C38DB47A594C4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Demo-YDSVProgressHUD-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FB97CE18B87397B37B35DD8C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Demo-YDUtilKit-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		150B9CEB28F6CF6E00113B28 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		155FF8B828F6636B00057B87 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -585,9 +1294,54 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		15652EA928F6BB680050EEB3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15652EDD28F6C24E0050EEB3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15652F6428F6C2B90050EEB3 /* UIView+YDWhenTappedBlocks.m in Sources */,
+				15652F4E28F6C2B90050EEB3 /* UILabel+YDAddtion.m in Sources */,
+				15652F4528F6C2B90050EEB3 /* YDVideoTools.m in Sources */,
+				15652F3828F6C2B90050EEB3 /* NSDate+YDCommon.m in Sources */,
+				15652F5928F6C2B90050EEB3 /* NSString+YDLabelHeigh.m in Sources */,
+				15652F3028F6C2B90050EEB3 /* NSData+YDCommon.m in Sources */,
+				15652F2E28F6C2B90050EEB3 /* NSDictionary+YDCommon.m in Sources */,
+				15652F3428F6C2B90050EEB3 /* NSFileManager+YDCommon.m in Sources */,
+				15652F6228F6C2B90050EEB3 /* UIImage+YDCommon.m in Sources */,
+				15652F5428F6C2B90050EEB3 /* UITextView+YDPlaceholder.m in Sources */,
+				15652F5D28F6C2B90050EEB3 /* UIView+YDCommon.m in Sources */,
+				15652F3C28F6C2B90050EEB3 /* YDBaseUIDefine.m in Sources */,
+				15652F4D28F6C2B90050EEB3 /* UIWindow+YDScreenShot.m in Sources */,
+				15652F6028F6C2B90050EEB3 /* UITableView+YDCommon.m in Sources */,
+				15652F5E28F6C2B90050EEB3 /* UIControl+YDCommon.m in Sources */,
+				15652F3F28F6C2B90050EEB3 /* YDStack.m in Sources */,
+				15652F5F28F6C2B90050EEB3 /* UIView+YDQRCode.m in Sources */,
+				15652F5028F6C2B90050EEB3 /* UITextField+YDCommon.m in Sources */,
+				15652F4B28F6C2B90050EEB3 /* UIColor+YDCommon.m in Sources */,
+				15652F6328F6C2B90050EEB3 /* UITapGestureRecognizer+YDAddtion.m in Sources */,
+				15652F5228F6C2B90050EEB3 /* UIScrollView+YDCommon.m in Sources */,
+				15652F2D28F6C2B90050EEB3 /* NSObject+YDCommon.m in Sources */,
+				15652F5728F6C2B90050EEB3 /* UIDevice+YDCommon.m in Sources */,
+				15652F3728F6C2B90050EEB3 /* NSArray+YDCommon.m in Sources */,
+				15652F3128F6C2B90050EEB3 /* NSString+YDCommon.m in Sources */,
+				15652F4628F6C2B90050EEB3 /* YDNetworkTools.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		150B9CF628F6CF6E00113B28 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 150B9CEE28F6CF6E00113B28 /* YDSVProgressHUD */;
+			targetProxy = 150B9CF528F6CF6E00113B28 /* PBXContainerItemProxy */;
+		};
 		155FF8D928F6636D00057B87 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 155FF8BB28F6636B00057B87 /* YDFoundationDemo */;
@@ -607,6 +1361,16 @@
 			isa = PBXTargetDependency;
 			target = 155FF95328F6A2B200057B87 /* YDRouter */;
 			targetProxy = 155FF96728F6A2B300057B87 /* PBXContainerItemProxy */;
+		};
+		15652EB228F6BB680050EEB3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 15652EAC28F6BB680050EEB3 /* YDFoundation */;
+			targetProxy = 15652EB128F6BB680050EEB3 /* PBXContainerItemProxy */;
+		};
+		15652EE828F6C24F0050EEB3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 15652EE028F6C24E0050EEB3 /* YDUtilKit */;
+			targetProxy = 15652EE728F6C24F0050EEB3 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -630,6 +1394,66 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		150B9CF928F6CF6E00113B28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 16D085D6B4C507F245BC7ABE /* Pods-Demo-YDSVProgressHUD.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = C3V5PUXTCL;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wyd.YDSVProgressHUD;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		150B9CFA28F6CF6E00113B28 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D0FBB82BF33A16110550D3F2 /* Pods-Demo-YDSVProgressHUD.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = C3V5PUXTCL;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wyd.YDSVProgressHUD;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		155FF8E928F6636D00057B87 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -761,7 +1585,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.wyd.YDFoundation;
+				PRODUCT_BUNDLE_IDENTIFIER = com.chong2vv.YDFoundation;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -789,7 +1613,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.wyd.YDFoundation;
+				PRODUCT_BUNDLE_IDENTIFIER = com.chong2vv.YDFoundation;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -878,6 +1702,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -908,6 +1733,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -938,6 +1764,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -968,6 +1795,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -984,9 +1812,138 @@
 			};
 			name = Release;
 		};
+		15652EB628F6BB680050EEB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 15775CFF3EF0E890F14110C8 /* Pods-Demo-YDFoundation.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = C3V5PUXTCL;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wyd.YDFoundation;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		15652EB728F6BB680050EEB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 33AA69E105D5010A3CD352D3 /* Pods-Demo-YDFoundation.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = C3V5PUXTCL;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wyd.YDFoundation;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		15652EEC28F6C24F0050EEB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 985067D1ED3234F3F335C399 /* Pods-Demo-YDUtilKit.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = C3V5PUXTCL;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wyd.YDUtilKit;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		15652EED28F6C24F0050EEB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2B6D4C3EC07A80BE5E2095E0 /* Pods-Demo-YDUtilKit.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = C3V5PUXTCL;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wyd.YDUtilKit;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		150B9CFB28F6CF6E00113B28 /* Build configuration list for PBXNativeTarget "YDSVProgressHUD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				150B9CF928F6CF6E00113B28 /* Debug */,
+				150B9CFA28F6CF6E00113B28 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		155FF8B728F6636B00057B87 /* Build configuration list for PBXProject "YDFoundation" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -1037,6 +1994,24 @@
 			buildConfigurations = (
 				155FF96C28F6A2B300057B87 /* Debug */,
 				155FF96D28F6A2B300057B87 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		15652EB528F6BB680050EEB3 /* Build configuration list for PBXNativeTarget "YDFoundation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15652EB628F6BB680050EEB3 /* Debug */,
+				15652EB728F6BB680050EEB3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		15652EEB28F6C24F0050EEB3 /* Build configuration list for PBXNativeTarget "YDUtilKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15652EEC28F6C24F0050EEB3 /* Debug */,
+				15652EED28F6C24F0050EEB3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

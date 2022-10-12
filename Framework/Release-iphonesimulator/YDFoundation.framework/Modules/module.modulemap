@@ -1,0 +1,6 @@
+framework module YDFoundation {
+  umbrella header "YDFoundation.h"
+
+  export *
+  module * { export * }
+}

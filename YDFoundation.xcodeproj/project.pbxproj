@@ -95,6 +95,11 @@
 		1502059128F7EBEF00025BA4 /* YDAlertViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 1502058328F7EBEE00025BA4 /* YDAlertViewController.h */; };
 		1502059228F7EBEF00025BA4 /* YDAlertViewConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 1502058428F7EBEE00025BA4 /* YDAlertViewConfig.h */; };
 		1502059328F7EBEF00025BA4 /* YDAlertView.h in Headers */ = {isa = PBXBuildFile; fileRef = 1502058528F7EBEE00025BA4 /* YDAlertView.h */; };
+		1502059D28F7EEEA00025BA4 /* YDFileManager.docc in Sources */ = {isa = PBXBuildFile; fileRef = 1502059C28F7EEEA00025BA4 /* YDFileManager.docc */; };
+		1502059E28F7EEEA00025BA4 /* YDFileManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 1502059B28F7EEEA00025BA4 /* YDFileManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		150205A128F7EEEA00025BA4 /* YDFileManager.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1502059928F7EEE900025BA4 /* YDFileManager.framework */; };
+		150205A228F7EEEA00025BA4 /* YDFileManager.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 1502059928F7EEE900025BA4 /* YDFileManager.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		150205A728F7EF2200025BA4 /* YDFileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 150205A628F7EF2200025BA4 /* YDFileManager.m */; };
 		150B9CF728F6CF6E00113B28 /* YDSVProgressHUD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 150B9CEF28F6CF6E00113B28 /* YDSVProgressHUD.framework */; };
 		150B9CF828F6CF6E00113B28 /* YDSVProgressHUD.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 150B9CEF28F6CF6E00113B28 /* YDSVProgressHUD.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		155FF8C128F6636B00057B87 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 155FF8C028F6636B00057B87 /* AppDelegate.m */; };
@@ -176,6 +181,7 @@
 		15652F6428F6C2B90050EEB3 /* UIView+YDWhenTappedBlocks.m in Sources */ = {isa = PBXBuildFile; fileRef = 15652F2A28F6C2B80050EEB3 /* UIView+YDWhenTappedBlocks.m */; };
 		15652F6528F6C2B90050EEB3 /* UITextView+YDPlaceholder.h in Headers */ = {isa = PBXBuildFile; fileRef = 15652F2B28F6C2B80050EEB3 /* UITextView+YDPlaceholder.h */; };
 		2B9FC333C49B365554FFC807 /* libPods-Demo-YDRouter.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 70F7A59B27218BCEC43795C5 /* libPods-Demo-YDRouter.a */; };
+		49A96DEC46BFF2D5AFA66BFC /* libPods-Demo-YDFileManager.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A69EAE8978E57DACCD29B04 /* libPods-Demo-YDFileManager.a */; };
 		A0F741EA3A65644D59E3607F /* libPods-Demo-YDTimer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E5849D7C289E1CFE43AD7F61 /* libPods-Demo-YDTimer.a */; };
 		A9036DD9EF6727CA11F17B96 /* libPods-Demo-YDAvoidCrashKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E467EF421851A330EB5AFD6C /* libPods-Demo-YDAvoidCrashKit.a */; };
 		CA2693DC8412977F45A9DDAA /* libPods-Demo-YDAlertAction.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 685820F8FBE650638E970CE7 /* libPods-Demo-YDAlertAction.a */; };
@@ -207,6 +213,13 @@
 			proxyType = 1;
 			remoteGlobalIDString = 1502056828F7EAB000025BA4;
 			remoteInfo = YDAlertAction;
+		};
+		1502059F28F7EEEA00025BA4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 155FF8B428F6636B00057B87 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1502059828F7EEE900025BA4;
+			remoteInfo = YDFileManager;
 		};
 		150B9CF528F6CF6E00113B28 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -270,6 +283,7 @@
 				15652EB428F6BB680050EEB3 /* YDFoundation.framework in Embed Frameworks */,
 				150204CB28F7B21000025BA4 /* YDAvoidCrashKit.framework in Embed Frameworks */,
 				155FF96A28F6A2B300057B87 /* YDRouter.framework in Embed Frameworks */,
+				150205A228F7EEEA00025BA4 /* YDFileManager.framework in Embed Frameworks */,
 				15652EEA28F6C24F0050EEB3 /* YDUtilKit.framework in Embed Frameworks */,
 				155FF94828F6A21C00057B87 /* YDWebp.framework in Embed Frameworks */,
 				1502057228F7EAB000025BA4 /* YDAlertAction.framework in Embed Frameworks */,
@@ -281,6 +295,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		0A69EAE8978E57DACCD29B04 /* libPods-Demo-YDFileManager.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Demo-YDFileManager.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		150204C228F7B21000025BA4 /* YDAvoidCrashKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = YDAvoidCrashKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		150204C428F7B21000025BA4 /* YDAvoidCrashKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YDAvoidCrashKit.h; sourceTree = "<group>"; };
 		150204C528F7B21000025BA4 /* YDAvoidCrashKit.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = YDAvoidCrashKit.docc; sourceTree = "<group>"; };
@@ -366,6 +381,10 @@
 		1502058328F7EBEE00025BA4 /* YDAlertViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YDAlertViewController.h; sourceTree = "<group>"; };
 		1502058428F7EBEE00025BA4 /* YDAlertViewConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YDAlertViewConfig.h; sourceTree = "<group>"; };
 		1502058528F7EBEE00025BA4 /* YDAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YDAlertView.h; sourceTree = "<group>"; };
+		1502059928F7EEE900025BA4 /* YDFileManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = YDFileManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1502059B28F7EEEA00025BA4 /* YDFileManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YDFileManager.h; sourceTree = "<group>"; };
+		1502059C28F7EEEA00025BA4 /* YDFileManager.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = YDFileManager.docc; sourceTree = "<group>"; };
+		150205A628F7EF2200025BA4 /* YDFileManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YDFileManager.m; sourceTree = "<group>"; };
 		150B9CEF28F6CF6E00113B28 /* YDSVProgressHUD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = YDSVProgressHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		150B9CFD28F6CFD500113B28 /* YDOverWriteSVProgressHUD.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YDOverWriteSVProgressHUD.h; sourceTree = "<group>"; };
 		150B9CFE28F6CFD500113B28 /* SVProgressHUD+YDLottie.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SVProgressHUD+YDLottie.h"; sourceTree = "<group>"; };
@@ -520,6 +539,8 @@
 		2A8B173399F58939D5094029 /* Pods-Demo-YDWebp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Demo-YDWebp.debug.xcconfig"; path = "Target Support Files/Pods-Demo-YDWebp/Pods-Demo-YDWebp.debug.xcconfig"; sourceTree = "<group>"; };
 		2B6D4C3EC07A80BE5E2095E0 /* Pods-Demo-YDUtilKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Demo-YDUtilKit.release.xcconfig"; path = "Target Support Files/Pods-Demo-YDUtilKit/Pods-Demo-YDUtilKit.release.xcconfig"; sourceTree = "<group>"; };
 		33AA69E105D5010A3CD352D3 /* Pods-Demo-YDFoundation.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Demo-YDFoundation.release.xcconfig"; path = "Target Support Files/Pods-Demo-YDFoundation/Pods-Demo-YDFoundation.release.xcconfig"; sourceTree = "<group>"; };
+		3F3FC6915E58BDD1410C6387 /* Pods-Demo-YDFileManager.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Demo-YDFileManager.debug.xcconfig"; path = "Target Support Files/Pods-Demo-YDFileManager/Pods-Demo-YDFileManager.debug.xcconfig"; sourceTree = "<group>"; };
+		56AC9569087FA81F6D0F431E /* Pods-Demo-YDFileManager.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Demo-YDFileManager.release.xcconfig"; path = "Target Support Files/Pods-Demo-YDFileManager/Pods-Demo-YDFileManager.release.xcconfig"; sourceTree = "<group>"; };
 		5C12888EBE845B1DC79D33E8 /* Pods-Demo-YDTimer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Demo-YDTimer.debug.xcconfig"; path = "Target Support Files/Pods-Demo-YDTimer/Pods-Demo-YDTimer.debug.xcconfig"; sourceTree = "<group>"; };
 		657CC907A183A1D6BAD60E56 /* Pods-Demo-YDFoundationDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Demo-YDFoundationDemo.debug.xcconfig"; path = "Target Support Files/Pods-Demo-YDFoundationDemo/Pods-Demo-YDFoundationDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		685820F8FBE650638E970CE7 /* libPods-Demo-YDAlertAction.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Demo-YDAlertAction.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -567,6 +588,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		1502059628F7EEE900025BA4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49A96DEC46BFF2D5AFA66BFC /* libPods-Demo-YDFileManager.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		150B9CEC28F6CF6E00113B28 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -584,6 +613,7 @@
 				155FF94728F6A21C00057B87 /* YDWebp.framework in Frameworks */,
 				1502055B28F7BF7B00025BA4 /* YDTimer.framework in Frameworks */,
 				15652EE928F6C24F0050EEB3 /* YDUtilKit.framework in Frameworks */,
+				150205A128F7EEEA00025BA4 /* YDFileManager.framework in Frameworks */,
 				1502057128F7EAB000025BA4 /* YDAlertAction.framework in Frameworks */,
 				15652EB328F6BB680050EEB3 /* YDFoundation.framework in Frameworks */,
 				F87DFE70EE6E1B32A4544D85 /* libPods-Demo-YDFoundationDemo.a in Frameworks */,
@@ -799,6 +829,16 @@
 			path = YDActionSheet;
 			sourceTree = SOURCE_ROOT;
 		};
+		1502059A28F7EEEA00025BA4 /* YDFileManager */ = {
+			isa = PBXGroup;
+			children = (
+				1502059B28F7EEEA00025BA4 /* YDFileManager.h */,
+				150205A628F7EF2200025BA4 /* YDFileManager.m */,
+				1502059C28F7EEEA00025BA4 /* YDFileManager.docc */,
+			);
+			path = YDFileManager;
+			sourceTree = "<group>";
+		};
 		150B9CFC28F6CFD500113B28 /* YDSVProgressHUD */ = {
 			isa = PBXGroup;
 			children = (
@@ -851,6 +891,8 @@
 			isa = PBXGroup;
 			children = (
 				15652EAE28F6BB680050EEB3 /* YDFoundation */,
+				1502059A28F7EEEA00025BA4 /* YDFileManager */,
+				1502056A28F7EAB000025BA4 /* YDAlertAction */,
 				1502055428F7BF7B00025BA4 /* YDTimer */,
 				150204C328F7B21000025BA4 /* YDAvoidCrashKit */,
 				150B9CFC28F6CFD500113B28 /* YDSVProgressHUD */,
@@ -860,7 +902,6 @@
 				155FF8BE28F6636B00057B87 /* YDFoundationDemo */,
 				155FF8DA28F6636D00057B87 /* YDFoundationTests */,
 				155FF8E428F6636D00057B87 /* YDFoundationUITests */,
-				1502056A28F7EAB000025BA4 /* YDAlertAction */,
 				155FF8BD28F6636B00057B87 /* Products */,
 				4030A139D2B29C8A4049A316 /* Pods */,
 				2D2731C3336908C7B084B141 /* Frameworks */,
@@ -881,6 +922,7 @@
 				150204C228F7B21000025BA4 /* YDAvoidCrashKit.framework */,
 				1502055328F7BF7B00025BA4 /* YDTimer.framework */,
 				1502056928F7EAB000025BA4 /* YDAlertAction.framework */,
+				1502059928F7EEE900025BA4 /* YDFileManager.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1100,6 +1142,7 @@
 				E467EF421851A330EB5AFD6C /* libPods-Demo-YDAvoidCrashKit.a */,
 				E5849D7C289E1CFE43AD7F61 /* libPods-Demo-YDTimer.a */,
 				685820F8FBE650638E970CE7 /* libPods-Demo-YDAlertAction.a */,
+				0A69EAE8978E57DACCD29B04 /* libPods-Demo-YDFileManager.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -1125,6 +1168,8 @@
 				740AF606F6F4F09C67240080 /* Pods-Demo-YDTimer.release.xcconfig */,
 				6C8173001B4BC2837AA2615C /* Pods-Demo-YDAlertAction.debug.xcconfig */,
 				1D505EBECB0D92AD672BFA87 /* Pods-Demo-YDAlertAction.release.xcconfig */,
+				3F3FC6915E58BDD1410C6387 /* Pods-Demo-YDFileManager.debug.xcconfig */,
+				56AC9569087FA81F6D0F431E /* Pods-Demo-YDFileManager.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -1191,6 +1236,14 @@
 				1502059128F7EBEF00025BA4 /* YDAlertViewController.h in Headers */,
 				1502056E28F7EAB000025BA4 /* YDAlertAction.h in Headers */,
 				1502058B28F7EBEF00025BA4 /* YDSheetTitleView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1502059428F7EEE900025BA4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1502059E28F7EEEA00025BA4 /* YDFileManager.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1322,6 +1375,25 @@
 			productReference = 1502056928F7EAB000025BA4 /* YDAlertAction.framework */;
 			productType = "com.apple.product-type.framework";
 		};
+		1502059828F7EEE900025BA4 /* YDFileManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 150205A328F7EEEA00025BA4 /* Build configuration list for PBXNativeTarget "YDFileManager" */;
+			buildPhases = (
+				EF421CE12FCF4253B537F388 /* [CP] Check Pods Manifest.lock */,
+				1502059428F7EEE900025BA4 /* Headers */,
+				1502059528F7EEE900025BA4 /* Sources */,
+				1502059628F7EEE900025BA4 /* Frameworks */,
+				1502059728F7EEE900025BA4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YDFileManager;
+			productName = YDFileManager;
+			productReference = 1502059928F7EEE900025BA4 /* YDFileManager.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		150B9CEE28F6CF6E00113B28 /* YDSVProgressHUD */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 150B9CFB28F6CF6E00113B28 /* Build configuration list for PBXNativeTarget "YDSVProgressHUD" */;
@@ -1364,6 +1436,7 @@
 				150204C928F7B21000025BA4 /* PBXTargetDependency */,
 				1502055A28F7BF7B00025BA4 /* PBXTargetDependency */,
 				1502057028F7EAB000025BA4 /* PBXTargetDependency */,
+				150205A028F7EEEA00025BA4 /* PBXTargetDependency */,
 			);
 			name = YDFoundationDemo;
 			productName = YDFoundation;
@@ -1500,6 +1573,9 @@
 					1502056828F7EAB000025BA4 = {
 						CreatedOnToolsVersion = 14.0.1;
 					};
+					1502059828F7EEE900025BA4 = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
 					150B9CEE28F6CF6E00113B28 = {
 						CreatedOnToolsVersion = 14.0.1;
 					};
@@ -1552,6 +1628,7 @@
 				150204C128F7B21000025BA4 /* YDAvoidCrashKit */,
 				1502055228F7BF7B00025BA4 /* YDTimer */,
 				1502056828F7EAB000025BA4 /* YDAlertAction */,
+				1502059828F7EEE900025BA4 /* YDFileManager */,
 			);
 		};
 /* End PBXProject section */
@@ -1572,6 +1649,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		1502056728F7EAB000025BA4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1502059728F7EEE900025BA4 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -1850,6 +1934,28 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		EF421CE12FCF4253B537F388 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Demo-YDFileManager-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
 		FB97CE18B87397B37B35DD8C /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -1934,6 +2040,15 @@
 				1502059028F7EBEF00025BA4 /* YDAlertAction.m in Sources */,
 				1502058F28F7EBEF00025BA4 /* YDAlertView.m in Sources */,
 				1502058928F7EBEF00025BA4 /* YDActionSheetViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1502059528F7EEE900025BA4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				150205A728F7EF2200025BA4 /* YDFileManager.m in Sources */,
+				1502059D28F7EEEA00025BA4 /* YDFileManager.docc in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2044,6 +2159,11 @@
 			isa = PBXTargetDependency;
 			target = 1502056828F7EAB000025BA4 /* YDAlertAction */;
 			targetProxy = 1502056F28F7EAB000025BA4 /* PBXContainerItemProxy */;
+		};
+		150205A028F7EEEA00025BA4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1502059828F7EEE900025BA4 /* YDFileManager */;
+			targetProxy = 1502059F28F7EEEA00025BA4 /* PBXContainerItemProxy */;
 		};
 		150B9CF628F6CF6E00113B28 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -2273,6 +2393,66 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.wyd.YDAlertAction;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		150205A428F7EEEA00025BA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3F3FC6915E58BDD1410C6387 /* Pods-Demo-YDFileManager.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = C3V5PUXTCL;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wyd.YDFileManager;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		150205A528F7EEEA00025BA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 56AC9569087FA81F6D0F431E /* Pods-Demo-YDFileManager.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = C3V5PUXTCL;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wyd.YDFileManager;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -2846,6 +3026,15 @@
 			buildConfigurations = (
 				1502057328F7EAB000025BA4 /* Debug */,
 				1502057428F7EAB000025BA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		150205A328F7EEEA00025BA4 /* Build configuration list for PBXNativeTarget "YDFileManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				150205A428F7EEEA00025BA4 /* Debug */,
+				150205A528F7EEEA00025BA4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

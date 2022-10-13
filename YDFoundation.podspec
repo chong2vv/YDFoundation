@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'YDFoundation'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.platform         = :ios, "9.0"
   s.summary          = 'A short description of YDFoundation.'
 
@@ -61,11 +61,14 @@ Pod::Spec.new do |s|
   #YDTimer
   _YDTimer           = { :spec_name => "YDTimer", :source_files => ['YDTimer/**/*.{h,m}'], :sub_dependency => [_YDSafeThread] }
 
+  #YDFileManager
+  _YDFileManager     = { :spec_name => "YDFileManager", :source_files => ['YDFileManager/**/*.{h,m}'] }
+
   #YDSVProgressHUD
   _YDSVProgressHUD   = { :spec_name => "YDSVProgressHUD", :source_files => ['YDSVProgressHUD/**/*.{h,m}'], :resource_bundles => {:bundle => "YDSVProgressHUD", :resources => "YDSVProgressHUD/Assets/*"}, :dependency => [{:name => "lottie-ios", :version => "2.5.3"}, {:name => "SVProgressHUD", :version => "2.2.5"}, {:name => "YYImage", :version => "1.0.4"}] }
 
   
-  all_subspec = [ _YDRouter, _YDWebp, _YDUtilKit, _YDFuncKit, _YDBaseUI, _YDUIKit, _YDTools, _YDSVProgressHUD, _YDAvoidCrashKit, _YDSafeThread, _YDLogger, _YDLoggerUI, _YDAvoidCrash, _YDMonitor, _YDTimer, _YDAlertAction, _YDActionSheet, _YDActionAlert ]
+  all_subspec = [ _YDRouter, _YDWebp, _YDUtilKit, _YDFuncKit, _YDBaseUI, _YDUIKit, _YDTools, _YDSVProgressHUD, _YDAvoidCrashKit, _YDSafeThread, _YDLogger, _YDLoggerUI, _YDAvoidCrash, _YDMonitor, _YDTimer, _YDAlertAction, _YDActionSheet, _YDActionAlert, _YDFileManager ]
  
 
   all_subspec.each do |spec|

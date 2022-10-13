@@ -41,6 +41,10 @@ abstract_target 'Demo' do
   target 'YDAlertAction' do
     
   end
+  
+  target 'YDFileManager' do
+    
+  end
 
 end
 

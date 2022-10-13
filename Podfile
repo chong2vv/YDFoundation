@@ -37,6 +37,10 @@ abstract_target 'Demo' do
     pod 'SVProgressHUD', '~> 2.2.5'
     pod 'YYImage', '~> 1.0.4'
   end
+  
+  target 'YDAlertAction' do
+    
+  end
 
 end
 

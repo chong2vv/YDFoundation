@@ -81,6 +81,20 @@
 		1502056E28F7EAB000025BA4 /* YDAlertAction.h in Headers */ = {isa = PBXBuildFile; fileRef = 1502056B28F7EAB000025BA4 /* YDAlertAction.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1502057128F7EAB000025BA4 /* YDAlertAction.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1502056928F7EAB000025BA4 /* YDAlertAction.framework */; };
 		1502057228F7EAB000025BA4 /* YDAlertAction.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 1502056928F7EAB000025BA4 /* YDAlertAction.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		1502058628F7EBEF00025BA4 /* YDActionSheetViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 1502057728F7EBEE00025BA4 /* YDActionSheetViewController.h */; };
+		1502058728F7EBEF00025BA4 /* YDSheetButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 1502057828F7EBEE00025BA4 /* YDSheetButton.h */; };
+		1502058828F7EBEF00025BA4 /* YDSheetTitleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1502057928F7EBEE00025BA4 /* YDSheetTitleView.m */; };
+		1502058928F7EBEF00025BA4 /* YDActionSheetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1502057A28F7EBEE00025BA4 /* YDActionSheetViewController.m */; };
+		1502058A28F7EBEF00025BA4 /* YDSheetButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 1502057B28F7EBEE00025BA4 /* YDSheetButton.m */; };
+		1502058B28F7EBEF00025BA4 /* YDSheetTitleView.h in Headers */ = {isa = PBXBuildFile; fileRef = 1502057C28F7EBEE00025BA4 /* YDSheetTitleView.h */; };
+		1502058C28F7EBEF00025BA4 /* YDAlertViewConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 1502057E28F7EBEE00025BA4 /* YDAlertViewConfig.m */; };
+		1502058D28F7EBEF00025BA4 /* YDAlertViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1502057F28F7EBEE00025BA4 /* YDAlertViewController.m */; };
+		1502058E28F7EBEF00025BA4 /* YDAlertAction.h in Headers */ = {isa = PBXBuildFile; fileRef = 1502058028F7EBEE00025BA4 /* YDAlertAction.h */; };
+		1502058F28F7EBEF00025BA4 /* YDAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1502058128F7EBEE00025BA4 /* YDAlertView.m */; };
+		1502059028F7EBEF00025BA4 /* YDAlertAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 1502058228F7EBEE00025BA4 /* YDAlertAction.m */; };
+		1502059128F7EBEF00025BA4 /* YDAlertViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 1502058328F7EBEE00025BA4 /* YDAlertViewController.h */; };
+		1502059228F7EBEF00025BA4 /* YDAlertViewConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 1502058428F7EBEE00025BA4 /* YDAlertViewConfig.h */; };
+		1502059328F7EBEF00025BA4 /* YDAlertView.h in Headers */ = {isa = PBXBuildFile; fileRef = 1502058528F7EBEE00025BA4 /* YDAlertView.h */; };
 		150B9CF728F6CF6E00113B28 /* YDSVProgressHUD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 150B9CEF28F6CF6E00113B28 /* YDSVProgressHUD.framework */; };
 		150B9CF828F6CF6E00113B28 /* YDSVProgressHUD.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 150B9CEF28F6CF6E00113B28 /* YDSVProgressHUD.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		155FF8C128F6636B00057B87 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 155FF8C028F6636B00057B87 /* AppDelegate.m */; };
@@ -164,6 +178,7 @@
 		2B9FC333C49B365554FFC807 /* libPods-Demo-YDRouter.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 70F7A59B27218BCEC43795C5 /* libPods-Demo-YDRouter.a */; };
 		A0F741EA3A65644D59E3607F /* libPods-Demo-YDTimer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E5849D7C289E1CFE43AD7F61 /* libPods-Demo-YDTimer.a */; };
 		A9036DD9EF6727CA11F17B96 /* libPods-Demo-YDAvoidCrashKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E467EF421851A330EB5AFD6C /* libPods-Demo-YDAvoidCrashKit.a */; };
+		CA2693DC8412977F45A9DDAA /* libPods-Demo-YDAlertAction.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 685820F8FBE650638E970CE7 /* libPods-Demo-YDAlertAction.a */; };
 		DA98C9FB1009FBC6FF683ECE /* libPods-Demo-YDWebp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A8844756FF2296FEB377D462 /* libPods-Demo-YDWebp.a */; };
 		EA5375E5912CAE7E29279229 /* libPods-Demo-YDFoundation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F11DCF586C38A097B709FE02 /* libPods-Demo-YDFoundation.a */; };
 		ECC44B5749A39213BD25476F /* libPods-Demo-YDSVProgressHUD.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F4B083465D8AA9FDEA93E157 /* libPods-Demo-YDSVProgressHUD.a */; };
@@ -337,6 +352,20 @@
 		1502056928F7EAB000025BA4 /* YDAlertAction.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = YDAlertAction.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1502056B28F7EAB000025BA4 /* YDAlertAction.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YDAlertAction.h; sourceTree = "<group>"; };
 		1502056C28F7EAB000025BA4 /* YDAlertAction.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = YDAlertAction.docc; sourceTree = "<group>"; };
+		1502057728F7EBEE00025BA4 /* YDActionSheetViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YDActionSheetViewController.h; sourceTree = "<group>"; };
+		1502057828F7EBEE00025BA4 /* YDSheetButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YDSheetButton.h; sourceTree = "<group>"; };
+		1502057928F7EBEE00025BA4 /* YDSheetTitleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YDSheetTitleView.m; sourceTree = "<group>"; };
+		1502057A28F7EBEE00025BA4 /* YDActionSheetViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YDActionSheetViewController.m; sourceTree = "<group>"; };
+		1502057B28F7EBEE00025BA4 /* YDSheetButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YDSheetButton.m; sourceTree = "<group>"; };
+		1502057C28F7EBEE00025BA4 /* YDSheetTitleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YDSheetTitleView.h; sourceTree = "<group>"; };
+		1502057E28F7EBEE00025BA4 /* YDAlertViewConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YDAlertViewConfig.m; sourceTree = "<group>"; };
+		1502057F28F7EBEE00025BA4 /* YDAlertViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YDAlertViewController.m; sourceTree = "<group>"; };
+		1502058028F7EBEE00025BA4 /* YDAlertAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YDAlertAction.h; sourceTree = "<group>"; };
+		1502058128F7EBEE00025BA4 /* YDAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YDAlertView.m; sourceTree = "<group>"; };
+		1502058228F7EBEE00025BA4 /* YDAlertAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YDAlertAction.m; sourceTree = "<group>"; };
+		1502058328F7EBEE00025BA4 /* YDAlertViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YDAlertViewController.h; sourceTree = "<group>"; };
+		1502058428F7EBEE00025BA4 /* YDAlertViewConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YDAlertViewConfig.h; sourceTree = "<group>"; };
+		1502058528F7EBEE00025BA4 /* YDAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YDAlertView.h; sourceTree = "<group>"; };
 		150B9CEF28F6CF6E00113B28 /* YDSVProgressHUD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = YDSVProgressHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		150B9CFD28F6CFD500113B28 /* YDOverWriteSVProgressHUD.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YDOverWriteSVProgressHUD.h; sourceTree = "<group>"; };
 		150B9CFE28F6CFD500113B28 /* SVProgressHUD+YDLottie.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SVProgressHUD+YDLottie.h"; sourceTree = "<group>"; };
@@ -486,12 +515,15 @@
 		15652F2B28F6C2B80050EEB3 /* UITextView+YDPlaceholder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextView+YDPlaceholder.h"; sourceTree = "<group>"; };
 		15775CFF3EF0E890F14110C8 /* Pods-Demo-YDFoundation.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Demo-YDFoundation.debug.xcconfig"; path = "Target Support Files/Pods-Demo-YDFoundation/Pods-Demo-YDFoundation.debug.xcconfig"; sourceTree = "<group>"; };
 		16D085D6B4C507F245BC7ABE /* Pods-Demo-YDSVProgressHUD.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Demo-YDSVProgressHUD.debug.xcconfig"; path = "Target Support Files/Pods-Demo-YDSVProgressHUD/Pods-Demo-YDSVProgressHUD.debug.xcconfig"; sourceTree = "<group>"; };
+		1D505EBECB0D92AD672BFA87 /* Pods-Demo-YDAlertAction.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Demo-YDAlertAction.release.xcconfig"; path = "Target Support Files/Pods-Demo-YDAlertAction/Pods-Demo-YDAlertAction.release.xcconfig"; sourceTree = "<group>"; };
 		1F2A14A9359009CC35E7351A /* Pods-Demo-YDAvoidCrashKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Demo-YDAvoidCrashKit.release.xcconfig"; path = "Target Support Files/Pods-Demo-YDAvoidCrashKit/Pods-Demo-YDAvoidCrashKit.release.xcconfig"; sourceTree = "<group>"; };
 		2A8B173399F58939D5094029 /* Pods-Demo-YDWebp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Demo-YDWebp.debug.xcconfig"; path = "Target Support Files/Pods-Demo-YDWebp/Pods-Demo-YDWebp.debug.xcconfig"; sourceTree = "<group>"; };
 		2B6D4C3EC07A80BE5E2095E0 /* Pods-Demo-YDUtilKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Demo-YDUtilKit.release.xcconfig"; path = "Target Support Files/Pods-Demo-YDUtilKit/Pods-Demo-YDUtilKit.release.xcconfig"; sourceTree = "<group>"; };
 		33AA69E105D5010A3CD352D3 /* Pods-Demo-YDFoundation.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Demo-YDFoundation.release.xcconfig"; path = "Target Support Files/Pods-Demo-YDFoundation/Pods-Demo-YDFoundation.release.xcconfig"; sourceTree = "<group>"; };
 		5C12888EBE845B1DC79D33E8 /* Pods-Demo-YDTimer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Demo-YDTimer.debug.xcconfig"; path = "Target Support Files/Pods-Demo-YDTimer/Pods-Demo-YDTimer.debug.xcconfig"; sourceTree = "<group>"; };
 		657CC907A183A1D6BAD60E56 /* Pods-Demo-YDFoundationDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Demo-YDFoundationDemo.debug.xcconfig"; path = "Target Support Files/Pods-Demo-YDFoundationDemo/Pods-Demo-YDFoundationDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		685820F8FBE650638E970CE7 /* libPods-Demo-YDAlertAction.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Demo-YDAlertAction.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C8173001B4BC2837AA2615C /* Pods-Demo-YDAlertAction.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Demo-YDAlertAction.debug.xcconfig"; path = "Target Support Files/Pods-Demo-YDAlertAction/Pods-Demo-YDAlertAction.debug.xcconfig"; sourceTree = "<group>"; };
 		70F7A59B27218BCEC43795C5 /* libPods-Demo-YDRouter.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Demo-YDRouter.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		740AF606F6F4F09C67240080 /* Pods-Demo-YDTimer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Demo-YDTimer.release.xcconfig"; path = "Target Support Files/Pods-Demo-YDTimer/Pods-Demo-YDTimer.release.xcconfig"; sourceTree = "<group>"; };
 		89CA84E3FA1E7C4E1F261A36 /* Pods-Demo-YDRouter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Demo-YDRouter.debug.xcconfig"; path = "Target Support Files/Pods-Demo-YDRouter/Pods-Demo-YDRouter.debug.xcconfig"; sourceTree = "<group>"; };
@@ -531,6 +563,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CA2693DC8412977F45A9DDAA /* libPods-Demo-YDAlertAction.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -730,11 +763,41 @@
 		1502056A28F7EAB000025BA4 /* YDAlertAction */ = {
 			isa = PBXGroup;
 			children = (
+				1502057628F7EBEE00025BA4 /* YDActionAlert */,
+				1502057D28F7EBEE00025BA4 /* YDActionSheet */,
 				1502056B28F7EAB000025BA4 /* YDAlertAction.h */,
 				1502056C28F7EAB000025BA4 /* YDAlertAction.docc */,
 			);
 			path = YDAlertAction;
 			sourceTree = "<group>";
+		};
+		1502057628F7EBEE00025BA4 /* YDActionAlert */ = {
+			isa = PBXGroup;
+			children = (
+				1502057728F7EBEE00025BA4 /* YDActionSheetViewController.h */,
+				1502057828F7EBEE00025BA4 /* YDSheetButton.h */,
+				1502057928F7EBEE00025BA4 /* YDSheetTitleView.m */,
+				1502057A28F7EBEE00025BA4 /* YDActionSheetViewController.m */,
+				1502057B28F7EBEE00025BA4 /* YDSheetButton.m */,
+				1502057C28F7EBEE00025BA4 /* YDSheetTitleView.h */,
+			);
+			path = YDActionAlert;
+			sourceTree = SOURCE_ROOT;
+		};
+		1502057D28F7EBEE00025BA4 /* YDActionSheet */ = {
+			isa = PBXGroup;
+			children = (
+				1502057E28F7EBEE00025BA4 /* YDAlertViewConfig.m */,
+				1502057F28F7EBEE00025BA4 /* YDAlertViewController.m */,
+				1502058028F7EBEE00025BA4 /* YDAlertAction.h */,
+				1502058128F7EBEE00025BA4 /* YDAlertView.m */,
+				1502058228F7EBEE00025BA4 /* YDAlertAction.m */,
+				1502058328F7EBEE00025BA4 /* YDAlertViewController.h */,
+				1502058428F7EBEE00025BA4 /* YDAlertViewConfig.h */,
+				1502058528F7EBEE00025BA4 /* YDAlertView.h */,
+			);
+			path = YDActionSheet;
+			sourceTree = SOURCE_ROOT;
 		};
 		150B9CFC28F6CFD500113B28 /* YDSVProgressHUD */ = {
 			isa = PBXGroup;
@@ -1036,6 +1099,7 @@
 				A8844756FF2296FEB377D462 /* libPods-Demo-YDWebp.a */,
 				E467EF421851A330EB5AFD6C /* libPods-Demo-YDAvoidCrashKit.a */,
 				E5849D7C289E1CFE43AD7F61 /* libPods-Demo-YDTimer.a */,
+				685820F8FBE650638E970CE7 /* libPods-Demo-YDAlertAction.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -1059,6 +1123,8 @@
 				1F2A14A9359009CC35E7351A /* Pods-Demo-YDAvoidCrashKit.release.xcconfig */,
 				5C12888EBE845B1DC79D33E8 /* Pods-Demo-YDTimer.debug.xcconfig */,
 				740AF606F6F4F09C67240080 /* Pods-Demo-YDTimer.release.xcconfig */,
+				6C8173001B4BC2837AA2615C /* Pods-Demo-YDAlertAction.debug.xcconfig */,
+				1D505EBECB0D92AD672BFA87 /* Pods-Demo-YDAlertAction.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -1117,7 +1183,14 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1502058E28F7EBEF00025BA4 /* YDAlertAction.h in Headers */,
+				1502059228F7EBEF00025BA4 /* YDAlertViewConfig.h in Headers */,
+				1502058628F7EBEF00025BA4 /* YDActionSheetViewController.h in Headers */,
+				1502059328F7EBEF00025BA4 /* YDAlertView.h in Headers */,
+				1502058728F7EBEF00025BA4 /* YDSheetButton.h in Headers */,
+				1502059128F7EBEF00025BA4 /* YDAlertViewController.h in Headers */,
 				1502056E28F7EAB000025BA4 /* YDAlertAction.h in Headers */,
+				1502058B28F7EBEF00025BA4 /* YDSheetTitleView.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1234,6 +1307,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1502057528F7EAB000025BA4 /* Build configuration list for PBXNativeTarget "YDAlertAction" */;
 			buildPhases = (
+				551EBDE303A7465AA8862A13 /* [CP] Check Pods Manifest.lock */,
 				1502056428F7EAB000025BA4 /* Headers */,
 				1502056528F7EAB000025BA4 /* Sources */,
 				1502056628F7EAB000025BA4 /* Frameworks */,
@@ -1693,6 +1767,28 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		551EBDE303A7465AA8862A13 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Demo-YDAlertAction-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
 		8BB9E339713E77658956D3F7 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -1830,7 +1926,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1502058D28F7EBEF00025BA4 /* YDAlertViewController.m in Sources */,
+				1502058C28F7EBEF00025BA4 /* YDAlertViewConfig.m in Sources */,
+				1502058A28F7EBEF00025BA4 /* YDSheetButton.m in Sources */,
+				1502058828F7EBEF00025BA4 /* YDSheetTitleView.m in Sources */,
 				1502056D28F7EAB000025BA4 /* YDAlertAction.docc in Sources */,
+				1502059028F7EBEF00025BA4 /* YDAlertAction.m in Sources */,
+				1502058F28F7EBEF00025BA4 /* YDAlertView.m in Sources */,
+				1502058928F7EBEF00025BA4 /* YDActionSheetViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2121,6 +2224,7 @@
 		};
 		1502057328F7EAB000025BA4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6C8173001B4BC2837AA2615C /* Pods-Demo-YDAlertAction.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -2150,6 +2254,7 @@
 		};
 		1502057428F7EAB000025BA4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1D505EBECB0D92AD672BFA87 /* Pods-Demo-YDAlertAction.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;

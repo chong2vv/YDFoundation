@@ -33,7 +33,7 @@ Pod::Spec.new do |s|
 
   #YDAlertAction
   _YDActionAlert     = { :spec_name => "YDActionAlert", :source_files => ['YDActionAlert/**/*.{h,m}'] }
-  _YDActionSheet     = { :spec_name => "YDActionSheet", :source_files => ['YDActionSheet/**/*.{h,m}'] }
+  _YDActionSheet     = { :spec_name => "YDActionSheet", :source_files => ['YDActionSheet/**/*.{h,m}'], :dependency => [{:name => "Masonry", :version => "1.1.0"}] }
 
   
   # Foundation Components
@@ -50,7 +50,7 @@ Pod::Spec.new do |s|
   _YDAvoidCrashKit   = { :spec_name => "YDAvoidCrashKit", :sub_dependency => [_YDAvoidCrash, _YDLogger, _YDSafeThread] }
 
   #YDAlertAction
-  _YDAlertAction     = { :spec_name => "YDAvoidCrashKit", :sub_dependency => [_YDActionAlert, _YDActionSheet] }
+  _YDAlertAction     = { :spec_name => "YDAvoidCrashKit", :dependency => [{:name => "Masonry", :version => "1.1.0"}], :sub_dependency => [_YDActionAlert, _YDActionSheet] }
 
   #YDLoggerUI
   _YDLoggerUI        = { :spec_name => "YDLoggerUI", :source_files => ['YDLoggerUI/**/*.{h,m}'], :sub_dependency => [_YDLogger] }

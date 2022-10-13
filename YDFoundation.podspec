@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'YDFoundation'
-  s.version          = '0.1.1'
+  s.version          = '0.1.2'
   s.platform         = :ios, "9.0"
   s.summary          = 'A short description of YDFoundation.'
 
@@ -28,7 +28,7 @@ Pod::Spec.new do |s|
 
   #YDAvoidCrashKit
   _YDSafeThread      = { :spec_name => "YDSafeThread", :source_files => ['YDSafeThread/**/*.{h,m}'] }
-  _YDLogger          = { :spec_name => "YDLogger", :source_files => ['YDLogger/**/*.{h,m}'], :libraries => "c++" }
+  _YDLogger          = { :spec_name => "YDLogger", :source_files => ['YDLogger/**/*.{h,m,mm,cpp}'], :libraries => 'c++' }
   _YDAvoidCrash      = { :spec_name => "YDAvoidCrash", :source_files => ['YDAvoidCrash/**/*.{h,m}'], :sub_dependency => [_YDSafeThread, _YDLogger] }
 
   #YDAlertAction
@@ -50,7 +50,7 @@ Pod::Spec.new do |s|
   _YDAvoidCrashKit   = { :spec_name => "YDAvoidCrashKit", :sub_dependency => [_YDAvoidCrash, _YDLogger, _YDSafeThread] }
 
   #YDAlertAction
-  _YDAlertAction     = { :spec_name => "YDAvoidCrashKit", :dependency => [{:name => "Masonry", :version => "1.1.0"}], :sub_dependency => [_YDActionAlert, _YDActionSheet] }
+  _YDAlertAction     = { :spec_name => "YDAvoidCrashKit", :dependency => [{:name => "Masonry", :version => "1.1.0"}], :sub_dependency => [_YDActionAlert, _YDActionSheet]}
 
   #YDLoggerUI
   _YDLoggerUI        = { :spec_name => "YDLoggerUI", :source_files => ['YDLoggerUI/**/*.{h,m}'], :sub_dependency => [_YDLogger] }

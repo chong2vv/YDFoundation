@@ -45,6 +45,24 @@ abstract_target 'Demo' do
   target 'YDFileManager' do
     
   end
+  
+  target 'YDPreLoader' do
+    pod 'KTVHTTPCache', '~> 2.0.1'
+  end
+  
+  target 'YDMediator' do
+    
+  end
+  
+  target 'YDClearCacheService' do
+    
+  end
+  
+  target 'YDImageService' do
+    pod 'YYWebImage', '~> 1.0.5'
+    pod 'YYImage', '~> 1.0.4'
+    pod 'YDFoundation/YDSafeThread', :path => '.'
+  end
 
 end
 

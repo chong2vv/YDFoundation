@@ -24,6 +24,14 @@ abstract_target 'Demo' do
     pod 'AFNetworking', '~> 4.0.1'
   end
   
+  target 'YDAvoidCrashKit' do
+    
+  end
+  
+  target 'YDTimer' do
+    pod 'YDFoundation/YDSafeThread', :path => '.'
+  end
+  
   target 'YDSVProgressHUD' do
     pod 'lottie-ios', '~> 2.5.3'
     pod 'SVProgressHUD', '~> 2.2.5'

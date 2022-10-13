@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
 
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+  YDFoundation 组件库
                        DESC
 
   s.homepage         = 'https://github.com/chong2vv/YDFoundation'
@@ -26,19 +26,46 @@ TODO: Add long description of the pod here.
   _YDUIKit           = { :spec_name => "YDUIKit", :source_files => ['YDUIKit/**/*.{h,m}'], :sub_dependency => [_YDFuncKit, _YDBaseUI] }
   _YDTools           = { :spec_name => "YDTools", :source_files => ['YDTools/**/*.{h,m}'], :dependency => [{:name => "AFNetworking", :version => "4.0.1"}], :sub_dependency => [_YDFuncKit] }
 
+  #YDAvoidCrashKit
+  _YDSafeThread      = { :spec_name => "YDSafeThread", :source_files => ['YDSafeThread/**/*.{h,m}'] }
+  _YDLogger          = { :spec_name => "YDLogger", :source_files => ['YDLogger/**/*.{h,m}'], :libraries => "c++" }
+  _YDAvoidCrash      = { :spec_name => "YDAvoidCrash", :source_files => ['YDAvoidCrash/**/*.{h,m}'], :sub_dependency => [_YDSafeThread, _YDLogger] }
+
+  #YDAlertAction
+  _YDActionAlert     = { :spec_name => "YDActionAlert", :source_files => ['YDActionAlert/**/*.{h,m}'] }
+  _YDActionSheet     = { :spec_name => "YDActionSheet", :source_files => ['YDActionSheet/**/*.{h,m}'] }
+
   
   # Foundation Components
   # YDRouter
   _YDRouter          = { :spec_name => "YDRouter", :source_files => ['YDRouter/**/*.{h,m}'] }
+
   #YDWebp
   _YDWebp            = { :spec_name => "YDWebp", :source_files => ['YDWebp/**/*.{h,m}'], :dependency => [{:name => "libwebp", :version => "1.2.3"}] }
+
   #YDUtilKit
   _YDUtilKit         = { :spec_name => "YDUtilKit", :dependency => [{:name => "AFNetworking", :version => "4.0.1"}], :sub_dependency => [_YDFuncKit, _YDBaseUI, _YDUIKit, _YDTools] }
+
+  #YDAvoidCrashKit
+  _YDAvoidCrashKit   = { :spec_name => "YDAvoidCrashKit", :sub_dependency => [_YDAvoidCrash, _YDLogger, _YDSafeThread] }
+
+  #YDAlertAction
+  _YDAlertAction     = { :spec_name => "YDAvoidCrashKit", :sub_dependency => [_YDActionAlert, _YDActionSheet] }
+
+  #YDLoggerUI
+  _YDLoggerUI        = { :spec_name => "YDLoggerUI", :source_files => ['YDLoggerUI/**/*.{h,m}'], :sub_dependency => [_YDLogger] }
+
+  #YDMonitor
+  _YDMonitor         = { :spec_name => "YDMonitor", :source_files => ['YDMonitor/**/*.{h,m}'], :sub_dependency => [_YDLogger] }
+
+  #YDTimer
+  _YDTimer           = { :spec_name => "YDTimer", :source_files => ['YDTimer/**/*.{h,m}'], :sub_dependency => [_YDSafeThread] }
+
   #YDSVProgressHUD
   _YDSVProgressHUD   = { :spec_name => "YDSVProgressHUD", :source_files => ['YDSVProgressHUD/**/*.{h,m}'], :resource_bundles => {:bundle => "YDSVProgressHUD", :resources => "YDSVProgressHUD/Assets/*"}, :dependency => [{:name => "lottie-ios", :version => "2.5.3"}, {:name => "SVProgressHUD", :version => "2.2.5"}, {:name => "YYImage", :version => "1.0.4"}] }
 
   
-  all_subspec = [ _YDRouter, _YDWebp, _YDUtilKit, _YDFuncKit, _YDBaseUI, _YDUIKit, _YDTools, _YDSVProgressHUD ]
+  all_subspec = [ _YDRouter, _YDWebp, _YDUtilKit, _YDFuncKit, _YDBaseUI, _YDUIKit, _YDTools, _YDSVProgressHUD, _YDAvoidCrashKit, _YDSafeThread, _YDLogger, _YDLoggerUI, _YDAvoidCrash, _YDMonitor, _YDTimer, _YDAlertAction, _YDActionSheet, _YDActionAlert ]
  
 
   all_subspec.each do |spec|

@@ -84,7 +84,7 @@ abstract_target 'Demo' do
     pod 'YDFoundation/YDSafeThread', :path => '.'
   end
   
-  target 'YDNetwrokManager' do
+  target 'YDNetworkManager' do
     pod 'YTKNetwork', '~> 3.0.6'
   end
 

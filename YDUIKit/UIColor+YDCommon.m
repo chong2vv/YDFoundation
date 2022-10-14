@@ -90,13 +90,7 @@ static BOOL hexStrToRGBA(NSString *str,
                             blue:b / 255.0f
                            alpha:1.0f];
 }
-+ (UIColor *)art_colorWithRed:(CGFloat)r green:(CGFloat)g blue:(CGFloat)b alpha:(CGFloat)a
-{
-    return [UIColor colorWithRed:r / 255.0f
-                           green:g / 255.0f
-                            blue:b / 255.0f
-                           alpha:a];
-}
+
 + (UIColor *)colorWithRGBHex:(UInt32)hex alpha:(CGFloat)alpha {
     int r = (hex >> 16) & 0xFF;
     int g = (hex >> 8) & 0xFF;

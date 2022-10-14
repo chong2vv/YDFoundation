@@ -45,7 +45,7 @@ alpha:alphaValue]
 
 #define UIColorFromRGB(rgbValue) UIColorFromRGBA(rgbValue, 1.0)
 #define UIColorFromHexString(hex) [UIColor colorWithHexString:hex]
-#define UIColorFromRGBValues(r,g,b) [UIColor yd_colorWithRed:r green:g blue:b alpha:1.0]
+#define UIColorFromRGBValues(r,g,b) [UIColor colorWithRed:r green:g blue:b alpha:1.0]
 
 
 #define YDSafeKeyPath(aClass, keypath) \

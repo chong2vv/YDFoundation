@@ -9,7 +9,16 @@ abstract_target 'Demo' do
   end
   
   target 'YDFoundationSDK' do
-    
+    pod 'lottie-ios', '~> 2.5.3'
+    pod 'SVProgressHUD', '~> 2.2.5'
+    pod 'AFNetworking', '~> 4.0.1'
+    pod 'YYImage', '~> 1.0.4'
+    pod 'libwebp', '~> 1.2.3'
+    pod 'KTVHTTPCache', '~> 2.0.1'
+    pod 'JPush' , '~> 3.2.4'
+    pod 'YYWebImage', '~> 1.0.5'
+    pod 'Masonry', '~> 1.1.0'
+    pod 'YTKNetwork', '~> 3.0.6'
   end
   
   target 'YDRouter' do

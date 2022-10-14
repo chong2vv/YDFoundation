@@ -252,8 +252,6 @@
 		15F8943328F90552003B9519 /* YDJPush.h in Headers */ = {isa = PBXBuildFile; fileRef = 15F8943028F90552003B9519 /* YDJPush.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		15F8943628F90552003B9519 /* YDJPush.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15F8942E28F90551003B9519 /* YDJPush.framework */; };
 		15F8943728F90552003B9519 /* YDJPush.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 15F8942E28F90551003B9519 /* YDJPush.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		15F8944428F90575003B9519 /* YDNetwrokManager.docc in Sources */ = {isa = PBXBuildFile; fileRef = 15F8944328F90575003B9519 /* YDNetwrokManager.docc */; };
-		15F8944528F90575003B9519 /* YDNetwrokManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 15F8944228F90575003B9519 /* YDNetwrokManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		15F8944828F90575003B9519 /* YDNetworkManager.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15F8944028F90574003B9519 /* YDNetworkManager.framework */; };
 		15F8944928F90575003B9519 /* YDNetworkManager.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 15F8944028F90574003B9519 /* YDNetworkManager.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		15F8945228F90962003B9519 /* YDEmptyView.m in Sources */ = {isa = PBXBuildFile; fileRef = 15F8944D28F90961003B9519 /* YDEmptyView.m */; };
@@ -351,19 +349,20 @@
 		15F8950B28F90E84003B9519 /* YDCommandConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 15F8950128F90E84003B9519 /* YDCommandConfig.m */; };
 		15F89ABC28F9394E003B9519 /* YDFoundationSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15F89AB428F93949003B9519 /* YDFoundationSDK.framework */; };
 		15F89ABD28F9394E003B9519 /* YDFoundationSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 15F89AB428F93949003B9519 /* YDFoundationSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		15F89AD028F945C2003B9519 /* YDCommandConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 15F89AC228F945C2003B9519 /* YDCommandConfig.h */; };
-		15F89AD128F945C2003B9519 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 15F89AC328F945C2003B9519 /* LICENSE */; };
-		15F89AD228F945C2003B9519 /* YDCommandConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 15F89AC428F945C2003B9519 /* YDCommandConfig.m */; };
-		15F89AD328F945C2003B9519 /* YDNetworkManager.docc in Sources */ = {isa = PBXBuildFile; fileRef = 15F89AC528F945C2003B9519 /* YDNetworkManager.docc */; };
-		15F89AD428F945C2003B9519 /* YDBatchCommand.h in Headers */ = {isa = PBXBuildFile; fileRef = 15F89AC728F945C2003B9519 /* YDBatchCommand.h */; };
-		15F89AD528F945C2003B9519 /* AFJSONResponseSerializer+YDAgent.m in Sources */ = {isa = PBXBuildFile; fileRef = 15F89AC828F945C2003B9519 /* AFJSONResponseSerializer+YDAgent.m */; };
-		15F89AD628F945C2003B9519 /* YDCommand.h in Headers */ = {isa = PBXBuildFile; fileRef = 15F89AC928F945C2003B9519 /* YDCommand.h */; };
-		15F89AD728F945C2003B9519 /* YDCommand+YDError.h in Headers */ = {isa = PBXBuildFile; fileRef = 15F89ACA28F945C2003B9519 /* YDCommand+YDError.h */; };
-		15F89AD828F945C2003B9519 /* YDBatchCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 15F89ACB28F945C2003B9519 /* YDBatchCommand.m */; };
-		15F89AD928F945C2003B9519 /* AFJSONResponseSerializer+YDAgent.h in Headers */ = {isa = PBXBuildFile; fileRef = 15F89ACC28F945C2003B9519 /* AFJSONResponseSerializer+YDAgent.h */; };
-		15F89ADA28F945C2003B9519 /* YDCommand+YDError.m in Sources */ = {isa = PBXBuildFile; fileRef = 15F89ACD28F945C2003B9519 /* YDCommand+YDError.m */; };
-		15F89ADB28F945C2003B9519 /* YDCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 15F89ACE28F945C2003B9519 /* YDCommand.m */; };
-		15F89ADC28F945C2003B9519 /* YDNetworkManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 15F89ACF28F945C2003B9519 /* YDNetworkManager.h */; };
+		15F89ADE28F946C0003B9519 /* YDNetworkManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 15F89ADD28F946BF003B9519 /* YDNetworkManager.h */; };
+		15F89AEE28F946E2003B9519 /* YDCommandConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 15F89AE028F946E2003B9519 /* YDCommandConfig.h */; };
+		15F89AEF28F946E2003B9519 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 15F89AE128F946E2003B9519 /* LICENSE */; };
+		15F89AF028F946E2003B9519 /* YDCommandConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 15F89AE228F946E2003B9519 /* YDCommandConfig.m */; };
+		15F89AF128F946E2003B9519 /* YDNetworkManager.docc in Sources */ = {isa = PBXBuildFile; fileRef = 15F89AE328F946E2003B9519 /* YDNetworkManager.docc */; };
+		15F89AF228F946E2003B9519 /* YDBatchCommand.h in Headers */ = {isa = PBXBuildFile; fileRef = 15F89AE528F946E2003B9519 /* YDBatchCommand.h */; };
+		15F89AF328F946E2003B9519 /* AFJSONResponseSerializer+YDAgent.m in Sources */ = {isa = PBXBuildFile; fileRef = 15F89AE628F946E2003B9519 /* AFJSONResponseSerializer+YDAgent.m */; };
+		15F89AF428F946E2003B9519 /* YDCommand.h in Headers */ = {isa = PBXBuildFile; fileRef = 15F89AE728F946E2003B9519 /* YDCommand.h */; };
+		15F89AF528F946E2003B9519 /* YDCommand+YDError.h in Headers */ = {isa = PBXBuildFile; fileRef = 15F89AE828F946E2003B9519 /* YDCommand+YDError.h */; };
+		15F89AF628F946E2003B9519 /* YDBatchCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 15F89AE928F946E2003B9519 /* YDBatchCommand.m */; };
+		15F89AF728F946E2003B9519 /* AFJSONResponseSerializer+YDAgent.h in Headers */ = {isa = PBXBuildFile; fileRef = 15F89AEA28F946E2003B9519 /* AFJSONResponseSerializer+YDAgent.h */; };
+		15F89AF828F946E2003B9519 /* YDCommand+YDError.m in Sources */ = {isa = PBXBuildFile; fileRef = 15F89AEB28F946E2003B9519 /* YDCommand+YDError.m */; };
+		15F89AF928F946E2003B9519 /* YDCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 15F89AEC28F946E2003B9519 /* YDCommand.m */; };
+		15F89AFA28F946E2003B9519 /* YDNetworkManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 15F89AED28F946E2003B9519 /* YDNetworkManager.h */; };
 		2B04A132DCCBE9C94D44BBFD /* libPods-Demo-YDPreLoader.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 70DD7948A038F1AC88184EBB /* libPods-Demo-YDPreLoader.a */; };
 		2B9FC333C49B365554FFC807 /* libPods-Demo-YDRouter.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 70F7A59B27218BCEC43795C5 /* libPods-Demo-YDRouter.a */; };
 		413100D1EB5883109D2B337C /* libPods-Demo-YDSafeThread.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 221D1D890F55E5C802E4DE90 /* libPods-Demo-YDSafeThread.a */; };
@@ -860,8 +859,6 @@
 		15F8943028F90552003B9519 /* YDJPush.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YDJPush.h; sourceTree = "<group>"; };
 		15F8943128F90552003B9519 /* YDJPush.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = YDJPush.docc; sourceTree = "<group>"; };
 		15F8944028F90574003B9519 /* YDNetworkManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = YDNetworkManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		15F8944228F90575003B9519 /* YDNetwrokManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YDNetwrokManager.h; sourceTree = "<group>"; };
-		15F8944328F90575003B9519 /* YDNetwrokManager.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = YDNetwrokManager.docc; sourceTree = "<group>"; };
 		15F8944D28F90961003B9519 /* YDEmptyView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YDEmptyView.m; sourceTree = "<group>"; };
 		15F8944E28F90961003B9519 /* YDEmptyViewConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YDEmptyViewConfig.m; sourceTree = "<group>"; };
 		15F8944F28F90961003B9519 /* UIViewController+YDMistakesShow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+YDMistakesShow.h"; sourceTree = "<group>"; };
@@ -1284,19 +1281,20 @@
 		15F8994628F936AA003B9519 /* YDApp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YDApp.h; sourceTree = "<group>"; };
 		15F8994728F936AA003B9519 /* YDMediator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YDMediator.h; sourceTree = "<group>"; };
 		15F89AB428F93949003B9519 /* YDFoundationSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = YDFoundationSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		15F89AC228F945C2003B9519 /* YDCommandConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YDCommandConfig.h; sourceTree = "<group>"; };
-		15F89AC328F945C2003B9519 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		15F89AC428F945C2003B9519 /* YDCommandConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YDCommandConfig.m; sourceTree = "<group>"; };
-		15F89AC528F945C2003B9519 /* YDNetworkManager.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = YDNetworkManager.docc; sourceTree = "<group>"; };
-		15F89AC728F945C2003B9519 /* YDBatchCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YDBatchCommand.h; sourceTree = "<group>"; };
-		15F89AC828F945C2003B9519 /* AFJSONResponseSerializer+YDAgent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AFJSONResponseSerializer+YDAgent.m"; sourceTree = "<group>"; };
-		15F89AC928F945C2003B9519 /* YDCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YDCommand.h; sourceTree = "<group>"; };
-		15F89ACA28F945C2003B9519 /* YDCommand+YDError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "YDCommand+YDError.h"; sourceTree = "<group>"; };
-		15F89ACB28F945C2003B9519 /* YDBatchCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YDBatchCommand.m; sourceTree = "<group>"; };
-		15F89ACC28F945C2003B9519 /* AFJSONResponseSerializer+YDAgent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AFJSONResponseSerializer+YDAgent.h"; sourceTree = "<group>"; };
-		15F89ACD28F945C2003B9519 /* YDCommand+YDError.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "YDCommand+YDError.m"; sourceTree = "<group>"; };
-		15F89ACE28F945C2003B9519 /* YDCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YDCommand.m; sourceTree = "<group>"; };
-		15F89ACF28F945C2003B9519 /* YDNetworkManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YDNetworkManager.h; sourceTree = "<group>"; };
+		15F89ADD28F946BF003B9519 /* YDNetworkManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YDNetworkManager.h; sourceTree = "<group>"; };
+		15F89AE028F946E2003B9519 /* YDCommandConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YDCommandConfig.h; sourceTree = "<group>"; };
+		15F89AE128F946E2003B9519 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		15F89AE228F946E2003B9519 /* YDCommandConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YDCommandConfig.m; sourceTree = "<group>"; };
+		15F89AE328F946E2003B9519 /* YDNetworkManager.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = YDNetworkManager.docc; sourceTree = "<group>"; };
+		15F89AE528F946E2003B9519 /* YDBatchCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YDBatchCommand.h; sourceTree = "<group>"; };
+		15F89AE628F946E2003B9519 /* AFJSONResponseSerializer+YDAgent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AFJSONResponseSerializer+YDAgent.m"; sourceTree = "<group>"; };
+		15F89AE728F946E2003B9519 /* YDCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YDCommand.h; sourceTree = "<group>"; };
+		15F89AE828F946E2003B9519 /* YDCommand+YDError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "YDCommand+YDError.h"; sourceTree = "<group>"; };
+		15F89AE928F946E2003B9519 /* YDBatchCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YDBatchCommand.m; sourceTree = "<group>"; };
+		15F89AEA28F946E2003B9519 /* AFJSONResponseSerializer+YDAgent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AFJSONResponseSerializer+YDAgent.h"; sourceTree = "<group>"; };
+		15F89AEB28F946E2003B9519 /* YDCommand+YDError.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "YDCommand+YDError.m"; sourceTree = "<group>"; };
+		15F89AEC28F946E2003B9519 /* YDCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YDCommand.m; sourceTree = "<group>"; };
+		15F89AED28F946E2003B9519 /* YDNetworkManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YDNetworkManager.h; sourceTree = "<group>"; };
 		16D085D6B4C507F245BC7ABE /* Pods-Demo-YDSVProgressHUD.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Demo-YDSVProgressHUD.debug.xcconfig"; path = "Target Support Files/Pods-Demo-YDSVProgressHUD/Pods-Demo-YDSVProgressHUD.debug.xcconfig"; sourceTree = "<group>"; };
 		1D505EBECB0D92AD672BFA87 /* Pods-Demo-YDAlertAction.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Demo-YDAlertAction.release.xcconfig"; path = "Target Support Files/Pods-Demo-YDAlertAction/Pods-Demo-YDAlertAction.release.xcconfig"; sourceTree = "<group>"; };
 		1F2A14A9359009CC35E7351A /* Pods-Demo-YDAvoidCrashKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Demo-YDAvoidCrashKit.release.xcconfig"; path = "Target Support Files/Pods-Demo-YDAvoidCrashKit/Pods-Demo-YDAvoidCrashKit.release.xcconfig"; sourceTree = "<group>"; };
@@ -1902,7 +1900,7 @@
 			isa = PBXGroup;
 			children = (
 				15652EAF28F6BB680050EEB3 /* YDFoundation.h */,
-				15F89AC128F945C2003B9519 /* YDNetworkManager */,
+				15F89ADF28F946E2003B9519 /* YDNetworkManager */,
 				15F898D028F936A7003B9519 /* YDActionAlert */,
 				15F8984B28F936A4003B9519 /* YDActionSheet */,
 				15F898D728F936A7003B9519 /* YDAlertAction */,
@@ -2185,11 +2183,10 @@
 		15F8944128F90575003B9519 /* YDNetworkManager */ = {
 			isa = PBXGroup;
 			children = (
-				15F8944228F90575003B9519 /* YDNetwrokManager.h */,
-				15F894F728F90E84003B9519 /* YDCommand */,
+				15F89ADD28F946BF003B9519 /* YDNetworkManager.h */,
 				15F8950028F90E84003B9519 /* YDCommandConfig.h */,
 				15F8950128F90E84003B9519 /* YDCommandConfig.m */,
-				15F8944328F90575003B9519 /* YDNetwrokManager.docc */,
+				15F894F728F90E84003B9519 /* YDCommand */,
 			);
 			path = YDNetworkManager;
 			sourceTree = "<group>";
@@ -2890,30 +2887,30 @@
 			path = CTMediator;
 			sourceTree = "<group>";
 		};
-		15F89AC128F945C2003B9519 /* YDNetworkManager */ = {
+		15F89ADF28F946E2003B9519 /* YDNetworkManager */ = {
 			isa = PBXGroup;
 			children = (
-				15F89AC228F945C2003B9519 /* YDCommandConfig.h */,
-				15F89AC328F945C2003B9519 /* LICENSE */,
-				15F89AC428F945C2003B9519 /* YDCommandConfig.m */,
-				15F89AC528F945C2003B9519 /* YDNetworkManager.docc */,
-				15F89AC628F945C2003B9519 /* YDCommand */,
-				15F89ACF28F945C2003B9519 /* YDNetworkManager.h */,
+				15F89AED28F946E2003B9519 /* YDNetworkManager.h */,
+				15F89AE028F946E2003B9519 /* YDCommandConfig.h */,
+				15F89AE228F946E2003B9519 /* YDCommandConfig.m */,
+				15F89AE128F946E2003B9519 /* LICENSE */,
+				15F89AE328F946E2003B9519 /* YDNetworkManager.docc */,
+				15F89AE428F946E2003B9519 /* YDCommand */,
 			);
 			path = YDNetworkManager;
 			sourceTree = SOURCE_ROOT;
 		};
-		15F89AC628F945C2003B9519 /* YDCommand */ = {
+		15F89AE428F946E2003B9519 /* YDCommand */ = {
 			isa = PBXGroup;
 			children = (
-				15F89AC728F945C2003B9519 /* YDBatchCommand.h */,
-				15F89AC828F945C2003B9519 /* AFJSONResponseSerializer+YDAgent.m */,
-				15F89AC928F945C2003B9519 /* YDCommand.h */,
-				15F89ACA28F945C2003B9519 /* YDCommand+YDError.h */,
-				15F89ACB28F945C2003B9519 /* YDBatchCommand.m */,
-				15F89ACC28F945C2003B9519 /* AFJSONResponseSerializer+YDAgent.h */,
-				15F89ACD28F945C2003B9519 /* YDCommand+YDError.m */,
-				15F89ACE28F945C2003B9519 /* YDCommand.m */,
+				15F89AE528F946E2003B9519 /* YDBatchCommand.h */,
+				15F89AE628F946E2003B9519 /* AFJSONResponseSerializer+YDAgent.m */,
+				15F89AE728F946E2003B9519 /* YDCommand.h */,
+				15F89AE828F946E2003B9519 /* YDCommand+YDError.h */,
+				15F89AE928F946E2003B9519 /* YDBatchCommand.m */,
+				15F89AEA28F946E2003B9519 /* AFJSONResponseSerializer+YDAgent.h */,
+				15F89AEB28F946E2003B9519 /* YDCommand+YDError.m */,
+				15F89AEC28F946E2003B9519 /* YDCommand.m */,
 			);
 			path = YDCommand;
 			sourceTree = "<group>";
@@ -3267,8 +3264,8 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				15F89ADE28F946C0003B9519 /* YDNetworkManager.h in Headers */,
 				15F8950228F90E84003B9519 /* YDBatchCommand.h in Headers */,
-				15F8944528F90575003B9519 /* YDNetwrokManager.h in Headers */,
 				15F8950728F90E84003B9519 /* AFJSONResponseSerializer+YDAgent.h in Headers */,
 				15F8950A28F90E84003B9519 /* YDCommandConfig.h in Headers */,
 				15F8950428F90E84003B9519 /* YDCommand.h in Headers */,
@@ -3280,12 +3277,12 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				15F89ADC28F945C2003B9519 /* YDNetworkManager.h in Headers */,
-				15F89AD428F945C2003B9519 /* YDBatchCommand.h in Headers */,
-				15F89AD028F945C2003B9519 /* YDCommandConfig.h in Headers */,
-				15F89AD928F945C2003B9519 /* AFJSONResponseSerializer+YDAgent.h in Headers */,
-				15F89AD628F945C2003B9519 /* YDCommand.h in Headers */,
-				15F89AD728F945C2003B9519 /* YDCommand+YDError.h in Headers */,
+				15F89AFA28F946E2003B9519 /* YDNetworkManager.h in Headers */,
+				15F89AF228F946E2003B9519 /* YDBatchCommand.h in Headers */,
+				15F89AEE28F946E2003B9519 /* YDCommandConfig.h in Headers */,
+				15F89AF728F946E2003B9519 /* AFJSONResponseSerializer+YDAgent.h in Headers */,
+				15F89AF428F946E2003B9519 /* YDCommand.h in Headers */,
+				15F89AF528F946E2003B9519 /* YDCommand+YDError.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -4002,7 +3999,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				15F89AD128F945C2003B9519 /* LICENSE in Resources */,
+				15F89AEF28F946E2003B9519 /* LICENSE in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -4780,7 +4777,6 @@
 				15F8950828F90E84003B9519 /* YDCommand+YDError.m in Sources */,
 				15F8950628F90E84003B9519 /* YDBatchCommand.m in Sources */,
 				15F8950328F90E84003B9519 /* AFJSONResponseSerializer+YDAgent.m in Sources */,
-				15F8944428F90575003B9519 /* YDNetwrokManager.docc in Sources */,
 				15F8950928F90E84003B9519 /* YDCommand.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -4789,12 +4785,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				15F89ADA28F945C2003B9519 /* YDCommand+YDError.m in Sources */,
-				15F89AD328F945C2003B9519 /* YDNetworkManager.docc in Sources */,
-				15F89ADB28F945C2003B9519 /* YDCommand.m in Sources */,
-				15F89AD828F945C2003B9519 /* YDBatchCommand.m in Sources */,
-				15F89AD528F945C2003B9519 /* AFJSONResponseSerializer+YDAgent.m in Sources */,
-				15F89AD228F945C2003B9519 /* YDCommandConfig.m in Sources */,
+				15F89AF828F946E2003B9519 /* YDCommand+YDError.m in Sources */,
+				15F89AF128F946E2003B9519 /* YDNetworkManager.docc in Sources */,
+				15F89AF928F946E2003B9519 /* YDCommand.m in Sources */,
+				15F89AF628F946E2003B9519 /* YDBatchCommand.m in Sources */,
+				15F89AF328F946E2003B9519 /* AFJSONResponseSerializer+YDAgent.m in Sources */,
+				15F89AF028F946E2003B9519 /* YDCommandConfig.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

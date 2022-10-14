@@ -8,6 +8,7 @@
 #import "YDAuthorizationUtil.h"
 #import <AVFoundation/AVFoundation.h>
 #import <Photos/Photos.h>
+#import <UIKit/UIKit.h>
 
 #define kAuthorizationAppName ([[NSBundle mainBundle] objectForInfoDictionaryKey:@"CFBundleDisplayName"])
 

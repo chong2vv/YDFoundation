@@ -7,6 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
 
 #define EmptyNoDataImage           @"noDataImage"
 #define EmptyNetworkExceptionImage @"networkExceptionImage"

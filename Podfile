@@ -8,10 +8,6 @@ abstract_target 'Demo' do
     pod 'YDFoundation', :path => '.'
   end
   
-  target 'YDFoundation' do
-    
-  end
-  
   target 'YDRouter' do
     
   end

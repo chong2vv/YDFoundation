@@ -61,9 +61,9 @@ alpha:alphaValue]
 #ifdef __cplusplus
 extern "C" {
 #endif
-    CGFloat getScreenWidth();
+CGFloat getScreenWidth(void);
     
-    CGFloat getScreenHeight();
+CGFloat getScreenHeight(void);
     
 //    // 获取状态栏竖边高度
 //    CGFloat getStatusBarHeight();

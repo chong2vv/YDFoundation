@@ -166,9 +166,10 @@
     NSURL *proxyUrl = [KTVHTTPCache proxyURLWithOriginalURL: [NSURL URLWithString:urlStr]];
     KTVHCDataCacheItem *item = [KTVHTTPCache cacheCacheItemWithURL:proxyUrl];
     double cachePrecent = 1.0 * item.cacheLength / item.totalLength;
+    
     // 判断缓存已经超过10%了
-//    if (cachePrecent >= self.preloadPrecent)
-//        return nil;
+    if (cachePrecent >= self.preloadPrecent)
+        return nil;
 
 //    NSDictionary * headers = KTVHCRangeFillToRequestHeaders(KTVHCMakeRange(0, 1024 * 1024 * 0.1), @{});
 

@@ -77,11 +77,25 @@ Pod::Spec.new do |s|
   _YDPreLoader       = { :spec_name => "YDPreLoader", :source_files => ['YDPreLoader/**/*.{h,m}'], :dependency => [{:name => "KTVHTTPCache", :version => "2.0.1"}] }
 
   # YDImageService
-  _YDImageService    = { :spec_name => "YDImageService", :source_files => ['YDImageService/**/*.{h,m}'], :sub_dependency => [_YDSafeThread], :dependency => [{:name => "YYImage", :version => "1.0.4"}, {:name => "YYWebImage", :version => "1.0.5"}] }
+  _YDImageService    = { :spec_name => "YDImageService", :source_files => ['YDImageService/**/*.{h,m}'], :dependency => [{:name => "YYImage", :version => "1.0.4"}, {:name => "YYWebImage", :version => "1.0.5"}], :sub_dependency => [_YDSafeThread] }
 
+  # YDEmptyView
+  _YDEmptyView       = { :spec_name => "YDEmptyView", :source_files => ['YDEmptyView/**/*.{h,m}'], :dependency => [{:name => "Masonry", :version => "1.1.0"}] }
+
+  # YDBlockKit
+  _YDBlockKit        = { :spec_name => "YDBlockKit", :source_files => ['YDBlockKit/**/*.{h,m}'] }
+
+  # YDAuthorizationUtil
+  _YDAuthorizationUtil = { :spec_name => "YDAuthorizationUtil", :source_files => ['YDAuthorizationUtil/**/*.{h,m}'] }
+
+  # YDJPush
+  _YDJPush = { :spec_name => "YDJPush", :source_files => ['YDJPush/**/*.{h,m}'], :dependency => [{:name => "JPush", :version => "3.2.4"}] }
+
+  # YDNetworkManager
+  _YDNetworkManager = { :spec_name => "YDNetworkManager", :source_files => ['YDNetworkManager/**/*.{h,m}'], :dependency => [{:name => "YTKNetwork", :version => "3.0.6"}] }
 
   all_subspec = [ _YDRouter, _YDWebp, _YDUtilKit, _YDFuncKit, _YDBaseUI, _YDUIKit, _YDTools, _YDSVProgressHUD, _YDAvoidCrashKit, _YDSafeThread, _YDLogger, _YDLoggerUI, _YDAvoidCrash, _YDMonitor, _YDTimer, _YDAlertAction, _YDActionSheet, _YDActionAlert, _YDFileManager,
-                 _YDPreLoader, _YDMediator, _YDClearCacheService, _YDImageService ]
+                 _YDPreLoader, _YDMediator, _YDClearCacheService, _YDImageService, _YDEmptyView, _YDBlockKit, _YDAuthorizationUtil, _YDJPush, _YDNetworkManager ]
  
 
   all_subspec.each do |spec|

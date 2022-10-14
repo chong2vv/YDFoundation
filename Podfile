@@ -58,10 +58,34 @@ abstract_target 'Demo' do
     
   end
   
+  target 'YDSafeThread' do
+    
+  end
+  
+  target 'YDEmptyView' do
+    
+  end
+
+  target 'YDBlockKit' do
+  
+  end
+  
+  target 'YDAuthorizationUtil' do
+  
+  end
+  
+  target 'YDJPush' do
+    pod 'JPush' , '~> 3.2.4'
+  end
+  
   target 'YDImageService' do
     pod 'YYWebImage', '~> 1.0.5'
     pod 'YYImage', '~> 1.0.4'
     pod 'YDFoundation/YDSafeThread', :path => '.'
+  end
+  
+  target 'YDNetwrokManager' do
+    pod 'YTKNetwork', '~> 3.0.6'
   end
 
 end

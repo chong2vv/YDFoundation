@@ -6,7 +6,7 @@
 //  Copyright © 2022 wangyuandong. All rights reserved.
 //
 
-#import "YYWebImageOperation.h"
+#import <YYWebImage/YYWebImageOperation.h>
 
 NS_ASSUME_NONNULL_BEGIN
 

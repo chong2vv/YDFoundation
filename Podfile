@@ -25,10 +25,6 @@ abstract_target 'Demo' do
     
   end
   
-  target 'YDWebp' do
-    pod 'libwebp', '~> 1.2.3'
-  end
-  
   target 'YDUtilKit' do
     pod 'AFNetworking', '~> 4.0.1'
   end
@@ -48,7 +44,7 @@ abstract_target 'Demo' do
   end
   
   target 'YDAlertAction' do
-    
+    pod 'Masonry', '~> 1.1.0'
   end
   
   target 'YDFileManager' do
@@ -67,12 +63,8 @@ abstract_target 'Demo' do
     
   end
   
-  target 'YDSafeThread' do
-    
-  end
-  
   target 'YDEmptyView' do
-    
+    pod 'Masonry', '~> 1.1.0'
   end
 
   target 'YDBlockKit' do
@@ -106,6 +98,18 @@ post_install do |installer|
   installer.pods_project.targets.each do |target|
     target.build_configurations.each do |config|
       config.build_settings['CLANG_ENABLE_OBJC_WEAK'] ||= 'NO'
+      config.build_settings['PROVISIONING_PROFILE_SPECIFIER'] = ""
+      config.build_settings["EXCLUDED_ARCHS[sdk=iphonesimulator*]"] = "arm64"
+      config.build_settings['ENABLE_BITCODE'] = 'NO'
+      config.build_settings['EXPANDED_CODE_SIGN_IDENTITY'] = ""
+      config.build_settings['CODE_SIGNING_REQUIRED'] = "NO"
+      config.build_settings['CODE_SIGNING_ALLOWED'] = "NO"
+       # Compiling for iOS 9.0, but module 'xxx' has a minimum deployment target of iOS 10.0
+      if config.build_settings['IPHONEOS_DEPLOYMENT_TARGET'].to_f < VERSION.to_f
+        config.build_settings['IPHONEOS_DEPLOYMENT_TARGET'] = VERSION
+      end
+       # Include of non-modular header inside framework module
+       config.build_settings['CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES'] = 'YES'
       if config.name.include?("Debug")
         config.build_settings['ONLY_ACTIVE_ARCH'] ||= 'YES'
         else

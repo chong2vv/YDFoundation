@@ -96,6 +96,7 @@
 		150205A128F7EEEA00025BA4 /* YDFileManager.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1502059928F7EEE900025BA4 /* YDFileManager.framework */; };
 		150205A228F7EEEA00025BA4 /* YDFileManager.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 1502059928F7EEE900025BA4 /* YDFileManager.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		150205A728F7EF2200025BA4 /* YDFileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 150205A628F7EF2200025BA4 /* YDFileManager.m */; };
+		1506BEE428FD40830003DF87 /* YDNetworkTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 15652F0B28F6C2B80050EEB3 /* YDNetworkTools.m */; };
 		150B9CF728F6CF6E00113B28 /* YDSVProgressHUD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 150B9CEF28F6CF6E00113B28 /* YDSVProgressHUD.framework */; };
 		150B9CF828F6CF6E00113B28 /* YDSVProgressHUD.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 150B9CEF28F6CF6E00113B28 /* YDSVProgressHUD.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		155FF8C128F6636B00057B87 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 155FF8C028F6636B00057B87 /* AppDelegate.m */; };
@@ -135,12 +136,10 @@
 		15652F3D28F6C2B90050EEB3 /* YDBaseUIDefine.h in Headers */ = {isa = PBXBuildFile; fileRef = 15652F0128F6C2B80050EEB3 /* YDBaseUIDefine.h */; };
 		15652F3E28F6C2B90050EEB3 /* YDNumberSender.h in Headers */ = {isa = PBXBuildFile; fileRef = 15652F0328F6C2B80050EEB3 /* YDNumberSender.h */; };
 		15652F3F28F6C2B90050EEB3 /* YDStack.m in Sources */ = {isa = PBXBuildFile; fileRef = 15652F0428F6C2B80050EEB3 /* YDStack.m */; };
-		15652F4028F6C2B90050EEB3 /* YDNetworkTools.h in Headers */ = {isa = PBXBuildFile; fileRef = 15652F0528F6C2B80050EEB3 /* YDNetworkTools.h */; };
 		15652F4128F6C2B90050EEB3 /* YDVideoTools.h in Headers */ = {isa = PBXBuildFile; fileRef = 15652F0628F6C2B80050EEB3 /* YDVideoTools.h */; };
 		15652F4228F6C2B90050EEB3 /* YDStack.h in Headers */ = {isa = PBXBuildFile; fileRef = 15652F0728F6C2B80050EEB3 /* YDStack.h */; };
 		15652F4328F6C2B90050EEB3 /* YDTools.h in Headers */ = {isa = PBXBuildFile; fileRef = 15652F0828F6C2B80050EEB3 /* YDTools.h */; };
 		15652F4528F6C2B90050EEB3 /* YDVideoTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 15652F0A28F6C2B80050EEB3 /* YDVideoTools.m */; };
-		15652F4628F6C2B90050EEB3 /* YDNetworkTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 15652F0B28F6C2B80050EEB3 /* YDNetworkTools.m */; };
 		15652F4728F6C2B90050EEB3 /* UIDevice+YDCommon.h in Headers */ = {isa = PBXBuildFile; fileRef = 15652F0D28F6C2B80050EEB3 /* UIDevice+YDCommon.h */; };
 		15652F4828F6C2B90050EEB3 /* YDUIKitCategory.h in Headers */ = {isa = PBXBuildFile; fileRef = 15652F0E28F6C2B80050EEB3 /* YDUIKitCategory.h */; };
 		15652F4928F6C2B90050EEB3 /* UIControl+YDCommon.h in Headers */ = {isa = PBXBuildFile; fileRef = 15652F0F28F6C2B80050EEB3 /* UIControl+YDCommon.h */; };
@@ -336,18 +335,6 @@
 		15F89ABC28F9394E003B9519 /* YDFoundationSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15F89AB428F93949003B9519 /* YDFoundationSDK.framework */; };
 		15F89ABD28F9394E003B9519 /* YDFoundationSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 15F89AB428F93949003B9519 /* YDFoundationSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		15F89ADE28F946C0003B9519 /* YDNetworkManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 15F89ADD28F946BF003B9519 /* YDNetworkManager.h */; };
-		15F89AEE28F946E2003B9519 /* YDCommandConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 15F89AE028F946E2003B9519 /* YDCommandConfig.h */; };
-		15F89AEF28F946E2003B9519 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 15F89AE128F946E2003B9519 /* LICENSE */; };
-		15F89AF028F946E2003B9519 /* YDCommandConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 15F89AE228F946E2003B9519 /* YDCommandConfig.m */; };
-		15F89AF228F946E2003B9519 /* YDBatchCommand.h in Headers */ = {isa = PBXBuildFile; fileRef = 15F89AE528F946E2003B9519 /* YDBatchCommand.h */; };
-		15F89AF328F946E2003B9519 /* AFJSONResponseSerializer+YDAgent.m in Sources */ = {isa = PBXBuildFile; fileRef = 15F89AE628F946E2003B9519 /* AFJSONResponseSerializer+YDAgent.m */; };
-		15F89AF428F946E2003B9519 /* YDCommand.h in Headers */ = {isa = PBXBuildFile; fileRef = 15F89AE728F946E2003B9519 /* YDCommand.h */; };
-		15F89AF528F946E2003B9519 /* YDCommand+YDError.h in Headers */ = {isa = PBXBuildFile; fileRef = 15F89AE828F946E2003B9519 /* YDCommand+YDError.h */; };
-		15F89AF628F946E2003B9519 /* YDBatchCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 15F89AE928F946E2003B9519 /* YDBatchCommand.m */; };
-		15F89AF728F946E2003B9519 /* AFJSONResponseSerializer+YDAgent.h in Headers */ = {isa = PBXBuildFile; fileRef = 15F89AEA28F946E2003B9519 /* AFJSONResponseSerializer+YDAgent.h */; };
-		15F89AF828F946E2003B9519 /* YDCommand+YDError.m in Sources */ = {isa = PBXBuildFile; fileRef = 15F89AEB28F946E2003B9519 /* YDCommand+YDError.m */; };
-		15F89AF928F946E2003B9519 /* YDCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 15F89AEC28F946E2003B9519 /* YDCommand.m */; };
-		15F89AFA28F946E2003B9519 /* YDNetworkManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 15F89AED28F946E2003B9519 /* YDNetworkManager.h */; };
 		2B04A132DCCBE9C94D44BBFD /* libPods-Demo-YDPreLoader.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 70DD7948A038F1AC88184EBB /* libPods-Demo-YDPreLoader.a */; };
 		2B9FC333C49B365554FFC807 /* libPods-Demo-YDRouter.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 70F7A59B27218BCEC43795C5 /* libPods-Demo-YDRouter.a */; };
 		49A96DEC46BFF2D5AFA66BFC /* libPods-Demo-YDFileManager.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A69EAE8978E57DACCD29B04 /* libPods-Demo-YDFileManager.a */; };
@@ -920,333 +907,8 @@
 		15F894FF28F90E84003B9519 /* YDCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YDCommand.m; sourceTree = "<group>"; };
 		15F8950028F90E84003B9519 /* YDCommandConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YDCommandConfig.h; sourceTree = "<group>"; };
 		15F8950128F90E84003B9519 /* YDCommandConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YDCommandConfig.m; sourceTree = "<group>"; };
-		15F897CF28F936A2003B9519 /* YDOverWriteSVProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YDOverWriteSVProgressHUD.h; sourceTree = "<group>"; };
-		15F897D028F936A2003B9519 /* SVProgressHUD+YDLottie.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SVProgressHUD+YDLottie.h"; sourceTree = "<group>"; };
-		15F897D128F936A2003B9519 /* UIViewController+Toast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Toast.m"; sourceTree = "<group>"; };
-		15F897D228F936A2003B9519 /* YDProgressHUDConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YDProgressHUDConfig.m; sourceTree = "<group>"; };
-		15F897D328F936A2003B9519 /* YDProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YDProgressHUD.h; sourceTree = "<group>"; };
-		15F897D428F936A2003B9519 /* YDOverWriteSVProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YDOverWriteSVProgressHUD.m; sourceTree = "<group>"; };
-		15F897D528F936A2003B9519 /* YDSVProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YDSVProgressHUD.h; sourceTree = "<group>"; };
-		15F897D628F936A2003B9519 /* SVProgressHUD+YDLottie.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SVProgressHUD+YDLottie.m"; sourceTree = "<group>"; };
-		15F897D728F936A2003B9519 /* YDProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YDProgressHUD.m; sourceTree = "<group>"; };
-		15F897D828F936A2003B9519 /* YDProgressHUDConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YDProgressHUDConfig.h; sourceTree = "<group>"; };
-		15F897D928F936A2003B9519 /* UIViewController+Toast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Toast.h"; sourceTree = "<group>"; };
-		15F897DC28F936A2003B9519 /* info.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = info.png; sourceTree = "<group>"; };
-		15F897DD28F936A2003B9519 /* HUD_success@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "HUD_success@2x.png"; sourceTree = "<group>"; };
-		15F897DE28F936A2003B9519 /* error@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "error@3x.png"; sourceTree = "<group>"; };
-		15F897DF28F936A2003B9519 /* angle-mask@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "angle-mask@3x.png"; sourceTree = "<group>"; };
-		15F897E028F936A2003B9519 /* HUD_error.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = HUD_error.png; sourceTree = "<group>"; };
-		15F897E128F936A2003B9519 /* angle-mask@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "angle-mask@2x.png"; sourceTree = "<group>"; };
-		15F897E228F936A2003B9519 /* error@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "error@2x.png"; sourceTree = "<group>"; };
-		15F897E328F936A2003B9519 /* HUD_success@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "HUD_success@3x.png"; sourceTree = "<group>"; };
-		15F897E428F936A2003B9519 /* info@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "info@3x.png"; sourceTree = "<group>"; };
-		15F897E528F936A2003B9519 /* success@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "success@2x.png"; sourceTree = "<group>"; };
-		15F897E628F936A2003B9519 /* HUD_success.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = HUD_success.png; sourceTree = "<group>"; };
-		15F897E728F936A2003B9519 /* success@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "success@3x.png"; sourceTree = "<group>"; };
-		15F897E828F936A2003B9519 /* HUD_info.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = HUD_info.png; sourceTree = "<group>"; };
-		15F897E928F936A2003B9519 /* info@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "info@2x.png"; sourceTree = "<group>"; };
-		15F897EA28F936A2003B9519 /* HUD_error@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "HUD_error@3x.png"; sourceTree = "<group>"; };
-		15F897EB28F936A2003B9519 /* error.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = error.png; sourceTree = "<group>"; };
-		15F897EC28F936A2003B9519 /* HUD_info@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "HUD_info@3x.png"; sourceTree = "<group>"; };
-		15F897ED28F936A2003B9519 /* HUD_info@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "HUD_info@2x.png"; sourceTree = "<group>"; };
-		15F897EE28F936A2003B9519 /* success.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = success.png; sourceTree = "<group>"; };
-		15F897EF28F936A2003B9519 /* HUD_error@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "HUD_error@2x.png"; sourceTree = "<group>"; };
-		15F897F028F936A2003B9519 /* angle-mask.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "angle-mask.png"; sourceTree = "<group>"; };
-		15F897F228F936A2003B9519 /* MGJRouter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGJRouter.h; sourceTree = "<group>"; };
-		15F897F328F936A2003B9519 /* YDURLHandle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YDURLHandle.h; sourceTree = "<group>"; };
-		15F897F428F936A2003B9519 /* YDRouter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YDRouter.h; sourceTree = "<group>"; };
-		15F897F528F936A2003B9519 /* YDURLHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YDURLHelper.m; sourceTree = "<group>"; };
-		15F897F728F936A2003B9519 /* YDRouter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YDRouter.m; sourceTree = "<group>"; };
-		15F897F828F936A2003B9519 /* YDURLHandle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YDURLHandle.m; sourceTree = "<group>"; };
-		15F897F928F936A2003B9519 /* MGJRouter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGJRouter.m; sourceTree = "<group>"; };
-		15F897FA28F936A2003B9519 /* YDURLHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YDURLHelper.h; sourceTree = "<group>"; };
-		15F897FB28F936A2003B9519 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		15F897FD28F936A3003B9519 /* YDMonitor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YDMonitor.h; sourceTree = "<group>"; };
-		15F897FE28F936A3003B9519 /* YDCPUInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YDCPUInfo.m; sourceTree = "<group>"; };
-		15F897FF28F936A3003B9519 /* YDCallStack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YDCallStack.m; sourceTree = "<group>"; };
-		15F8980028F936A3003B9519 /* YDCallStackLib.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YDCallStackLib.m; sourceTree = "<group>"; };
-		15F8980128F936A3003B9519 /* YDMonitor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YDMonitor.m; sourceTree = "<group>"; };
-		15F8980228F936A3003B9519 /* YDCPUInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YDCPUInfo.h; sourceTree = "<group>"; };
-		15F8980328F936A3003B9519 /* YDCallStack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YDCallStack.h; sourceTree = "<group>"; };
-		15F8980428F936A3003B9519 /* YDCallStackLib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YDCallStackLib.h; sourceTree = "<group>"; };
-		15F8980628F936A3003B9519 /* YDEmptyViewConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YDEmptyViewConfig.m; sourceTree = "<group>"; };
-		15F8980728F936A3003B9519 /* YDEmptyView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YDEmptyView.m; sourceTree = "<group>"; };
-		15F8980928F936A3003B9519 /* UIViewController+YDMistakesShow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+YDMistakesShow.h"; sourceTree = "<group>"; };
-		15F8980A28F936A3003B9519 /* YDEmptyViewConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YDEmptyViewConfig.h; sourceTree = "<group>"; };
-		15F8980B28F936A3003B9519 /* YDEmptyView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YDEmptyView.h; sourceTree = "<group>"; };
-		15F8980C28F936A3003B9519 /* UIViewController+YDMistakesShow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+YDMistakesShow.m"; sourceTree = "<group>"; };
-		15F8981D28F936A3003B9519 /* YDLogService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YDLogService.h; sourceTree = "<group>"; };
-		15F8981E28F936A3003B9519 /* YDMmapLogSwizzeling.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YDMmapLogSwizzeling.h; sourceTree = "<group>"; };
-		15F8981F28F936A3003B9519 /* YDMmapLogger.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = YDMmapLogger.cpp; sourceTree = "<group>"; };
-		15F8982028F936A3003B9519 /* YDLogService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YDLogService.m; sourceTree = "<group>"; };
-		15F8982128F936A3003B9519 /* YDMmapLogService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YDMmapLogService.h; sourceTree = "<group>"; };
-		15F8982228F936A3003B9519 /* YDMmapLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YDMmapLogger.h; sourceTree = "<group>"; };
-		15F8982328F936A3003B9519 /* YDMmapLogService.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = YDMmapLogService.mm; sourceTree = "<group>"; };
-		15F8982428F936A3003B9519 /* YDMmapLogSwizzeling.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YDMmapLogSwizzeling.m; sourceTree = "<group>"; };
-		15F8982628F936A4003B9519 /* YDLogListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YDLogListViewController.h; sourceTree = "<group>"; };
-		15F8982728F936A4003B9519 /* YDLogPreviewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YDLogPreviewViewController.m; sourceTree = "<group>"; };
-		15F8982828F936A4003B9519 /* YDLogListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YDLogListViewController.m; sourceTree = "<group>"; };
-		15F8982928F936A4003B9519 /* YDLoggerUI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YDLoggerUI.h; sourceTree = "<group>"; };
-		15F8982A28F936A4003B9519 /* YDLogPreviewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YDLogPreviewViewController.h; sourceTree = "<group>"; };
-		15F8982C28F936A4003B9519 /* UIDevice+YDCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIDevice+YDCommon.h"; sourceTree = "<group>"; };
-		15F8982D28F936A4003B9519 /* YDUIKitCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YDUIKitCategory.h; sourceTree = "<group>"; };
-		15F8982E28F936A4003B9519 /* UIControl+YDCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIControl+YDCommon.h"; sourceTree = "<group>"; };
-		15F8982F28F936A4003B9519 /* UIView+YDQRCode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+YDQRCode.h"; sourceTree = "<group>"; };
-		15F8983028F936A4003B9519 /* UIColor+YDCommon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+YDCommon.m"; sourceTree = "<group>"; };
-		15F8983128F936A4003B9519 /* UIView+YDCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+YDCommon.h"; sourceTree = "<group>"; };
-		15F8983228F936A4003B9519 /* UIWindow+YDScreenShot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIWindow+YDScreenShot.m"; sourceTree = "<group>"; };
-		15F8983328F936A4003B9519 /* UILabel+YDAddtion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+YDAddtion.m"; sourceTree = "<group>"; };
-		15F8983428F936A4003B9519 /* NSString+YDLabelHeigh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+YDLabelHeigh.h"; sourceTree = "<group>"; };
-		15F8983528F936A4003B9519 /* UITextField+YDCommon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+YDCommon.m"; sourceTree = "<group>"; };
-		15F8983628F936A4003B9519 /* UIImage+YDCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+YDCommon.h"; sourceTree = "<group>"; };
-		15F8983728F936A4003B9519 /* UIScrollView+YDCommon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+YDCommon.m"; sourceTree = "<group>"; };
-		15F8983828F936A4003B9519 /* UITableView+YDCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+YDCommon.h"; sourceTree = "<group>"; };
-		15F8983928F936A4003B9519 /* UITextView+YDPlaceholder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextView+YDPlaceholder.m"; sourceTree = "<group>"; };
-		15F8983A28F936A4003B9519 /* UIView+YDWhenTappedBlocks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+YDWhenTappedBlocks.h"; sourceTree = "<group>"; };
-		15F8983B28F936A4003B9519 /* UITapGestureRecognizer+YDAddtion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITapGestureRecognizer+YDAddtion.h"; sourceTree = "<group>"; };
-		15F8983C28F936A4003B9519 /* UIDevice+YDCommon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+YDCommon.m"; sourceTree = "<group>"; };
-		15F8983D28F936A4003B9519 /* UITextField+YDCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+YDCommon.h"; sourceTree = "<group>"; };
-		15F8983E28F936A4003B9519 /* NSString+YDLabelHeigh.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+YDLabelHeigh.m"; sourceTree = "<group>"; };
-		15F8983F28F936A4003B9519 /* UILabel+YDAddtion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+YDAddtion.h"; sourceTree = "<group>"; };
-		15F8984028F936A4003B9519 /* UIWindow+YDScreenShot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIWindow+YDScreenShot.h"; sourceTree = "<group>"; };
-		15F8984128F936A4003B9519 /* UIColor+YDCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+YDCommon.h"; sourceTree = "<group>"; };
-		15F8984228F936A4003B9519 /* UIView+YDCommon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+YDCommon.m"; sourceTree = "<group>"; };
-		15F8984328F936A4003B9519 /* UIControl+YDCommon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIControl+YDCommon.m"; sourceTree = "<group>"; };
-		15F8984428F936A4003B9519 /* UIView+YDQRCode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+YDQRCode.m"; sourceTree = "<group>"; };
-		15F8984528F936A4003B9519 /* UITableView+YDCommon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+YDCommon.m"; sourceTree = "<group>"; };
-		15F8984628F936A4003B9519 /* UIScrollView+YDCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+YDCommon.h"; sourceTree = "<group>"; };
-		15F8984728F936A4003B9519 /* UIImage+YDCommon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+YDCommon.m"; sourceTree = "<group>"; };
-		15F8984828F936A4003B9519 /* UITapGestureRecognizer+YDAddtion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITapGestureRecognizer+YDAddtion.m"; sourceTree = "<group>"; };
-		15F8984928F936A4003B9519 /* UIView+YDWhenTappedBlocks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+YDWhenTappedBlocks.m"; sourceTree = "<group>"; };
-		15F8984A28F936A4003B9519 /* UITextView+YDPlaceholder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextView+YDPlaceholder.h"; sourceTree = "<group>"; };
-		15F8984C28F936A4003B9519 /* YDAlertViewConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YDAlertViewConfig.m; sourceTree = "<group>"; };
-		15F8984D28F936A4003B9519 /* YDAlertViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YDAlertViewController.m; sourceTree = "<group>"; };
-		15F8984E28F936A4003B9519 /* YDAlertAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YDAlertAction.h; sourceTree = "<group>"; };
-		15F8984F28F936A4003B9519 /* YDAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YDAlertView.m; sourceTree = "<group>"; };
-		15F8985028F936A4003B9519 /* YDAlertAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YDAlertAction.m; sourceTree = "<group>"; };
-		15F8985128F936A4003B9519 /* YDAlertViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YDAlertViewController.h; sourceTree = "<group>"; };
-		15F8985228F936A4003B9519 /* YDAlertViewConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YDAlertViewConfig.h; sourceTree = "<group>"; };
-		15F8985328F936A4003B9519 /* YDAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YDAlertView.h; sourceTree = "<group>"; };
-		15F8985528F936A5003B9519 /* NSFileManager+YDCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSFileManager+YDCommon.h"; sourceTree = "<group>"; };
-		15F8985628F936A5003B9519 /* NSObject+YDCommon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+YDCommon.m"; sourceTree = "<group>"; };
-		15F8985728F936A5003B9519 /* NSDictionary+YDCommon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+YDCommon.m"; sourceTree = "<group>"; };
-		15F8985828F936A5003B9519 /* NSArray+YDCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+YDCommon.h"; sourceTree = "<group>"; };
-		15F8985928F936A5003B9519 /* NSData+YDCommon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+YDCommon.m"; sourceTree = "<group>"; };
-		15F8985A28F936A5003B9519 /* NSString+YDCommon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+YDCommon.m"; sourceTree = "<group>"; };
-		15F8985B28F936A5003B9519 /* NSDate+YDCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+YDCommon.h"; sourceTree = "<group>"; };
-		15F8985C28F936A5003B9519 /* YDFoundationCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YDFoundationCategory.h; sourceTree = "<group>"; };
-		15F8985D28F936A5003B9519 /* NSFileManager+YDCommon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSFileManager+YDCommon.m"; sourceTree = "<group>"; };
-		15F8985E28F936A5003B9519 /* NSDictionary+YDCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+YDCommon.h"; sourceTree = "<group>"; };
-		15F8985F28F936A5003B9519 /* NSObject+YDCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+YDCommon.h"; sourceTree = "<group>"; };
-		15F8986028F936A5003B9519 /* NSArray+YDCommon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+YDCommon.m"; sourceTree = "<group>"; };
-		15F8986128F936A5003B9519 /* NSDate+YDCommon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+YDCommon.m"; sourceTree = "<group>"; };
-		15F8986228F936A5003B9519 /* NSString+YDCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+YDCommon.h"; sourceTree = "<group>"; };
-		15F8986328F936A5003B9519 /* NSData+YDCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+YDCommon.h"; sourceTree = "<group>"; };
-		15F8986628F936A5003B9519 /* NSDictionary+BlocksKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+BlocksKit.m"; sourceTree = "<group>"; };
-		15F8986728F936A5003B9519 /* NSOrderedSet+BlocksKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSOrderedSet+BlocksKit.h"; sourceTree = "<group>"; };
-		15F8986828F936A5003B9519 /* NSMutableArray+BlocksKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+BlocksKit.m"; sourceTree = "<group>"; };
-		15F8986928F936A5003B9519 /* NSMutableIndexSet+BlocksKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableIndexSet+BlocksKit.m"; sourceTree = "<group>"; };
-		15F8986A28F936A5003B9519 /* NSObject+BKBlockExecution.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+BKBlockExecution.h"; sourceTree = "<group>"; };
-		15F8986B28F936A5003B9519 /* NSArray+BlocksKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+BlocksKit.h"; sourceTree = "<group>"; };
-		15F8986C28F936A5003B9519 /* NSObject+BKBlockObservation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+BKBlockObservation.m"; sourceTree = "<group>"; };
-		15F8986D28F936A5003B9519 /* NSTimer+BlocksKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSTimer+BlocksKit.m"; sourceTree = "<group>"; };
-		15F8986E28F936A5003B9519 /* NSMapTable+BlocksKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMapTable+BlocksKit.h"; sourceTree = "<group>"; };
-		15F8986F28F936A5003B9519 /* BKMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BKMacros.h; sourceTree = "<group>"; };
-		15F8987028F936A5003B9519 /* NSObject+BKAssociatedObjects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+BKAssociatedObjects.h"; sourceTree = "<group>"; };
-		15F8987128F936A5003B9519 /* NSObject+YDAsyncBlock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+YDAsyncBlock.h"; sourceTree = "<group>"; };
-		15F8987228F936A5003B9519 /* NSNumber+BlocksKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSNumber+BlocksKit.h"; sourceTree = "<group>"; };
-		15F8987328F936A5003B9519 /* NSInvocation+BlocksKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSInvocation+BlocksKit.m"; sourceTree = "<group>"; };
-		15F8987428F936A5003B9519 /* NSSet+BlocksKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSSet+BlocksKit.m"; sourceTree = "<group>"; };
-		15F8987528F936A5003B9519 /* NSIndexSet+BlocksKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSIndexSet+BlocksKit.h"; sourceTree = "<group>"; };
-		15F8987628F936A5003B9519 /* NSMutableSet+BlocksKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableSet+BlocksKit.h"; sourceTree = "<group>"; };
-		15F8987728F936A5003B9519 /* NSMutableDictionary+BlocksKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableDictionary+BlocksKit.h"; sourceTree = "<group>"; };
-		15F8987828F936A5003B9519 /* NSMutableOrderedSet+BlocksKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableOrderedSet+BlocksKit.m"; sourceTree = "<group>"; };
-		15F8987928F936A5003B9519 /* NSOrderedSet+BlocksKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSOrderedSet+BlocksKit.m"; sourceTree = "<group>"; };
-		15F8987A28F936A5003B9519 /* NSDictionary+BlocksKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+BlocksKit.h"; sourceTree = "<group>"; };
-		15F8987B28F936A5003B9519 /* NSObject+BKAssociatedObjects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+BKAssociatedObjects.m"; sourceTree = "<group>"; };
-		15F8987C28F936A5003B9519 /* NSMapTable+BlocksKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMapTable+BlocksKit.m"; sourceTree = "<group>"; };
-		15F8987D28F936A5003B9519 /* NSTimer+BlocksKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSTimer+BlocksKit.h"; sourceTree = "<group>"; };
-		15F8987E28F936A5003B9519 /* NSObject+BKBlockObservation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+BKBlockObservation.h"; sourceTree = "<group>"; };
-		15F8987F28F936A5003B9519 /* NSArray+BlocksKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+BlocksKit.m"; sourceTree = "<group>"; };
-		15F8988028F936A5003B9519 /* NSObject+BKBlockExecution.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+BKBlockExecution.m"; sourceTree = "<group>"; };
-		15F8988128F936A5003B9519 /* NSMutableIndexSet+BlocksKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableIndexSet+BlocksKit.h"; sourceTree = "<group>"; };
-		15F8988228F936A5003B9519 /* NSMutableArray+BlocksKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+BlocksKit.h"; sourceTree = "<group>"; };
-		15F8988328F936A5003B9519 /* NSIndexSet+BlocksKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSIndexSet+BlocksKit.m"; sourceTree = "<group>"; };
-		15F8988428F936A5003B9519 /* NSInvocation+BlocksKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSInvocation+BlocksKit.h"; sourceTree = "<group>"; };
-		15F8988528F936A5003B9519 /* NSSet+BlocksKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSSet+BlocksKit.h"; sourceTree = "<group>"; };
-		15F8988628F936A5003B9519 /* NSNumber+BlocksKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSNumber+BlocksKit.m"; sourceTree = "<group>"; };
-		15F8988728F936A5003B9519 /* NSObject+YDAsyncBlock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+YDAsyncBlock.m"; sourceTree = "<group>"; };
-		15F8988828F936A5003B9519 /* NSMutableOrderedSet+BlocksKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableOrderedSet+BlocksKit.h"; sourceTree = "<group>"; };
-		15F8988928F936A5003B9519 /* NSMutableDictionary+BlocksKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableDictionary+BlocksKit.m"; sourceTree = "<group>"; };
-		15F8988A28F936A5003B9519 /* NSMutableSet+BlocksKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableSet+BlocksKit.m"; sourceTree = "<group>"; };
-		15F8988D28F936A5003B9519 /* UIImagePickerController+BlocksKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImagePickerController+BlocksKit.h"; sourceTree = "<group>"; };
-		15F8988E28F936A5003B9519 /* UIActionSheet+BlocksKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIActionSheet+BlocksKit.h"; sourceTree = "<group>"; };
-		15F8988F28F936A5003B9519 /* UIPopoverController+BlocksKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIPopoverController+BlocksKit.h"; sourceTree = "<group>"; };
-		15F8989028F936A5003B9519 /* UITextView+BlocksKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextView+BlocksKit.m"; sourceTree = "<group>"; };
-		15F8989128F936A5003B9519 /* UIControl+BlocksKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIControl+BlocksKit.h"; sourceTree = "<group>"; };
-		15F8989228F936A5003B9519 /* UITextField+BlocksKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+BlocksKit.h"; sourceTree = "<group>"; };
-		15F8989328F936A5003B9519 /* UIBarButtonItem+BlocksKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+BlocksKit.m"; sourceTree = "<group>"; };
-		15F8989428F936A5003B9519 /* UIImage+BlocksKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+BlocksKit.h"; sourceTree = "<group>"; };
-		15F8989528F936A5003B9519 /* UIAlertView+BlocksKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIAlertView+BlocksKit.m"; sourceTree = "<group>"; };
-		15F8989628F936A5003B9519 /* UIView+BlocksKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+BlocksKit.m"; sourceTree = "<group>"; };
-		15F8989728F936A5003B9519 /* UIGestureRecognizer+BlocksKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIGestureRecognizer+BlocksKit.m"; sourceTree = "<group>"; };
-		15F8989828F936A5003B9519 /* UIPopoverController+BlocksKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIPopoverController+BlocksKit.m"; sourceTree = "<group>"; };
-		15F8989928F936A5003B9519 /* UITextView+BlocksKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextView+BlocksKit.h"; sourceTree = "<group>"; };
-		15F8989A28F936A5003B9519 /* UIActionSheet+BlocksKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIActionSheet+BlocksKit.m"; sourceTree = "<group>"; };
-		15F8989B28F936A5003B9519 /* UIImagePickerController+BlocksKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImagePickerController+BlocksKit.m"; sourceTree = "<group>"; };
-		15F8989C28F936A5003B9519 /* UITextField+BlocksKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+BlocksKit.m"; sourceTree = "<group>"; };
-		15F8989D28F936A5003B9519 /* UIControl+BlocksKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIControl+BlocksKit.m"; sourceTree = "<group>"; };
-		15F8989E28F936A5003B9519 /* UIView+BlocksKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+BlocksKit.h"; sourceTree = "<group>"; };
-		15F8989F28F936A5003B9519 /* UIAlertView+BlocksKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAlertView+BlocksKit.h"; sourceTree = "<group>"; };
-		15F898A028F936A5003B9519 /* UIImage+BlocksKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+BlocksKit.m"; sourceTree = "<group>"; };
-		15F898A128F936A5003B9519 /* UIBarButtonItem+BlocksKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+BlocksKit.h"; sourceTree = "<group>"; };
-		15F898A228F936A5003B9519 /* UIGestureRecognizer+BlocksKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIGestureRecognizer+BlocksKit.h"; sourceTree = "<group>"; };
-		15F898A428F936A5003B9519 /* A2BlockInvocation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = A2BlockInvocation.m; sourceTree = "<group>"; };
-		15F898A528F936A5003B9519 /* NSObject+A2DynamicDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+A2DynamicDelegate.h"; sourceTree = "<group>"; };
-		15F898A628F936A5003B9519 /* A2DynamicDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = A2DynamicDelegate.h; sourceTree = "<group>"; };
-		15F898A828F936A5003B9519 /* NSURLConnection+BlocksKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSURLConnection+BlocksKit.h"; sourceTree = "<group>"; };
-		15F898A928F936A5003B9519 /* NSCache+BlocksKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSCache+BlocksKit.m"; sourceTree = "<group>"; };
-		15F898AA28F936A5003B9519 /* NSCache+BlocksKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSCache+BlocksKit.h"; sourceTree = "<group>"; };
-		15F898AB28F936A5003B9519 /* NSURLConnection+BlocksKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSURLConnection+BlocksKit.m"; sourceTree = "<group>"; };
-		15F898AC28F936A5003B9519 /* NSObject+A2BlockDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+A2BlockDelegate.m"; sourceTree = "<group>"; };
-		15F898AD28F936A5003B9519 /* A2BlockInvocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = A2BlockInvocation.h; sourceTree = "<group>"; };
-		15F898AE28F936A5003B9519 /* A2DynamicDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = A2DynamicDelegate.m; sourceTree = "<group>"; };
-		15F898AF28F936A5003B9519 /* NSObject+A2DynamicDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+A2DynamicDelegate.m"; sourceTree = "<group>"; };
-		15F898B028F936A5003B9519 /* NSObject+A2BlockDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+A2BlockDelegate.h"; sourceTree = "<group>"; };
-		15F898B128F936A5003B9519 /* BKDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BKDefines.h; sourceTree = "<group>"; };
-		15F898B228F936A5003B9519 /* YDBlockKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YDBlockKit.h; sourceTree = "<group>"; };
-		15F898B428F936A5003B9519 /* YDFileManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YDFileManager.h; sourceTree = "<group>"; };
-		15F898B528F936A5003B9519 /* YDFileManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YDFileManager.m; sourceTree = "<group>"; };
-		15F898B828F936A6003B9519 /* YDNumberSender.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YDNumberSender.h; sourceTree = "<group>"; };
-		15F898B928F936A6003B9519 /* YDStack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YDStack.m; sourceTree = "<group>"; };
-		15F898BA28F936A6003B9519 /* YDNetworkTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YDNetworkTools.h; sourceTree = "<group>"; };
-		15F898BB28F936A6003B9519 /* YDVideoTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YDVideoTools.h; sourceTree = "<group>"; };
-		15F898BC28F936A6003B9519 /* YDStack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YDStack.h; sourceTree = "<group>"; };
-		15F898BD28F936A6003B9519 /* YDTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YDTools.h; sourceTree = "<group>"; };
-		15F898BE28F936A6003B9519 /* YDNumberSender.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YDNumberSender.m; sourceTree = "<group>"; };
-		15F898BF28F936A6003B9519 /* YDVideoTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YDVideoTools.m; sourceTree = "<group>"; };
-		15F898C028F936A6003B9519 /* YDNetworkTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YDNetworkTools.m; sourceTree = "<group>"; };
-		15F898C228F936A6003B9519 /* YDClearCacheService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YDClearCacheService.h; sourceTree = "<group>"; };
-		15F898C328F936A6003B9519 /* YDClearCacheConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YDClearCacheConfig.m; sourceTree = "<group>"; };
-		15F898C428F936A6003B9519 /* YDClearCacheService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YDClearCacheService.m; sourceTree = "<group>"; };
-		15F898C528F936A6003B9519 /* YDClearCacheProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YDClearCacheProtocol.h; sourceTree = "<group>"; };
-		15F898C628F936A6003B9519 /* YDClearCacheConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YDClearCacheConfig.h; sourceTree = "<group>"; };
-		15F898C928F936A6003B9519 /* YDJPushManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YDJPushManager.m; sourceTree = "<group>"; };
-		15F898CB28F936A6003B9519 /* YDJPushConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YDJPushConfig.h; sourceTree = "<group>"; };
-		15F898CC28F936A6003B9519 /* YDJPushConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YDJPushConfig.m; sourceTree = "<group>"; };
-		15F898CD28F936A6003B9519 /* YDJPushConfigProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YDJPushConfigProtocol.h; sourceTree = "<group>"; };
-		15F898CE28F936A6003B9519 /* YDJPushManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YDJPushManager.h; sourceTree = "<group>"; };
-		15F898CF28F936A6003B9519 /* YDJPush.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YDJPush.h; sourceTree = "<group>"; };
-		15F898D128F936A7003B9519 /* YDActionSheetViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YDActionSheetViewController.h; sourceTree = "<group>"; };
-		15F898D228F936A7003B9519 /* YDSheetButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YDSheetButton.h; sourceTree = "<group>"; };
-		15F898D328F936A7003B9519 /* YDSheetTitleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YDSheetTitleView.m; sourceTree = "<group>"; };
-		15F898D428F936A7003B9519 /* YDActionSheetViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YDActionSheetViewController.m; sourceTree = "<group>"; };
-		15F898D528F936A7003B9519 /* YDSheetButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YDSheetButton.m; sourceTree = "<group>"; };
-		15F898D628F936A7003B9519 /* YDSheetTitleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YDSheetTitleView.h; sourceTree = "<group>"; };
-		15F898D828F936A7003B9519 /* YDAlertAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YDAlertAction.h; sourceTree = "<group>"; };
-		15F898DB28F936A7003B9519 /* YDWebp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YDWebp.h; sourceTree = "<group>"; };
-		15F898DC28F936A7003B9519 /* CGImage+YDWebp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CGImage+YDWebp.h"; sourceTree = "<group>"; };
-		15F898DD28F936A7003B9519 /* UIImage+YDWebp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+YDWebp.m"; sourceTree = "<group>"; };
-		15F898DE28F936A7003B9519 /* CGImage+YDWebp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CGImage+YDWebp.m"; sourceTree = "<group>"; };
-		15F898DF28F936A7003B9519 /* YDWebp.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = YDWebp.docc; sourceTree = "<group>"; };
-		15F898E028F936A7003B9519 /* UIImage+YDWebp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+YDWebp.h"; sourceTree = "<group>"; };
-		15F898E228F936A7003B9519 /* YDTimer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YDTimer.m; sourceTree = "<group>"; };
-		15F898E328F936A7003B9519 /* YDTimer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YDTimer.h; sourceTree = "<group>"; };
-		15F898E628F936A8003B9519 /* YDUtilKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YDUtilKit.h; sourceTree = "<group>"; };
-		15F898E828F936A8003B9519 /* YDAuthorizationUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YDAuthorizationUtil.h; sourceTree = "<group>"; };
-		15F898E928F936A8003B9519 /* YDAuthorizationUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YDAuthorizationUtil.m; sourceTree = "<group>"; };
-		15F898EC28F936A8003B9519 /* YDAvoidCrash.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YDAvoidCrash.m; sourceTree = "<group>"; };
-		15F898ED28F936A8003B9519 /* YDUnrecognizedSelectorSolveObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YDUnrecognizedSelectorSolveObject.h; sourceTree = "<group>"; };
-		15F898EF28F936A8003B9519 /* NSObject+YDForwarding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+YDForwarding.h"; sourceTree = "<group>"; };
-		15F898F028F936A8003B9519 /* NSObject+YDAvoidCrashRunTime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+YDAvoidCrashRunTime.h"; sourceTree = "<group>"; };
-		15F898F128F936A8003B9519 /* NSObject+YDAvoidCrashRunTime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+YDAvoidCrashRunTime.m"; sourceTree = "<group>"; };
-		15F898F228F936A8003B9519 /* NSObject+YDForwarding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+YDForwarding.m"; sourceTree = "<group>"; };
-		15F898F328F936A8003B9519 /* YDAvoidCrash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YDAvoidCrash.h; sourceTree = "<group>"; };
-		15F898F528F936A8003B9519 /* NSMutableOrderedSet+YDAvoidCrash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableOrderedSet+YDAvoidCrash.h"; sourceTree = "<group>"; };
-		15F898F628F936A8003B9519 /* NSUserDefaults+YDAvoidCrash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSUserDefaults+YDAvoidCrash.h"; sourceTree = "<group>"; };
-		15F898F728F936A8003B9519 /* NSMutableData+YDAvoidCrash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableData+YDAvoidCrash.h"; sourceTree = "<group>"; };
-		15F898F828F936A8003B9519 /* NSMutableSet+YDAvoidCrash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableSet+YDAvoidCrash.h"; sourceTree = "<group>"; };
-		15F898F928F936A8003B9519 /* NSOrderedSet+YDAvoidCrash.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSOrderedSet+YDAvoidCrash.m"; sourceTree = "<group>"; };
-		15F898FA28F936A8003B9519 /* NSMutableArray+YDAvoidCrash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+YDAvoidCrash.h"; sourceTree = "<group>"; };
-		15F898FB28F936A8003B9519 /* UIView+YDAvoidCrash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+YDAvoidCrash.h"; sourceTree = "<group>"; };
-		15F898FC28F936A8003B9519 /* NSSet+YDAvoidCrash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSSet+YDAvoidCrash.h"; sourceTree = "<group>"; };
-		15F898FD28F936A8003B9519 /* NSAttributedString+YDAvoidCrash.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSAttributedString+YDAvoidCrash.m"; sourceTree = "<group>"; };
-		15F898FE28F936A8003B9519 /* NSMutableDictionary+YDAvoidCrash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableDictionary+YDAvoidCrash.h"; sourceTree = "<group>"; };
-		15F898FF28F936A8003B9519 /* NSArray+YDAvoidCrash.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+YDAvoidCrash.m"; sourceTree = "<group>"; };
-		15F8990028F936A8003B9519 /* NSString+YDAvoidCrash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+YDAvoidCrash.h"; sourceTree = "<group>"; };
-		15F8990128F936A8003B9519 /* NSMutableAttributedString+YDAvoidCrash.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableAttributedString+YDAvoidCrash.m"; sourceTree = "<group>"; };
-		15F8990228F936A8003B9519 /* CALayer+YDAvoidCrash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CALayer+YDAvoidCrash.h"; sourceTree = "<group>"; };
-		15F8990328F936A8003B9519 /* NSDictionary+YDAvoidCrash.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+YDAvoidCrash.m"; sourceTree = "<group>"; };
-		15F8990428F936A8003B9519 /* NSObject+YDAvoidCrash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+YDAvoidCrash.h"; sourceTree = "<group>"; };
-		15F8990528F936A8003B9519 /* NSMutableData+YDAvoidCrash.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableData+YDAvoidCrash.m"; sourceTree = "<group>"; };
-		15F8990628F936A8003B9519 /* NSUserDefaults+YDAvoidCrash.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSUserDefaults+YDAvoidCrash.m"; sourceTree = "<group>"; };
-		15F8990728F936A8003B9519 /* NSMutableOrderedSet+YDAvoidCrash.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableOrderedSet+YDAvoidCrash.m"; sourceTree = "<group>"; };
-		15F8990828F936A8003B9519 /* UIView+YDAvoidCrash.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+YDAvoidCrash.m"; sourceTree = "<group>"; };
-		15F8990928F936A8003B9519 /* NSMutableArray+YDAvoidCrash.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+YDAvoidCrash.m"; sourceTree = "<group>"; };
-		15F8990A28F936A8003B9519 /* NSOrderedSet+YDAvoidCrash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSOrderedSet+YDAvoidCrash.h"; sourceTree = "<group>"; };
-		15F8990B28F936A8003B9519 /* NSMutableSet+YDAvoidCrash.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableSet+YDAvoidCrash.m"; sourceTree = "<group>"; };
-		15F8990C28F936A8003B9519 /* NSMutableAttributedString+YDAvoidCrash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableAttributedString+YDAvoidCrash.h"; sourceTree = "<group>"; };
-		15F8990D28F936A8003B9519 /* NSString+YDAvoidCrash.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+YDAvoidCrash.m"; sourceTree = "<group>"; };
-		15F8990E28F936A8003B9519 /* NSArray+YDAvoidCrash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+YDAvoidCrash.h"; sourceTree = "<group>"; };
-		15F8990F28F936A8003B9519 /* NSMutableDictionary+YDAvoidCrash.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableDictionary+YDAvoidCrash.m"; sourceTree = "<group>"; };
-		15F8991028F936A8003B9519 /* NSAttributedString+YDAvoidCrash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSAttributedString+YDAvoidCrash.h"; sourceTree = "<group>"; };
-		15F8991128F936A8003B9519 /* NSSet+YDAvoidCrash.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSSet+YDAvoidCrash.m"; sourceTree = "<group>"; };
-		15F8991228F936A8003B9519 /* NSObject+YDAvoidCrash.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+YDAvoidCrash.m"; sourceTree = "<group>"; };
-		15F8991328F936A8003B9519 /* NSDictionary+YDAvoidCrash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+YDAvoidCrash.h"; sourceTree = "<group>"; };
-		15F8991428F936A8003B9519 /* CALayer+YDAvoidCrash.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CALayer+YDAvoidCrash.m"; sourceTree = "<group>"; };
-		15F8991528F936A8003B9519 /* YDUnrecognizedSelectorSolveObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YDUnrecognizedSelectorSolveObject.m; sourceTree = "<group>"; };
-		15F8991728F936A9003B9519 /* YDThreadSafeMutableSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YDThreadSafeMutableSet.m; sourceTree = "<group>"; };
-		15F8991828F936A9003B9519 /* YDThreadSafeMutableArray.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YDThreadSafeMutableArray.m; sourceTree = "<group>"; };
-		15F8991928F936A9003B9519 /* YDLoopThread.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YDLoopThread.h; sourceTree = "<group>"; };
-		15F8991A28F936A9003B9519 /* YDThreadSafeMutableDictionary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YDThreadSafeMutableDictionary.m; sourceTree = "<group>"; };
-		15F8991B28F936A9003B9519 /* YDMainThread.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YDMainThread.h; sourceTree = "<group>"; };
-		15F8991C28F936A9003B9519 /* YDSafeThreadPool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YDSafeThreadPool.h; sourceTree = "<group>"; };
-		15F8991E28F936A9003B9519 /* YDLoopThread.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YDLoopThread.m; sourceTree = "<group>"; };
-		15F8991F28F936A9003B9519 /* YDThreadSafeMutableArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YDThreadSafeMutableArray.h; sourceTree = "<group>"; };
-		15F8992028F936A9003B9519 /* YDThreadSafeMutableSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YDThreadSafeMutableSet.h; sourceTree = "<group>"; };
-		15F8992128F936A9003B9519 /* YDMainThread.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YDMainThread.m; sourceTree = "<group>"; };
-		15F8992228F936A9003B9519 /* YDThreadSafeMutableDictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YDThreadSafeMutableDictionary.h; sourceTree = "<group>"; };
-		15F8992328F936A9003B9519 /* YDSafeThread.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YDSafeThread.h; sourceTree = "<group>"; };
-		15F8992428F936A9003B9519 /* YDSafeThreadPool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YDSafeThreadPool.m; sourceTree = "<group>"; };
-		15F8992728F936A9003B9519 /* YDAvoidCrashKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YDAvoidCrashKit.h; sourceTree = "<group>"; };
-		15F8992A28F936A9003B9519 /* YDImageService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YDImageService.m; sourceTree = "<group>"; };
-		15F8992B28F936A9003B9519 /* YDWebImageManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YDWebImageManager.h; sourceTree = "<group>"; };
-		15F8992C28F936A9003B9519 /* YDImageDefaultConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YDImageDefaultConfig.h; sourceTree = "<group>"; };
-		15F8992D28F936A9003B9519 /* YYWebImageOperation+YDNetworkThread.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "YYWebImageOperation+YDNetworkThread.h"; sourceTree = "<group>"; };
-		15F8992E28F936A9003B9519 /* YDImageConfigProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YDImageConfigProtocol.h; sourceTree = "<group>"; };
-		15F8992F28F936A9003B9519 /* YDImageService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YDImageService.h; sourceTree = "<group>"; };
-		15F8993028F936A9003B9519 /* YYWebImageOperation+YDNetworkThread.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "YYWebImageOperation+YDNetworkThread.m"; sourceTree = "<group>"; };
-		15F8993128F936A9003B9519 /* YDImageDefaultConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YDImageDefaultConfig.m; sourceTree = "<group>"; };
-		15F8993228F936A9003B9519 /* YDWebImageManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YDWebImageManager.m; sourceTree = "<group>"; };
-		15F8993428F936AA003B9519 /* YDBaseUI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YDBaseUI.h; sourceTree = "<group>"; };
-		15F8993528F936AA003B9519 /* YDBaseUIDefine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YDBaseUIDefine.m; sourceTree = "<group>"; };
-		15F8993628F936AA003B9519 /* YDBaseUIDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YDBaseUIDefine.h; sourceTree = "<group>"; };
-		15F8993828F936AA003B9519 /* YDPreLoaderModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YDPreLoaderModel.m; sourceTree = "<group>"; };
-		15F8993A28F936AA003B9519 /* YDPreLoaderManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YDPreLoaderManager.h; sourceTree = "<group>"; };
-		15F8993B28F936AA003B9519 /* YDPreLoaderModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YDPreLoaderModel.h; sourceTree = "<group>"; };
-		15F8993C28F936AA003B9519 /* YDPreLoaderManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YDPreLoaderManager.m; sourceTree = "<group>"; };
-		15F8993D28F936AA003B9519 /* YDPreLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YDPreLoader.h; sourceTree = "<group>"; };
-		15F8994028F936AA003B9519 /* CTMediator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTMediator.m; sourceTree = "<group>"; };
-		15F8994128F936AA003B9519 /* CTMediator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTMediator.h; sourceTree = "<group>"; };
-		15F8994328F936AA003B9519 /* YDMediator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YDMediator.m; sourceTree = "<group>"; };
-		15F8994428F936AA003B9519 /* YDApp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YDApp.m; sourceTree = "<group>"; };
-		15F8994528F936AA003B9519 /* YDMediatorConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YDMediatorConfig.h; sourceTree = "<group>"; };
-		15F8994628F936AA003B9519 /* YDApp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YDApp.h; sourceTree = "<group>"; };
-		15F8994728F936AA003B9519 /* YDMediator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YDMediator.h; sourceTree = "<group>"; };
 		15F89AB428F93949003B9519 /* YDFoundationSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = YDFoundationSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		15F89ADD28F946BF003B9519 /* YDNetworkManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YDNetworkManager.h; sourceTree = "<group>"; };
-		15F89AE028F946E2003B9519 /* YDCommandConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YDCommandConfig.h; sourceTree = "<group>"; };
-		15F89AE128F946E2003B9519 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		15F89AE228F946E2003B9519 /* YDCommandConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YDCommandConfig.m; sourceTree = "<group>"; };
-		15F89AE528F946E2003B9519 /* YDBatchCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YDBatchCommand.h; sourceTree = "<group>"; };
-		15F89AE628F946E2003B9519 /* AFJSONResponseSerializer+YDAgent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AFJSONResponseSerializer+YDAgent.m"; sourceTree = "<group>"; };
-		15F89AE728F946E2003B9519 /* YDCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YDCommand.h; sourceTree = "<group>"; };
-		15F89AE828F946E2003B9519 /* YDCommand+YDError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "YDCommand+YDError.h"; sourceTree = "<group>"; };
-		15F89AE928F946E2003B9519 /* YDBatchCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YDBatchCommand.m; sourceTree = "<group>"; };
-		15F89AEA28F946E2003B9519 /* AFJSONResponseSerializer+YDAgent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AFJSONResponseSerializer+YDAgent.h"; sourceTree = "<group>"; };
-		15F89AEB28F946E2003B9519 /* YDCommand+YDError.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "YDCommand+YDError.m"; sourceTree = "<group>"; };
-		15F89AEC28F946E2003B9519 /* YDCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YDCommand.m; sourceTree = "<group>"; };
-		15F89AED28F946E2003B9519 /* YDNetworkManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YDNetworkManager.h; sourceTree = "<group>"; };
 		1D505EBECB0D92AD672BFA87 /* Pods-Demo-YDAlertAction.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Demo-YDAlertAction.release.xcconfig"; path = "Target Support Files/Pods-Demo-YDAlertAction/Pods-Demo-YDAlertAction.release.xcconfig"; sourceTree = "<group>"; };
 		1F2A14A9359009CC35E7351A /* Pods-Demo-YDAvoidCrashKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Demo-YDAvoidCrashKit.release.xcconfig"; path = "Target Support Files/Pods-Demo-YDAvoidCrashKit/Pods-Demo-YDAvoidCrashKit.release.xcconfig"; sourceTree = "<group>"; };
 		261A4D2FF1A35CB9C4D1E593 /* libPods-Demo-YDAuthorizationUtil.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Demo-YDAuthorizationUtil.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -1836,34 +1498,6 @@
 			isa = PBXGroup;
 			children = (
 				15652EAF28F6BB680050EEB3 /* YDFoundation.h */,
-				15F89ADF28F946E2003B9519 /* YDNetworkManager */,
-				15F898D028F936A7003B9519 /* YDActionAlert */,
-				15F8984B28F936A4003B9519 /* YDActionSheet */,
-				15F898D728F936A7003B9519 /* YDAlertAction */,
-				15F898E728F936A8003B9519 /* YDAuthorizationUtil */,
-				15F898EB28F936A8003B9519 /* YDAvoidCrash */,
-				15F8992528F936A9003B9519 /* YDAvoidCrashKit */,
-				15F8993328F936AA003B9519 /* YDBaseUI */,
-				15F8986428F936A5003B9519 /* YDBlockKit */,
-				15F898C128F936A6003B9519 /* YDClearCacheService */,
-				15F8980528F936A3003B9519 /* YDEmptyView */,
-				15F898B328F936A5003B9519 /* YDFileManager */,
-				15F8985428F936A5003B9519 /* YDFuncKit */,
-				15F8992828F936A9003B9519 /* YDImageService */,
-				15F898C828F936A6003B9519 /* YDJPush */,
-				15F8981C28F936A3003B9519 /* YDLogger */,
-				15F8982528F936A4003B9519 /* YDLoggerUI */,
-				15F8993E28F936AA003B9519 /* YDMediator */,
-				15F897FC28F936A3003B9519 /* YDMonitor */,
-				15F8993728F936AA003B9519 /* YDPreLoader */,
-				15F897F128F936A2003B9519 /* YDRouter */,
-				15F8991628F936A9003B9519 /* YDSafeThread */,
-				15F897CE28F936A2003B9519 /* YDSVProgressHUD */,
-				15F898E128F936A7003B9519 /* YDTimer */,
-				15F898B728F936A6003B9519 /* YDTools */,
-				15F8982B28F936A4003B9519 /* YDUIKit */,
-				15F898E528F936A8003B9519 /* YDUtilKit */,
-				15F898DA28F936A7003B9519 /* YDWebp */,
 			);
 			path = YDFoundationSDK;
 			sourceTree = "<group>";
@@ -1917,13 +1551,11 @@
 			children = (
 				15652F0328F6C2B80050EEB3 /* YDNumberSender.h */,
 				15652F0428F6C2B80050EEB3 /* YDStack.m */,
-				15652F0528F6C2B80050EEB3 /* YDNetworkTools.h */,
 				15652F0628F6C2B80050EEB3 /* YDVideoTools.h */,
 				15652F0728F6C2B80050EEB3 /* YDStack.h */,
 				15652F0828F6C2B80050EEB3 /* YDTools.h */,
 				15652F0928F6C2B80050EEB3 /* YDNumberSender.m */,
 				15652F0A28F6C2B80050EEB3 /* YDVideoTools.m */,
-				15652F0B28F6C2B80050EEB3 /* YDNetworkTools.m */,
 			);
 			path = YDTools;
 			sourceTree = SOURCE_ROOT;
@@ -2111,6 +1743,8 @@
 			isa = PBXGroup;
 			children = (
 				15F89ADD28F946BF003B9519 /* YDNetworkManager.h */,
+				15652F0528F6C2B80050EEB3 /* YDNetworkTools.h */,
+				15652F0B28F6C2B80050EEB3 /* YDNetworkTools.m */,
 				15F8950028F90E84003B9519 /* YDCommandConfig.h */,
 				15F8950128F90E84003B9519 /* YDCommandConfig.m */,
 				15F894F728F90E84003B9519 /* YDCommand */,
@@ -2229,599 +1863,6 @@
 				15F894FF28F90E84003B9519 /* YDCommand.m */,
 				15F894FB28F90E84003B9519 /* YDCommand+YDError.h */,
 				15F894FE28F90E84003B9519 /* YDCommand+YDError.m */,
-			);
-			path = YDCommand;
-			sourceTree = "<group>";
-		};
-		15F897CE28F936A2003B9519 /* YDSVProgressHUD */ = {
-			isa = PBXGroup;
-			children = (
-				15F897CF28F936A2003B9519 /* YDOverWriteSVProgressHUD.h */,
-				15F897D028F936A2003B9519 /* SVProgressHUD+YDLottie.h */,
-				15F897D128F936A2003B9519 /* UIViewController+Toast.m */,
-				15F897D228F936A2003B9519 /* YDProgressHUDConfig.m */,
-				15F897D328F936A2003B9519 /* YDProgressHUD.h */,
-				15F897D428F936A2003B9519 /* YDOverWriteSVProgressHUD.m */,
-				15F897D528F936A2003B9519 /* YDSVProgressHUD.h */,
-				15F897D628F936A2003B9519 /* SVProgressHUD+YDLottie.m */,
-				15F897D728F936A2003B9519 /* YDProgressHUD.m */,
-				15F897D828F936A2003B9519 /* YDProgressHUDConfig.h */,
-				15F897D928F936A2003B9519 /* UIViewController+Toast.h */,
-				15F897DB28F936A2003B9519 /* Assets */,
-			);
-			path = YDSVProgressHUD;
-			sourceTree = SOURCE_ROOT;
-		};
-		15F897DB28F936A2003B9519 /* Assets */ = {
-			isa = PBXGroup;
-			children = (
-				15F897DC28F936A2003B9519 /* info.png */,
-				15F897DD28F936A2003B9519 /* HUD_success@2x.png */,
-				15F897DE28F936A2003B9519 /* error@3x.png */,
-				15F897DF28F936A2003B9519 /* angle-mask@3x.png */,
-				15F897E028F936A2003B9519 /* HUD_error.png */,
-				15F897E128F936A2003B9519 /* angle-mask@2x.png */,
-				15F897E228F936A2003B9519 /* error@2x.png */,
-				15F897E328F936A2003B9519 /* HUD_success@3x.png */,
-				15F897E428F936A2003B9519 /* info@3x.png */,
-				15F897E528F936A2003B9519 /* success@2x.png */,
-				15F897E628F936A2003B9519 /* HUD_success.png */,
-				15F897E728F936A2003B9519 /* success@3x.png */,
-				15F897E828F936A2003B9519 /* HUD_info.png */,
-				15F897E928F936A2003B9519 /* info@2x.png */,
-				15F897EA28F936A2003B9519 /* HUD_error@3x.png */,
-				15F897EB28F936A2003B9519 /* error.png */,
-				15F897EC28F936A2003B9519 /* HUD_info@3x.png */,
-				15F897ED28F936A2003B9519 /* HUD_info@2x.png */,
-				15F897EE28F936A2003B9519 /* success.png */,
-				15F897EF28F936A2003B9519 /* HUD_error@2x.png */,
-				15F897F028F936A2003B9519 /* angle-mask.png */,
-			);
-			path = Assets;
-			sourceTree = "<group>";
-		};
-		15F897F128F936A2003B9519 /* YDRouter */ = {
-			isa = PBXGroup;
-			children = (
-				15F897F228F936A2003B9519 /* MGJRouter.h */,
-				15F897F328F936A2003B9519 /* YDURLHandle.h */,
-				15F897F428F936A2003B9519 /* YDRouter.h */,
-				15F897F528F936A2003B9519 /* YDURLHelper.m */,
-				15F897F728F936A2003B9519 /* YDRouter.m */,
-				15F897F828F936A2003B9519 /* YDURLHandle.m */,
-				15F897F928F936A2003B9519 /* MGJRouter.m */,
-				15F897FA28F936A2003B9519 /* YDURLHelper.h */,
-				15F897FB28F936A2003B9519 /* Info.plist */,
-			);
-			path = YDRouter;
-			sourceTree = SOURCE_ROOT;
-		};
-		15F897FC28F936A3003B9519 /* YDMonitor */ = {
-			isa = PBXGroup;
-			children = (
-				15F897FD28F936A3003B9519 /* YDMonitor.h */,
-				15F897FE28F936A3003B9519 /* YDCPUInfo.m */,
-				15F897FF28F936A3003B9519 /* YDCallStack.m */,
-				15F8980028F936A3003B9519 /* YDCallStackLib.m */,
-				15F8980128F936A3003B9519 /* YDMonitor.m */,
-				15F8980228F936A3003B9519 /* YDCPUInfo.h */,
-				15F8980328F936A3003B9519 /* YDCallStack.h */,
-				15F8980428F936A3003B9519 /* YDCallStackLib.h */,
-			);
-			path = YDMonitor;
-			sourceTree = SOURCE_ROOT;
-		};
-		15F8980528F936A3003B9519 /* YDEmptyView */ = {
-			isa = PBXGroup;
-			children = (
-				15F8980628F936A3003B9519 /* YDEmptyViewConfig.m */,
-				15F8980728F936A3003B9519 /* YDEmptyView.m */,
-				15F8980928F936A3003B9519 /* UIViewController+YDMistakesShow.h */,
-				15F8980A28F936A3003B9519 /* YDEmptyViewConfig.h */,
-				15F8980B28F936A3003B9519 /* YDEmptyView.h */,
-				15F8980C28F936A3003B9519 /* UIViewController+YDMistakesShow.m */,
-			);
-			path = YDEmptyView;
-			sourceTree = SOURCE_ROOT;
-		};
-		15F8981C28F936A3003B9519 /* YDLogger */ = {
-			isa = PBXGroup;
-			children = (
-				15F8981D28F936A3003B9519 /* YDLogService.h */,
-				15F8981E28F936A3003B9519 /* YDMmapLogSwizzeling.h */,
-				15F8981F28F936A3003B9519 /* YDMmapLogger.cpp */,
-				15F8982028F936A3003B9519 /* YDLogService.m */,
-				15F8982128F936A3003B9519 /* YDMmapLogService.h */,
-				15F8982228F936A3003B9519 /* YDMmapLogger.h */,
-				15F8982328F936A3003B9519 /* YDMmapLogService.mm */,
-				15F8982428F936A3003B9519 /* YDMmapLogSwizzeling.m */,
-			);
-			path = YDLogger;
-			sourceTree = SOURCE_ROOT;
-		};
-		15F8982528F936A4003B9519 /* YDLoggerUI */ = {
-			isa = PBXGroup;
-			children = (
-				15F8982628F936A4003B9519 /* YDLogListViewController.h */,
-				15F8982728F936A4003B9519 /* YDLogPreviewViewController.m */,
-				15F8982828F936A4003B9519 /* YDLogListViewController.m */,
-				15F8982928F936A4003B9519 /* YDLoggerUI.h */,
-				15F8982A28F936A4003B9519 /* YDLogPreviewViewController.h */,
-			);
-			path = YDLoggerUI;
-			sourceTree = SOURCE_ROOT;
-		};
-		15F8982B28F936A4003B9519 /* YDUIKit */ = {
-			isa = PBXGroup;
-			children = (
-				15F8982C28F936A4003B9519 /* UIDevice+YDCommon.h */,
-				15F8982D28F936A4003B9519 /* YDUIKitCategory.h */,
-				15F8982E28F936A4003B9519 /* UIControl+YDCommon.h */,
-				15F8982F28F936A4003B9519 /* UIView+YDQRCode.h */,
-				15F8983028F936A4003B9519 /* UIColor+YDCommon.m */,
-				15F8983128F936A4003B9519 /* UIView+YDCommon.h */,
-				15F8983228F936A4003B9519 /* UIWindow+YDScreenShot.m */,
-				15F8983328F936A4003B9519 /* UILabel+YDAddtion.m */,
-				15F8983428F936A4003B9519 /* NSString+YDLabelHeigh.h */,
-				15F8983528F936A4003B9519 /* UITextField+YDCommon.m */,
-				15F8983628F936A4003B9519 /* UIImage+YDCommon.h */,
-				15F8983728F936A4003B9519 /* UIScrollView+YDCommon.m */,
-				15F8983828F936A4003B9519 /* UITableView+YDCommon.h */,
-				15F8983928F936A4003B9519 /* UITextView+YDPlaceholder.m */,
-				15F8983A28F936A4003B9519 /* UIView+YDWhenTappedBlocks.h */,
-				15F8983B28F936A4003B9519 /* UITapGestureRecognizer+YDAddtion.h */,
-				15F8983C28F936A4003B9519 /* UIDevice+YDCommon.m */,
-				15F8983D28F936A4003B9519 /* UITextField+YDCommon.h */,
-				15F8983E28F936A4003B9519 /* NSString+YDLabelHeigh.m */,
-				15F8983F28F936A4003B9519 /* UILabel+YDAddtion.h */,
-				15F8984028F936A4003B9519 /* UIWindow+YDScreenShot.h */,
-				15F8984128F936A4003B9519 /* UIColor+YDCommon.h */,
-				15F8984228F936A4003B9519 /* UIView+YDCommon.m */,
-				15F8984328F936A4003B9519 /* UIControl+YDCommon.m */,
-				15F8984428F936A4003B9519 /* UIView+YDQRCode.m */,
-				15F8984528F936A4003B9519 /* UITableView+YDCommon.m */,
-				15F8984628F936A4003B9519 /* UIScrollView+YDCommon.h */,
-				15F8984728F936A4003B9519 /* UIImage+YDCommon.m */,
-				15F8984828F936A4003B9519 /* UITapGestureRecognizer+YDAddtion.m */,
-				15F8984928F936A4003B9519 /* UIView+YDWhenTappedBlocks.m */,
-				15F8984A28F936A4003B9519 /* UITextView+YDPlaceholder.h */,
-			);
-			path = YDUIKit;
-			sourceTree = SOURCE_ROOT;
-		};
-		15F8984B28F936A4003B9519 /* YDActionSheet */ = {
-			isa = PBXGroup;
-			children = (
-				15F8984C28F936A4003B9519 /* YDAlertViewConfig.m */,
-				15F8984D28F936A4003B9519 /* YDAlertViewController.m */,
-				15F8984E28F936A4003B9519 /* YDAlertAction.h */,
-				15F8984F28F936A4003B9519 /* YDAlertView.m */,
-				15F8985028F936A4003B9519 /* YDAlertAction.m */,
-				15F8985128F936A4003B9519 /* YDAlertViewController.h */,
-				15F8985228F936A4003B9519 /* YDAlertViewConfig.h */,
-				15F8985328F936A4003B9519 /* YDAlertView.h */,
-			);
-			path = YDActionSheet;
-			sourceTree = SOURCE_ROOT;
-		};
-		15F8985428F936A5003B9519 /* YDFuncKit */ = {
-			isa = PBXGroup;
-			children = (
-				15F8985528F936A5003B9519 /* NSFileManager+YDCommon.h */,
-				15F8985628F936A5003B9519 /* NSObject+YDCommon.m */,
-				15F8985728F936A5003B9519 /* NSDictionary+YDCommon.m */,
-				15F8985828F936A5003B9519 /* NSArray+YDCommon.h */,
-				15F8985928F936A5003B9519 /* NSData+YDCommon.m */,
-				15F8985A28F936A5003B9519 /* NSString+YDCommon.m */,
-				15F8985B28F936A5003B9519 /* NSDate+YDCommon.h */,
-				15F8985C28F936A5003B9519 /* YDFoundationCategory.h */,
-				15F8985D28F936A5003B9519 /* NSFileManager+YDCommon.m */,
-				15F8985E28F936A5003B9519 /* NSDictionary+YDCommon.h */,
-				15F8985F28F936A5003B9519 /* NSObject+YDCommon.h */,
-				15F8986028F936A5003B9519 /* NSArray+YDCommon.m */,
-				15F8986128F936A5003B9519 /* NSDate+YDCommon.m */,
-				15F8986228F936A5003B9519 /* NSString+YDCommon.h */,
-				15F8986328F936A5003B9519 /* NSData+YDCommon.h */,
-			);
-			path = YDFuncKit;
-			sourceTree = SOURCE_ROOT;
-		};
-		15F8986428F936A5003B9519 /* YDBlockKit */ = {
-			isa = PBXGroup;
-			children = (
-				15F8986528F936A5003B9519 /* Core */,
-				15F8988C28F936A5003B9519 /* UIKit */,
-				15F898A328F936A5003B9519 /* DynamicDelegate */,
-				15F898B128F936A5003B9519 /* BKDefines.h */,
-				15F898B228F936A5003B9519 /* YDBlockKit.h */,
-			);
-			path = YDBlockKit;
-			sourceTree = SOURCE_ROOT;
-		};
-		15F8986528F936A5003B9519 /* Core */ = {
-			isa = PBXGroup;
-			children = (
-				15F8986628F936A5003B9519 /* NSDictionary+BlocksKit.m */,
-				15F8986728F936A5003B9519 /* NSOrderedSet+BlocksKit.h */,
-				15F8986828F936A5003B9519 /* NSMutableArray+BlocksKit.m */,
-				15F8986928F936A5003B9519 /* NSMutableIndexSet+BlocksKit.m */,
-				15F8986A28F936A5003B9519 /* NSObject+BKBlockExecution.h */,
-				15F8986B28F936A5003B9519 /* NSArray+BlocksKit.h */,
-				15F8986C28F936A5003B9519 /* NSObject+BKBlockObservation.m */,
-				15F8986D28F936A5003B9519 /* NSTimer+BlocksKit.m */,
-				15F8986E28F936A5003B9519 /* NSMapTable+BlocksKit.h */,
-				15F8986F28F936A5003B9519 /* BKMacros.h */,
-				15F8987028F936A5003B9519 /* NSObject+BKAssociatedObjects.h */,
-				15F8987128F936A5003B9519 /* NSObject+YDAsyncBlock.h */,
-				15F8987228F936A5003B9519 /* NSNumber+BlocksKit.h */,
-				15F8987328F936A5003B9519 /* NSInvocation+BlocksKit.m */,
-				15F8987428F936A5003B9519 /* NSSet+BlocksKit.m */,
-				15F8987528F936A5003B9519 /* NSIndexSet+BlocksKit.h */,
-				15F8987628F936A5003B9519 /* NSMutableSet+BlocksKit.h */,
-				15F8987728F936A5003B9519 /* NSMutableDictionary+BlocksKit.h */,
-				15F8987828F936A5003B9519 /* NSMutableOrderedSet+BlocksKit.m */,
-				15F8987928F936A5003B9519 /* NSOrderedSet+BlocksKit.m */,
-				15F8987A28F936A5003B9519 /* NSDictionary+BlocksKit.h */,
-				15F8987B28F936A5003B9519 /* NSObject+BKAssociatedObjects.m */,
-				15F8987C28F936A5003B9519 /* NSMapTable+BlocksKit.m */,
-				15F8987D28F936A5003B9519 /* NSTimer+BlocksKit.h */,
-				15F8987E28F936A5003B9519 /* NSObject+BKBlockObservation.h */,
-				15F8987F28F936A5003B9519 /* NSArray+BlocksKit.m */,
-				15F8988028F936A5003B9519 /* NSObject+BKBlockExecution.m */,
-				15F8988128F936A5003B9519 /* NSMutableIndexSet+BlocksKit.h */,
-				15F8988228F936A5003B9519 /* NSMutableArray+BlocksKit.h */,
-				15F8988328F936A5003B9519 /* NSIndexSet+BlocksKit.m */,
-				15F8988428F936A5003B9519 /* NSInvocation+BlocksKit.h */,
-				15F8988528F936A5003B9519 /* NSSet+BlocksKit.h */,
-				15F8988628F936A5003B9519 /* NSNumber+BlocksKit.m */,
-				15F8988728F936A5003B9519 /* NSObject+YDAsyncBlock.m */,
-				15F8988828F936A5003B9519 /* NSMutableOrderedSet+BlocksKit.h */,
-				15F8988928F936A5003B9519 /* NSMutableDictionary+BlocksKit.m */,
-				15F8988A28F936A5003B9519 /* NSMutableSet+BlocksKit.m */,
-			);
-			path = Core;
-			sourceTree = "<group>";
-		};
-		15F8988C28F936A5003B9519 /* UIKit */ = {
-			isa = PBXGroup;
-			children = (
-				15F8988D28F936A5003B9519 /* UIImagePickerController+BlocksKit.h */,
-				15F8988E28F936A5003B9519 /* UIActionSheet+BlocksKit.h */,
-				15F8988F28F936A5003B9519 /* UIPopoverController+BlocksKit.h */,
-				15F8989028F936A5003B9519 /* UITextView+BlocksKit.m */,
-				15F8989128F936A5003B9519 /* UIControl+BlocksKit.h */,
-				15F8989228F936A5003B9519 /* UITextField+BlocksKit.h */,
-				15F8989328F936A5003B9519 /* UIBarButtonItem+BlocksKit.m */,
-				15F8989428F936A5003B9519 /* UIImage+BlocksKit.h */,
-				15F8989528F936A5003B9519 /* UIAlertView+BlocksKit.m */,
-				15F8989628F936A5003B9519 /* UIView+BlocksKit.m */,
-				15F8989728F936A5003B9519 /* UIGestureRecognizer+BlocksKit.m */,
-				15F8989828F936A5003B9519 /* UIPopoverController+BlocksKit.m */,
-				15F8989928F936A5003B9519 /* UITextView+BlocksKit.h */,
-				15F8989A28F936A5003B9519 /* UIActionSheet+BlocksKit.m */,
-				15F8989B28F936A5003B9519 /* UIImagePickerController+BlocksKit.m */,
-				15F8989C28F936A5003B9519 /* UITextField+BlocksKit.m */,
-				15F8989D28F936A5003B9519 /* UIControl+BlocksKit.m */,
-				15F8989E28F936A5003B9519 /* UIView+BlocksKit.h */,
-				15F8989F28F936A5003B9519 /* UIAlertView+BlocksKit.h */,
-				15F898A028F936A5003B9519 /* UIImage+BlocksKit.m */,
-				15F898A128F936A5003B9519 /* UIBarButtonItem+BlocksKit.h */,
-				15F898A228F936A5003B9519 /* UIGestureRecognizer+BlocksKit.h */,
-			);
-			path = UIKit;
-			sourceTree = "<group>";
-		};
-		15F898A328F936A5003B9519 /* DynamicDelegate */ = {
-			isa = PBXGroup;
-			children = (
-				15F898A428F936A5003B9519 /* A2BlockInvocation.m */,
-				15F898A528F936A5003B9519 /* NSObject+A2DynamicDelegate.h */,
-				15F898A628F936A5003B9519 /* A2DynamicDelegate.h */,
-				15F898A728F936A5003B9519 /* Foundation */,
-				15F898AC28F936A5003B9519 /* NSObject+A2BlockDelegate.m */,
-				15F898AD28F936A5003B9519 /* A2BlockInvocation.h */,
-				15F898AE28F936A5003B9519 /* A2DynamicDelegate.m */,
-				15F898AF28F936A5003B9519 /* NSObject+A2DynamicDelegate.m */,
-				15F898B028F936A5003B9519 /* NSObject+A2BlockDelegate.h */,
-			);
-			path = DynamicDelegate;
-			sourceTree = "<group>";
-		};
-		15F898A728F936A5003B9519 /* Foundation */ = {
-			isa = PBXGroup;
-			children = (
-				15F898A828F936A5003B9519 /* NSURLConnection+BlocksKit.h */,
-				15F898A928F936A5003B9519 /* NSCache+BlocksKit.m */,
-				15F898AA28F936A5003B9519 /* NSCache+BlocksKit.h */,
-				15F898AB28F936A5003B9519 /* NSURLConnection+BlocksKit.m */,
-			);
-			path = Foundation;
-			sourceTree = "<group>";
-		};
-		15F898B328F936A5003B9519 /* YDFileManager */ = {
-			isa = PBXGroup;
-			children = (
-				15F898B428F936A5003B9519 /* YDFileManager.h */,
-				15F898B528F936A5003B9519 /* YDFileManager.m */,
-			);
-			path = YDFileManager;
-			sourceTree = SOURCE_ROOT;
-		};
-		15F898B728F936A6003B9519 /* YDTools */ = {
-			isa = PBXGroup;
-			children = (
-				15F898B828F936A6003B9519 /* YDNumberSender.h */,
-				15F898B928F936A6003B9519 /* YDStack.m */,
-				15F898BA28F936A6003B9519 /* YDNetworkTools.h */,
-				15F898BB28F936A6003B9519 /* YDVideoTools.h */,
-				15F898BC28F936A6003B9519 /* YDStack.h */,
-				15F898BD28F936A6003B9519 /* YDTools.h */,
-				15F898BE28F936A6003B9519 /* YDNumberSender.m */,
-				15F898BF28F936A6003B9519 /* YDVideoTools.m */,
-				15F898C028F936A6003B9519 /* YDNetworkTools.m */,
-			);
-			path = YDTools;
-			sourceTree = SOURCE_ROOT;
-		};
-		15F898C128F936A6003B9519 /* YDClearCacheService */ = {
-			isa = PBXGroup;
-			children = (
-				15F898C228F936A6003B9519 /* YDClearCacheService.h */,
-				15F898C328F936A6003B9519 /* YDClearCacheConfig.m */,
-				15F898C428F936A6003B9519 /* YDClearCacheService.m */,
-				15F898C528F936A6003B9519 /* YDClearCacheProtocol.h */,
-				15F898C628F936A6003B9519 /* YDClearCacheConfig.h */,
-			);
-			path = YDClearCacheService;
-			sourceTree = SOURCE_ROOT;
-		};
-		15F898C828F936A6003B9519 /* YDJPush */ = {
-			isa = PBXGroup;
-			children = (
-				15F898C928F936A6003B9519 /* YDJPushManager.m */,
-				15F898CB28F936A6003B9519 /* YDJPushConfig.h */,
-				15F898CC28F936A6003B9519 /* YDJPushConfig.m */,
-				15F898CD28F936A6003B9519 /* YDJPushConfigProtocol.h */,
-				15F898CE28F936A6003B9519 /* YDJPushManager.h */,
-				15F898CF28F936A6003B9519 /* YDJPush.h */,
-			);
-			path = YDJPush;
-			sourceTree = SOURCE_ROOT;
-		};
-		15F898D028F936A7003B9519 /* YDActionAlert */ = {
-			isa = PBXGroup;
-			children = (
-				15F898D128F936A7003B9519 /* YDActionSheetViewController.h */,
-				15F898D228F936A7003B9519 /* YDSheetButton.h */,
-				15F898D328F936A7003B9519 /* YDSheetTitleView.m */,
-				15F898D428F936A7003B9519 /* YDActionSheetViewController.m */,
-				15F898D528F936A7003B9519 /* YDSheetButton.m */,
-				15F898D628F936A7003B9519 /* YDSheetTitleView.h */,
-			);
-			path = YDActionAlert;
-			sourceTree = SOURCE_ROOT;
-		};
-		15F898D728F936A7003B9519 /* YDAlertAction */ = {
-			isa = PBXGroup;
-			children = (
-				15F898D828F936A7003B9519 /* YDAlertAction.h */,
-			);
-			path = YDAlertAction;
-			sourceTree = SOURCE_ROOT;
-		};
-		15F898DA28F936A7003B9519 /* YDWebp */ = {
-			isa = PBXGroup;
-			children = (
-				15F898DB28F936A7003B9519 /* YDWebp.h */,
-				15F898DC28F936A7003B9519 /* CGImage+YDWebp.h */,
-				15F898DD28F936A7003B9519 /* UIImage+YDWebp.m */,
-				15F898DE28F936A7003B9519 /* CGImage+YDWebp.m */,
-				15F898DF28F936A7003B9519 /* YDWebp.docc */,
-				15F898E028F936A7003B9519 /* UIImage+YDWebp.h */,
-			);
-			path = YDWebp;
-			sourceTree = SOURCE_ROOT;
-		};
-		15F898E128F936A7003B9519 /* YDTimer */ = {
-			isa = PBXGroup;
-			children = (
-				15F898E228F936A7003B9519 /* YDTimer.m */,
-				15F898E328F936A7003B9519 /* YDTimer.h */,
-			);
-			path = YDTimer;
-			sourceTree = SOURCE_ROOT;
-		};
-		15F898E528F936A8003B9519 /* YDUtilKit */ = {
-			isa = PBXGroup;
-			children = (
-				15F898E628F936A8003B9519 /* YDUtilKit.h */,
-			);
-			path = YDUtilKit;
-			sourceTree = SOURCE_ROOT;
-		};
-		15F898E728F936A8003B9519 /* YDAuthorizationUtil */ = {
-			isa = PBXGroup;
-			children = (
-				15F898E828F936A8003B9519 /* YDAuthorizationUtil.h */,
-				15F898E928F936A8003B9519 /* YDAuthorizationUtil.m */,
-			);
-			path = YDAuthorizationUtil;
-			sourceTree = SOURCE_ROOT;
-		};
-		15F898EB28F936A8003B9519 /* YDAvoidCrash */ = {
-			isa = PBXGroup;
-			children = (
-				15F898EC28F936A8003B9519 /* YDAvoidCrash.m */,
-				15F898ED28F936A8003B9519 /* YDUnrecognizedSelectorSolveObject.h */,
-				15F898EE28F936A8003B9519 /* YDAvoidCrashUtil */,
-				15F898F328F936A8003B9519 /* YDAvoidCrash.h */,
-				15F898F428F936A8003B9519 /* YDAvoidCrashCategory */,
-				15F8991528F936A8003B9519 /* YDUnrecognizedSelectorSolveObject.m */,
-			);
-			path = YDAvoidCrash;
-			sourceTree = SOURCE_ROOT;
-		};
-		15F898EE28F936A8003B9519 /* YDAvoidCrashUtil */ = {
-			isa = PBXGroup;
-			children = (
-				15F898EF28F936A8003B9519 /* NSObject+YDForwarding.h */,
-				15F898F028F936A8003B9519 /* NSObject+YDAvoidCrashRunTime.h */,
-				15F898F128F936A8003B9519 /* NSObject+YDAvoidCrashRunTime.m */,
-				15F898F228F936A8003B9519 /* NSObject+YDForwarding.m */,
-			);
-			path = YDAvoidCrashUtil;
-			sourceTree = "<group>";
-		};
-		15F898F428F936A8003B9519 /* YDAvoidCrashCategory */ = {
-			isa = PBXGroup;
-			children = (
-				15F898F528F936A8003B9519 /* NSMutableOrderedSet+YDAvoidCrash.h */,
-				15F898F628F936A8003B9519 /* NSUserDefaults+YDAvoidCrash.h */,
-				15F898F728F936A8003B9519 /* NSMutableData+YDAvoidCrash.h */,
-				15F898F828F936A8003B9519 /* NSMutableSet+YDAvoidCrash.h */,
-				15F898F928F936A8003B9519 /* NSOrderedSet+YDAvoidCrash.m */,
-				15F898FA28F936A8003B9519 /* NSMutableArray+YDAvoidCrash.h */,
-				15F898FB28F936A8003B9519 /* UIView+YDAvoidCrash.h */,
-				15F898FC28F936A8003B9519 /* NSSet+YDAvoidCrash.h */,
-				15F898FD28F936A8003B9519 /* NSAttributedString+YDAvoidCrash.m */,
-				15F898FE28F936A8003B9519 /* NSMutableDictionary+YDAvoidCrash.h */,
-				15F898FF28F936A8003B9519 /* NSArray+YDAvoidCrash.m */,
-				15F8990028F936A8003B9519 /* NSString+YDAvoidCrash.h */,
-				15F8990128F936A8003B9519 /* NSMutableAttributedString+YDAvoidCrash.m */,
-				15F8990228F936A8003B9519 /* CALayer+YDAvoidCrash.h */,
-				15F8990328F936A8003B9519 /* NSDictionary+YDAvoidCrash.m */,
-				15F8990428F936A8003B9519 /* NSObject+YDAvoidCrash.h */,
-				15F8990528F936A8003B9519 /* NSMutableData+YDAvoidCrash.m */,
-				15F8990628F936A8003B9519 /* NSUserDefaults+YDAvoidCrash.m */,
-				15F8990728F936A8003B9519 /* NSMutableOrderedSet+YDAvoidCrash.m */,
-				15F8990828F936A8003B9519 /* UIView+YDAvoidCrash.m */,
-				15F8990928F936A8003B9519 /* NSMutableArray+YDAvoidCrash.m */,
-				15F8990A28F936A8003B9519 /* NSOrderedSet+YDAvoidCrash.h */,
-				15F8990B28F936A8003B9519 /* NSMutableSet+YDAvoidCrash.m */,
-				15F8990C28F936A8003B9519 /* NSMutableAttributedString+YDAvoidCrash.h */,
-				15F8990D28F936A8003B9519 /* NSString+YDAvoidCrash.m */,
-				15F8990E28F936A8003B9519 /* NSArray+YDAvoidCrash.h */,
-				15F8990F28F936A8003B9519 /* NSMutableDictionary+YDAvoidCrash.m */,
-				15F8991028F936A8003B9519 /* NSAttributedString+YDAvoidCrash.h */,
-				15F8991128F936A8003B9519 /* NSSet+YDAvoidCrash.m */,
-				15F8991228F936A8003B9519 /* NSObject+YDAvoidCrash.m */,
-				15F8991328F936A8003B9519 /* NSDictionary+YDAvoidCrash.h */,
-				15F8991428F936A8003B9519 /* CALayer+YDAvoidCrash.m */,
-			);
-			path = YDAvoidCrashCategory;
-			sourceTree = "<group>";
-		};
-		15F8991628F936A9003B9519 /* YDSafeThread */ = {
-			isa = PBXGroup;
-			children = (
-				15F8991728F936A9003B9519 /* YDThreadSafeMutableSet.m */,
-				15F8991828F936A9003B9519 /* YDThreadSafeMutableArray.m */,
-				15F8991928F936A9003B9519 /* YDLoopThread.h */,
-				15F8991A28F936A9003B9519 /* YDThreadSafeMutableDictionary.m */,
-				15F8991B28F936A9003B9519 /* YDMainThread.h */,
-				15F8991C28F936A9003B9519 /* YDSafeThreadPool.h */,
-				15F8991E28F936A9003B9519 /* YDLoopThread.m */,
-				15F8991F28F936A9003B9519 /* YDThreadSafeMutableArray.h */,
-				15F8992028F936A9003B9519 /* YDThreadSafeMutableSet.h */,
-				15F8992128F936A9003B9519 /* YDMainThread.m */,
-				15F8992228F936A9003B9519 /* YDThreadSafeMutableDictionary.h */,
-				15F8992328F936A9003B9519 /* YDSafeThread.h */,
-				15F8992428F936A9003B9519 /* YDSafeThreadPool.m */,
-			);
-			path = YDSafeThread;
-			sourceTree = SOURCE_ROOT;
-		};
-		15F8992528F936A9003B9519 /* YDAvoidCrashKit */ = {
-			isa = PBXGroup;
-			children = (
-				15F8992728F936A9003B9519 /* YDAvoidCrashKit.h */,
-			);
-			path = YDAvoidCrashKit;
-			sourceTree = SOURCE_ROOT;
-		};
-		15F8992828F936A9003B9519 /* YDImageService */ = {
-			isa = PBXGroup;
-			children = (
-				15F8992A28F936A9003B9519 /* YDImageService.m */,
-				15F8992B28F936A9003B9519 /* YDWebImageManager.h */,
-				15F8992C28F936A9003B9519 /* YDImageDefaultConfig.h */,
-				15F8992D28F936A9003B9519 /* YYWebImageOperation+YDNetworkThread.h */,
-				15F8992E28F936A9003B9519 /* YDImageConfigProtocol.h */,
-				15F8992F28F936A9003B9519 /* YDImageService.h */,
-				15F8993028F936A9003B9519 /* YYWebImageOperation+YDNetworkThread.m */,
-				15F8993128F936A9003B9519 /* YDImageDefaultConfig.m */,
-				15F8993228F936A9003B9519 /* YDWebImageManager.m */,
-			);
-			path = YDImageService;
-			sourceTree = SOURCE_ROOT;
-		};
-		15F8993328F936AA003B9519 /* YDBaseUI */ = {
-			isa = PBXGroup;
-			children = (
-				15F8993428F936AA003B9519 /* YDBaseUI.h */,
-				15F8993528F936AA003B9519 /* YDBaseUIDefine.m */,
-				15F8993628F936AA003B9519 /* YDBaseUIDefine.h */,
-			);
-			path = YDBaseUI;
-			sourceTree = SOURCE_ROOT;
-		};
-		15F8993728F936AA003B9519 /* YDPreLoader */ = {
-			isa = PBXGroup;
-			children = (
-				15F8993828F936AA003B9519 /* YDPreLoaderModel.m */,
-				15F8993A28F936AA003B9519 /* YDPreLoaderManager.h */,
-				15F8993B28F936AA003B9519 /* YDPreLoaderModel.h */,
-				15F8993C28F936AA003B9519 /* YDPreLoaderManager.m */,
-				15F8993D28F936AA003B9519 /* YDPreLoader.h */,
-			);
-			path = YDPreLoader;
-			sourceTree = SOURCE_ROOT;
-		};
-		15F8993E28F936AA003B9519 /* YDMediator */ = {
-			isa = PBXGroup;
-			children = (
-				15F8993F28F936AA003B9519 /* CTMediator */,
-				15F8994328F936AA003B9519 /* YDMediator.m */,
-				15F8994428F936AA003B9519 /* YDApp.m */,
-				15F8994528F936AA003B9519 /* YDMediatorConfig.h */,
-				15F8994628F936AA003B9519 /* YDApp.h */,
-				15F8994728F936AA003B9519 /* YDMediator.h */,
-			);
-			path = YDMediator;
-			sourceTree = SOURCE_ROOT;
-		};
-		15F8993F28F936AA003B9519 /* CTMediator */ = {
-			isa = PBXGroup;
-			children = (
-				15F8994028F936AA003B9519 /* CTMediator.m */,
-				15F8994128F936AA003B9519 /* CTMediator.h */,
-			);
-			path = CTMediator;
-			sourceTree = "<group>";
-		};
-		15F89ADF28F946E2003B9519 /* YDNetworkManager */ = {
-			isa = PBXGroup;
-			children = (
-				15F89AED28F946E2003B9519 /* YDNetworkManager.h */,
-				15F89AE028F946E2003B9519 /* YDCommandConfig.h */,
-				15F89AE228F946E2003B9519 /* YDCommandConfig.m */,
-				15F89AE128F946E2003B9519 /* LICENSE */,
-				15F89AE428F946E2003B9519 /* YDCommand */,
-			);
-			path = YDNetworkManager;
-			sourceTree = SOURCE_ROOT;
-		};
-		15F89AE428F946E2003B9519 /* YDCommand */ = {
-			isa = PBXGroup;
-			children = (
-				15F89AE528F946E2003B9519 /* YDBatchCommand.h */,
-				15F89AE628F946E2003B9519 /* AFJSONResponseSerializer+YDAgent.m */,
-				15F89AE728F946E2003B9519 /* YDCommand.h */,
-				15F89AE828F946E2003B9519 /* YDCommand+YDError.h */,
-				15F89AE928F946E2003B9519 /* YDBatchCommand.m */,
-				15F89AEA28F946E2003B9519 /* AFJSONResponseSerializer+YDAgent.h */,
-				15F89AEB28F946E2003B9519 /* YDCommand+YDError.m */,
-				15F89AEC28F946E2003B9519 /* YDCommand.m */,
 			);
 			path = YDCommand;
 			sourceTree = "<group>";
@@ -3013,7 +2054,6 @@
 				15652F3328F6C2B90050EEB3 /* YDFoundationCategory.h in Headers */,
 				15652EE628F6C24F0050EEB3 /* YDUtilKit.h in Headers */,
 				15652F5C28F6C2B90050EEB3 /* UIColor+YDCommon.h in Headers */,
-				15652F4028F6C2B90050EEB3 /* YDNetworkTools.h in Headers */,
 				15652F5128F6C2B90050EEB3 /* UIImage+YDCommon.h in Headers */,
 				15652F4C28F6C2B90050EEB3 /* UIView+YDCommon.h in Headers */,
 				15652F2C28F6C2B90050EEB3 /* NSFileManager+YDCommon.h in Headers */,
@@ -3182,12 +2222,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				15F89AFA28F946E2003B9519 /* YDNetworkManager.h in Headers */,
-				15F89AF228F946E2003B9519 /* YDBatchCommand.h in Headers */,
-				15F89AEE28F946E2003B9519 /* YDCommandConfig.h in Headers */,
-				15F89AF728F946E2003B9519 /* AFJSONResponseSerializer+YDAgent.h in Headers */,
-				15F89AF428F946E2003B9519 /* YDCommand.h in Headers */,
-				15F89AF528F946E2003B9519 /* YDCommand+YDError.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -3903,7 +2937,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				15F89AEF28F946E2003B9519 /* LICENSE in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -4507,7 +3540,6 @@
 				15652F5728F6C2B90050EEB3 /* UIDevice+YDCommon.m in Sources */,
 				15652F3728F6C2B90050EEB3 /* NSArray+YDCommon.m in Sources */,
 				15652F3128F6C2B90050EEB3 /* NSString+YDCommon.m in Sources */,
-				15652F4628F6C2B90050EEB3 /* YDNetworkTools.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -4641,6 +3673,7 @@
 				15F8950628F90E84003B9519 /* YDBatchCommand.m in Sources */,
 				15F8950328F90E84003B9519 /* AFJSONResponseSerializer+YDAgent.m in Sources */,
 				15F8950928F90E84003B9519 /* YDCommand.m in Sources */,
+				1506BEE428FD40830003DF87 /* YDNetworkTools.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -4648,11 +3681,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				15F89AF828F946E2003B9519 /* YDCommand+YDError.m in Sources */,
-				15F89AF928F946E2003B9519 /* YDCommand.m in Sources */,
-				15F89AF628F946E2003B9519 /* YDBatchCommand.m in Sources */,
-				15F89AF328F946E2003B9519 /* AFJSONResponseSerializer+YDAgent.m in Sources */,
-				15F89AF028F946E2003B9519 /* YDCommandConfig.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

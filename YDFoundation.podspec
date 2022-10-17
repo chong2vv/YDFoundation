@@ -25,7 +25,7 @@ Pod::Spec.new do |s|
   _YDFuncKit         = { :spec_name => "YDFuncKit", :source_files => ['YDFuncKit/**/*.{h,m}'] }
   _YDBaseUI          = { :spec_name => "YDBaseUI", :source_files => ['YDBaseUI/**/*.{h,m}'] }
   _YDUIKit           = { :spec_name => "YDUIKit", :source_files => ['YDUIKit/**/*.{h,m}'], :sub_dependency => [_YDFuncKit, _YDBaseUI] }
-  _YDTools           = { :spec_name => "YDTools", :source_files => ['YDTools/**/*.{h,m}'], :dependency => [{:name => "AFNetworking", :version => "4.0.1"}], :sub_dependency => [_YDFuncKit] }
+  _YDTools           = { :spec_name => "YDTools", :source_files => ['YDTools/**/*.{h,m}'], :sub_dependency => [_YDFuncKit] }
 
   #YDAvoidCrashKit
   _YDSafeThread      = { :spec_name => "YDSafeThread", :source_files => ['YDSafeThread/**/*.{h,m}'] }

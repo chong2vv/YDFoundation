@@ -97,6 +97,16 @@
 		150205A228F7EEEA00025BA4 /* YDFileManager.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 1502059928F7EEE900025BA4 /* YDFileManager.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		150205A728F7EF2200025BA4 /* YDFileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 150205A628F7EF2200025BA4 /* YDFileManager.m */; };
 		1506BEE428FD40830003DF87 /* YDNetworkTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 15652F0B28F6C2B80050EEB3 /* YDNetworkTools.m */; };
+		1506BEE528FD6A9B0003DF87 /* SVProgressHUD+YDLottie.h in Headers */ = {isa = PBXBuildFile; fileRef = 150B9CFE28F6CFD500113B28 /* SVProgressHUD+YDLottie.h */; };
+		1506BEE628FD6A9B0003DF87 /* SVProgressHUD+YDLottie.m in Sources */ = {isa = PBXBuildFile; fileRef = 150B9D0428F6CFD500113B28 /* SVProgressHUD+YDLottie.m */; };
+		1506BEE728FD6A9B0003DF87 /* YDProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 150B9D0528F6CFD500113B28 /* YDProgressHUD.m */; };
+		1506BEE828FD6A9B0003DF87 /* YDProgressHUDConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 150B9D0628F6CFD500113B28 /* YDProgressHUDConfig.h */; };
+		1506BEE928FD6A9B0003DF87 /* YDProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = 150B9D0128F6CFD500113B28 /* YDProgressHUD.h */; };
+		1506BEEA28FD6A9B0003DF87 /* UIViewController+Toast.h in Headers */ = {isa = PBXBuildFile; fileRef = 150B9D0728F6CFD500113B28 /* UIViewController+Toast.h */; };
+		1506BEEB28FD6A9B0003DF87 /* UIViewController+Toast.m in Sources */ = {isa = PBXBuildFile; fileRef = 150B9CFF28F6CFD500113B28 /* UIViewController+Toast.m */; };
+		1506BEED28FD6A9B0003DF87 /* YDOverWriteSVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 150B9D0228F6CFD500113B28 /* YDOverWriteSVProgressHUD.m */; };
+		1506BEEE28FD6A9B0003DF87 /* YDProgressHUDConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 150B9D0028F6CFD500113B28 /* YDProgressHUDConfig.m */; };
+		1506BEEF28FD6A9B0003DF87 /* YDOverWriteSVProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = 150B9CFD28F6CFD500113B28 /* YDOverWriteSVProgressHUD.h */; };
 		150B9CF728F6CF6E00113B28 /* YDSVProgressHUD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 150B9CEF28F6CF6E00113B28 /* YDSVProgressHUD.framework */; };
 		150B9CF828F6CF6E00113B28 /* YDSVProgressHUD.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 150B9CEF28F6CF6E00113B28 /* YDSVProgressHUD.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		155FF8C128F6636B00057B87 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 155FF8C028F6636B00057B87 /* AppDelegate.m */; };
@@ -635,7 +645,6 @@
 		150B9D0028F6CFD500113B28 /* YDProgressHUDConfig.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YDProgressHUDConfig.m; sourceTree = "<group>"; };
 		150B9D0128F6CFD500113B28 /* YDProgressHUD.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YDProgressHUD.h; sourceTree = "<group>"; };
 		150B9D0228F6CFD500113B28 /* YDOverWriteSVProgressHUD.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YDOverWriteSVProgressHUD.m; sourceTree = "<group>"; };
-		150B9D0328F6CFD500113B28 /* YDSVProgressHUD.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YDSVProgressHUD.h; sourceTree = "<group>"; };
 		150B9D0428F6CFD500113B28 /* SVProgressHUD+YDLottie.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "SVProgressHUD+YDLottie.m"; sourceTree = "<group>"; };
 		150B9D0528F6CFD500113B28 /* YDProgressHUD.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YDProgressHUD.m; sourceTree = "<group>"; };
 		150B9D0628F6CFD500113B28 /* YDProgressHUDConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YDProgressHUDConfig.h; sourceTree = "<group>"; };
@@ -1327,17 +1336,16 @@
 		150B9CFC28F6CFD500113B28 /* YDSVProgressHUD */ = {
 			isa = PBXGroup;
 			children = (
-				150B9CFD28F6CFD500113B28 /* YDOverWriteSVProgressHUD.h */,
-				150B9CFE28F6CFD500113B28 /* SVProgressHUD+YDLottie.h */,
-				150B9CFF28F6CFD500113B28 /* UIViewController+Toast.m */,
-				150B9D0028F6CFD500113B28 /* YDProgressHUDConfig.m */,
 				150B9D0128F6CFD500113B28 /* YDProgressHUD.h */,
-				150B9D0228F6CFD500113B28 /* YDOverWriteSVProgressHUD.m */,
-				150B9D0328F6CFD500113B28 /* YDSVProgressHUD.h */,
-				150B9D0428F6CFD500113B28 /* SVProgressHUD+YDLottie.m */,
 				150B9D0528F6CFD500113B28 /* YDProgressHUD.m */,
+				150B9CFD28F6CFD500113B28 /* YDOverWriteSVProgressHUD.h */,
+				150B9D0228F6CFD500113B28 /* YDOverWriteSVProgressHUD.m */,
 				150B9D0628F6CFD500113B28 /* YDProgressHUDConfig.h */,
+				150B9D0028F6CFD500113B28 /* YDProgressHUDConfig.m */,
+				150B9CFE28F6CFD500113B28 /* SVProgressHUD+YDLottie.h */,
+				150B9D0428F6CFD500113B28 /* SVProgressHUD+YDLottie.m */,
 				150B9D0728F6CFD500113B28 /* UIViewController+Toast.h */,
+				150B9CFF28F6CFD500113B28 /* UIViewController+Toast.m */,
 				150B9D0928F6CFD500113B28 /* Assets */,
 			);
 			path = YDSVProgressHUD;
@@ -2019,6 +2027,11 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1506BEE928FD6A9B0003DF87 /* YDProgressHUD.h in Headers */,
+				1506BEEA28FD6A9B0003DF87 /* UIViewController+Toast.h in Headers */,
+				1506BEE828FD6A9B0003DF87 /* YDProgressHUDConfig.h in Headers */,
+				1506BEE528FD6A9B0003DF87 /* SVProgressHUD+YDLottie.h in Headers */,
+				1506BEEF28FD6A9B0003DF87 /* YDOverWriteSVProgressHUD.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -3466,6 +3479,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1506BEED28FD6A9B0003DF87 /* YDOverWriteSVProgressHUD.m in Sources */,
+				1506BEE628FD6A9B0003DF87 /* SVProgressHUD+YDLottie.m in Sources */,
+				1506BEEE28FD6A9B0003DF87 /* YDProgressHUDConfig.m in Sources */,
+				1506BEE728FD6A9B0003DF87 /* YDProgressHUD.m in Sources */,
+				1506BEEB28FD6A9B0003DF87 /* UIViewController+Toast.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

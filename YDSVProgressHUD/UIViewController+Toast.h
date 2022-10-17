@@ -17,10 +17,13 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface UIViewController (Toast)
 
+// 显示文本提示
 - (void)showText:(NSString *)aText;
 
+// 自定义图片提示
 - (void)showCustomImage:(NSString *)imageName status:(NSString *)status;
 
+// 文本错误提示
 - (void)showErrorText:(NSString *)aText;
 - (void)showSuccessText:(NSString *)aText;
 //阻塞式的loading

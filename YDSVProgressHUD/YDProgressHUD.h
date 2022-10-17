@@ -9,7 +9,6 @@
 #import "YDOverWriteSVProgressHUD.h"
 #import "YDProgressHUDConfig.h"
 #import "UIViewController+Toast.h"
-#import "SVProgressHUD+YDLottie.h"
 
 @interface YDProgressHUD : YDOverWriteSVProgressHUD
 
